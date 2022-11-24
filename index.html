@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
+</head>
+<body onload="translate('es','lng')">
+    <select id="lng-selector" class="estilo_select">
+        <option value="es">Español</option>
+        <option value="en">English</option>
+    </select>
+    <main>
+        <h1 lng="titulo-home"></h1>
+        <p lng="about-us"></p>
+
+        <section>
+            <form action="https://formsubmit.co/candelamreales@gmail.com" method="POST" />
+                <fieldset>
+                    <legend lng ="legend-form"></legend>
+                    <label for="email" lng = "label-1"></label>
+                    <input type="email" id="email" name="Email">
+        
+                    <label for="name" lng = "label-2"></label>
+                    <input type="text" id="name" name="Name">
+        
+                    <label for="message" lng = "label-3"></label>
+                    <textarea name="Text-Area" id="message" cols="30" rows="5"></textarea>
+        
+                    <button type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                    <input type="hidden" name="_subject" value="Consultas desde la pagina">
+                    <input type="hidden" name="_captcha" value="false">
+                </fieldset>
+            </form>
+        </section>
+
+
+    </main>
+
+
+    <script src="translate.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
