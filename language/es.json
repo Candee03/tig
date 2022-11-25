@@ -4,5 +4,7 @@
     "legend-form": "Complete el formulario para que lo contactemos",
     "label-1": "Ingrese su Email",
     "label-2": "Ingrese su nombre",
-    "label-3": "Escriba aqui su consulta"
+    "label-3": "Escriba aqui su consulta",
+    "navbar-index": "Inicio",
+    "navbar-contacto": "Contacto"
 }

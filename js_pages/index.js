@@ -1,6 +1,13 @@
+let currentLanguage = localStorage.getItem("lng");
+if (!currentLanguage) {
+    localStorage.setItem("lng", "es")
+}
 function translate(lng, tagAttr){
     var translate = new Translate();
     translate.init(tagAttr, lng);
+    localStorage.setItem('lng', lng)
+    let sel = document.querySelector('#lng-selector')
+    sel.value = lng;
     translate.process();
     if(lng == 'en'){
         $("#enTranslator").css('color', '#f4623a');
