@@ -6,5 +6,8 @@
     "label-2": "Ingrese su nombre",
     "label-3": "Escriba aqui su consulta",
     "navbar-index": "Inicio",
-    "navbar-contacto": "Contacto"
+    "navbar-contacto": "Contacto",
+    "navbar-nuestros-seguros":"Nuestros Seguros",
+    "navbar-sobre-nosotros":"Sobre Nosotros",
+    "offcanva-header": "Menu de Navegacion"
 }

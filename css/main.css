@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  .offcanvas-body {
+    justify-content: center; } }
+
+body header nav div button.estilo_boton_navbar {
+  background-image: url(../img/navbar.png);
+  width: 4rem;
+  height: 2.85rem; }
+
+body header nav div.offcanvas-lg div.offcanvas-body ul li.nav-item {
+  margin: 0.5rem 1rem; }

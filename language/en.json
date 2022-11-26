@@ -6,5 +6,8 @@
     "label-2": "insert your full name",
     "label-3": "insert yor message or questions",
     "navbar-index": "Home",
-    "navbar-contacto": "Contact"
+    "navbar-contacto": "Contact",
+    "navbar-nuestros-seguros":"Our Service",
+    "navbar-sobre-nosotros":"About Us",
+    "offcanva-header": "Nav Bar"
 }
