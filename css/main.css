@@ -1,11 +1,41 @@
 @media (min-width: 992px) {
-  .offcanvas-body {
-    justify-content: center; } }
+  body header.navbar {
+    justify-content: space-around; }
+    body header.navbar nav div.offcanvas-lg div.offcanvas-body {
+      justify-content: center; } }
 
-body header nav div button.estilo_boton_navbar {
-  background-image: url(../img/navbar.png);
-  width: 4rem;
-  height: 2.85rem; }
+body header {
+  background-color: lightblue;
+  justify-content: space-around; }
+  body header nav.contenedor {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between; }
+    body header nav.contenedor a.logo {
+      margin: 0 2rem; }
+    body header nav.contenedor div.div-boton {
+      position: absolute;
+      right: 1rem;
+      top: auto; }
+    body header nav.contenedor div button.estilo_boton_navbar img {
+      width: 3.2; }
+    body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav {
+      align-items: center; }
+      body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav li.nav-item {
+        margin: 0.5rem 1rem; }
+      body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav li.link_nav_contacto {
+        padding: 0.5rem 1rem;
+        background-color: orange;
+        border: 1px solid #c07d00;
+        border-radius: 10px;
+        animation: link_contacto 1.5s linear infinite; }
 
-body header nav div.offcanvas-lg div.offcanvas-body ul li.nav-item {
-  margin: 0.5rem 1rem; }
+@keyframes link_contacto {
+  0% {
+    transform: scale(1);
+    background-color: orange; }
+  50% {
+    transform: scale(1.05);
+    background-color: #f9cc79;
+    border-color: white; } }

@@ -1,16 +1,4 @@
-@import "utilities/_mq.scss";
+@import "utilities/mq";
+@import "utilities/header";
+@import "utilities/variables";
 
-body header nav {
-    div button.estilo_boton_navbar {
-        background-image: url(../img/navbar.png);
-        width: 4rem;
-        height: 2.85rem;
-    }
-    div.offcanvas-lg {
-        div.offcanvas-body {
-            ul li.nav-item {
-                margin: 0.5rem 1rem;
-            }
-        }
-    }
-} 

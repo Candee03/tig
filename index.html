@@ -14,11 +14,11 @@
 <body onload="translate(localStorage.getItem('lng') || 'es','lng')">
   <!--ENCABEZADO-->
   <header class="navbar navbar-expand-lg navbar-dark bd-navbar">
-    <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
-      <a href="index.html"><h1>TIG</h1></a>
-      <div class="d-flex">
+    <nav class="contenedor bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+      <a class="logo" href="index.html"><h1>TIG</h1></a>
+      <div class="div-boton">
         <div class="bd-search" id="docsearch" data-bd-docs-version="5.2"></div>
-        <button class="estilo_boton_navbar navbar-toggler d-flex d-lg-none order-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation"></button>
+        <button class="estilo_boton_navbar navbar-toggler d-flex d-lg-none order-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation"><img src="img/navbar.png" alt=""></button>
       </div>
       <div class="offcanvas-lg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
         <div class="offcanvas-header">
@@ -37,8 +37,8 @@
             <li class="nav-item">
               <a class="link_nav" aria-current="page" href="pages/nuestros_seguros.html" lng="navbar-nuestros-seguros"></a>
             </li>
-            <li class="nav-item">
-              <a class="link_nav" href="pages/contact.html" lng="navbar-contacto"></a>
+            <li class="nav-item link_nav_contacto">
+              <a href="pages/contact.html" lng="navbar-contacto"></a>
             </li>
           </ul>
         </div>

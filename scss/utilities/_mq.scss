@@ -1,8 +1,16 @@
-@media (min-width: 992px) {
-    
-    .offcanvas-body{
-    justify-content: center;
-    }
+@import "variables";
 
+
+@media (min-width: 992px) {
+    body header.navbar{
+        justify-content: space-around;
+        nav {
+            div.offcanvas-lg {
+                div.offcanvas-body{
+                justify-content: center;
+                }
+            }
+        } 
+    }
 }
 

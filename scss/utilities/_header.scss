@@ -1,0 +1,53 @@
+@import "variables";
+
+body header {
+    background-color: lightblue;
+    justify-content: space-around;
+    nav.contenedor {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        a.logo {
+            margin: 0 2rem;
+        }
+        div.div-boton {
+        position: absolute;
+        right: 1rem;
+        top: auto;
+        }
+        div button.estilo_boton_navbar {
+            img {
+                width: 3.2;
+            }
+        }
+        div.offcanvas-lg {
+            div.offcanvas-body {
+                ul.navbar-nav {
+                    align-items: center;
+                    li.nav-item {
+                        margin: 0.5rem 1rem;
+                    }
+                    li.link_nav_contacto {
+                        padding: 0.5rem 1rem;
+                        background-color: orange;
+                        border: 1px solid rgb(192, 125, 0);
+                        border-radius: 10px;
+                        animation: link_contacto 1.5s linear infinite;
+                    }
+                } 
+            }
+        }
+    } 
+} 
+@keyframes link_contacto {
+    0% {
+        transform: scale(1);
+        background-color: orange;
+    }
+    50% {
+        transform: scale(1.05);
+        background-color: rgb(249, 204, 121);
+        border-color: white;
+    }
+}
