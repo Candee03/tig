@@ -5,37 +5,86 @@
       justify-content: center; } }
 
 body header {
-  background-color: lightblue;
-  justify-content: space-around; }
+  height: 3.5rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #179BD0; }
   body header nav.contenedor {
     display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between; }
-    body header nav.contenedor a.logo {
-      margin: 0 2rem; }
+    body header nav.contenedor a.logo img {
+      margin-left: 1.5rem;
+      height: 3.5rem; }
     body header nav.contenedor div.div-boton {
       position: absolute;
-      right: 1rem;
+      right: 1.5rem;
       top: auto; }
     body header nav.contenedor div button.estilo_boton_navbar img {
-      width: 3.2; }
-    body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav {
-      align-items: center; }
-      body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav li.nav-item {
-        margin: 0.5rem 1rem; }
-      body header nav.contenedor div.offcanvas-lg div.offcanvas-body ul.navbar-nav li.link_nav_contacto {
-        padding: 0.5rem 1rem;
-        background-color: orange;
-        border: 1px solid #c07d00;
-        border-radius: 10px;
-        animation: link_contacto 1.5s linear infinite; }
+      width: 3rem; }
+    body header nav.contenedor div.estilo_recuadro_offcanvas {
+      max-width: 83%;
+      background-color: #179BD0; }
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header {
+        display: inline-block; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header .boton-close {
+          background: transparent; }
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
+        margin-top: calc( 13.20rem - 88px);
+        align-items: center; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
+          margin-bottom: 3.75rem; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item a.link_nav {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-size: 20px;
+            line-height: 25px;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            font-weight: 500;
+            color: #F1FAFF;
+            text-decoration: none; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
+            font-weight: 800 !important; }
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
+        margin-top: 8.20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding-left: 0; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
+          margin-bottom: 1.5rem;
+          display: inline-block;
+          padding: 1rem 1.5rem;
+          background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
+          border-radius: 50px;
+          animation: link_contacto 1.5s linear infinite; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto .boton_contacto {
+            font-family: 'Lexend';
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-decoration: none;
+            color: #000112; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
+          margin: 0 0.5rem 0 0.5rem; }
 
 @keyframes link_contacto {
   0% {
-    transform: scale(1);
-    background-color: orange; }
+    transform: scale(1); }
   50% {
-    transform: scale(1.05);
-    background-color: #f9cc79;
-    border-color: white; } }
+    transform: scale(1.05); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none; }

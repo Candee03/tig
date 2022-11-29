@@ -1,0 +1,28 @@
+
+$color-texto-header: #F1FAFF;
+$color-texto-boton-contacto: #000112;
+
+$color-principal-header: #179BD0;
+$color-principal-contenedores: #BED4FF;
+$color-boton-resaltado: #F39100;
+
+@mixin link-nav {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: $color-texto-header;
+    text-decoration: none;
+}
+@mixin link-contact {
+    font-family: 'Lexend';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: $color-texto-boton-contacto;
+}
