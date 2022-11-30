@@ -8,5 +8,7 @@
     "navbar-index": "Home",
     "navbar-contacto": "Contact",
     "navbar-nuestros-seguros":"Our Service",
-    "navbar-sobre-nosotros":"About Us"
+    "navbar-sobre-nosotros":"About Us",
+    "p-footer": "",
+    "pol-de-priv": "privacy policy"
 }

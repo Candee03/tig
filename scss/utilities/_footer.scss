@@ -1,0 +1,58 @@
+@import "variables";
+
+body footer.pieDePagina {
+    background-color: $color-fondo-footer;
+    div.cont_pieDePagina {
+        margin: 0 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img.img_footer {
+            margin: 1.5rem 0 1.5rem;
+            height: 4.5rem;
+        }
+        p.parrafo_footer {
+            margin-bottom: 1.5rem;
+            @include estilo-texto-footer;
+        }
+        ul.ul-boton {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: none;
+            padding-left: 0;
+            li.link_nav_contacto {
+                margin-bottom: 1.5rem;
+                display: inline-block;
+                padding: 1rem 1.5rem;
+                background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
+                border-radius: 50px;
+                animation: link_contacto 1.5s linear infinite;
+                .boton_contacto {
+                    @include link-contact;
+                }
+            }
+            img.logo-redesSociales {
+                margin: 0 0.5rem 0 0.5rem;
+            }
+        }
+        ul.ul-footer {
+            padding: 0;
+            margin: 1.5rem 0;
+            li, a {
+                text-align: center;
+                @include estilo-texto-footer;
+            }
+        }
+    }
+}
+
+
+@keyframes link_contacto {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}

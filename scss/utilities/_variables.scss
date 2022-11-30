@@ -5,6 +5,7 @@ $color-texto-boton-contacto: #000112;
 $color-principal-header: #179BD0;
 $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
+$color-fondo-footer: #7B7B7B;
 
 @mixin link-nav {
     font-family: 'Lexend';
@@ -15,6 +16,15 @@ $color-boton-resaltado: #F39100;
     letter-spacing: 0.02em;
     font-weight: 500;
     color: $color-texto-header;
+    text-decoration: none;
+}
+@mixin estilo-texto-footer {
+    color: $color-texto-header;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
     text-decoration: none;
 }
 @mixin link-contact {
