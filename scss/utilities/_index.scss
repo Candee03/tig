@@ -1,0 +1,28 @@
+@import "variables";
+
+body {
+    main#main_index {
+        h1.titulo-index {
+            margin: 1.5rem;
+            @include titulos;
+        }
+        .subtitulos-index {
+            margin: 1.5rem;
+            @include subtitulos;
+        }
+        img.img-index {
+            width: 100%;
+        }
+        p.parrafo-index {
+            margin: 1.5rem;
+            @include parrafos;
+        }
+        div.cont-btn {
+            display: flex;
+            justify-content: center;
+            button.btn-index {
+                @include boton;
+            }
+        }
+    }
+}

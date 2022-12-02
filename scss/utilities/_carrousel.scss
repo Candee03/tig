@@ -1,0 +1,14 @@
+body {
+    main {
+        div#carouselExampleSlidesOnly {
+            div.carousel-inner {
+                height: 448px;
+                div.carousel-item {
+                    transition: transform .4s ease-in-out;
+                    width: 100%;
+                    height: 448px;
+                }
+            }
+        }
+    }
+}

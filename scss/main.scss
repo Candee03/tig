@@ -2,6 +2,9 @@
 @import "utilities/footer";
 @import "utilities/header";
 @import "utilities/variables";
+@import "utilities/index";
+@import "utilities/carrousel";
+@import "utilities/selector";
 
 *{
 	margin: 0;
@@ -10,4 +13,8 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
+}
+
+body {
+	background-color: $color-blanco;
 }

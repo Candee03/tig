@@ -1,14 +1,25 @@
 {
-    "titulo-home": "BIENVENIDO A TIG",
-    "about-us": "ey! somos nosotros",
+    "navbar-contacto": "Contacto",
     "legend-form": "Complete el formulario para que lo contactemos",
     "label-1": "Ingrese su Email",
     "label-2": "Ingrese su nombre",
     "label-3": "Escriba aqui su consulta",
+
+
     "navbar-index": "Inicio",
-    "navbar-contacto": "Contacto",
+    "h1-index": "Inicio",
+    "h2-index": "¿Por qué tener un seguro?",
+    "p1-index": "We are health and life insurance specialists focusing in providing exceptional service for the best value possible. We work with Obama Care directly to provide you with best service and value possible.",
+    "bot1-index": "ver seguros",
+    "h2-index2": "¿Qué dicen nuestros clientes?",
+    
     "navbar-nuestros-seguros":"Nuestros Seguros",
+    
+    
     "navbar-sobre-nosotros":"Sobre Nosotros",
+
+
+
     "p-footer": "Te brindamos asesoramiento para tu seguro ideal.¡Contáctanos sin costo!",
     "pol-de-priv": "politica de privacidad"
 }

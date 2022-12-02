@@ -5,7 +5,7 @@
       justify-content: center; } }
 
 body footer.pieDePagina {
-  background-color: #7B7B7B; }
+  background-color: #2D9ACD; }
   body footer.pieDePagina div.cont_pieDePagina {
     margin: 0 1.5rem;
     display: flex;
@@ -31,10 +31,10 @@ body footer.pieDePagina {
       padding-left: 0; }
       body footer.pieDePagina div.cont_pieDePagina ul.ul-boton li.link_nav_contacto {
         margin-bottom: 1.5rem;
-        display: inline-block;
         padding: 1rem 1.5rem;
-        background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
+        background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
         border-radius: 50px;
+        display: inline-block;
         animation: link_contacto 1.5s linear infinite; }
         body footer.pieDePagina div.cont_pieDePagina ul.ul-boton li.link_nav_contacto .boton_contacto {
           font-family: 'Lexend';
@@ -43,19 +43,20 @@ body footer.pieDePagina {
           font-size: 20px;
           line-height: 24px;
           text-decoration: none;
-          color: #000112; }
+          color: #F1FAFF; }
       body footer.pieDePagina div.cont_pieDePagina ul.ul-boton img.logo-redesSociales {
         margin: 0 0.5rem 0 0.5rem; }
     body footer.pieDePagina div.cont_pieDePagina ul.ul-footer {
       padding: 0;
       margin: 1.5rem 0; }
       body footer.pieDePagina div.cont_pieDePagina ul.ul-footer li, body footer.pieDePagina div.cont_pieDePagina ul.ul-footer a {
-        text-align: center;
         color: #F1FAFF;
         font-family: 'Lexend';
         font-style: normal;
+        text-transform: uppercase;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 12px;
+        text-align: center;
         line-height: 40px;
         text-decoration: none; }
 
@@ -66,7 +67,7 @@ body footer.pieDePagina {
     transform: scale(1.05); } }
 
 body header {
-  height: 3.5rem;
+  height: 4.5rem;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -80,13 +81,13 @@ body header {
     justify-content: space-between; }
     body header nav.contenedor a.logo img {
       margin-left: 1.5rem;
-      height: 3.5rem; }
+      height: 4.5rem; }
     body header nav.contenedor div.div-boton {
       position: absolute;
       right: 1.5rem;
       top: auto; }
     body header nav.contenedor div button.estilo_boton_navbar img {
-      width: 3rem; }
+      width: 3.5rem; }
     body header nav.contenedor div.estilo_recuadro_offcanvas {
       max-width: 83%;
       background-color: #179BD0; }
@@ -94,53 +95,133 @@ body header {
         display: inline-block; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header .boton-close {
           background: transparent; }
-      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
-        margin-top: calc( 13.20rem - 88px);
-        align-items: center; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
-          margin-bottom: 3.75rem; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item a.link_nav {
-            font-family: 'Lexend';
-            font-style: normal;
-            font-size: 20px;
-            line-height: 25px;
-            text-transform: uppercase;
-            letter-spacing: 0.02em;
-            font-weight: 500;
-            color: #F1FAFF;
-            text-decoration: none; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
-            font-weight: 800 !important; }
-      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
-        margin-top: 8.20rem;
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        list-style: none;
-        padding-left: 0; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
-          margin-bottom: 1.5rem;
-          display: inline-block;
-          padding: 1rem 1.5rem;
-          background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
-          border-radius: 50px;
-          animation: link_contacto 1.5s linear infinite; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto .boton_contacto {
-            font-family: 'Lexend';
-            text-transform: uppercase;
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 24px;
-            text-decoration: none;
-            color: #000112; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
-          margin: 0 0.5rem 0 0.5rem; }
+        justify-content: center; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
+          margin-top: 3rem;
+          align-items: center; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
+            margin-bottom: 3rem; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item a.link_nav {
+              font-family: 'Lexend';
+              font-style: normal;
+              font-size: 20px;
+              line-height: 25px;
+              text-transform: uppercase;
+              letter-spacing: 0.02em;
+              font-weight: 500;
+              color: #F1FAFF;
+              text-decoration: none; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
+              font-weight: 800 !important; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
+          margin-top: 4.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          list-style: none;
+          padding-left: 0; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
+            margin-bottom: 1.5rem;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
+            border-radius: 50px;
+            display: inline-block;
+            animation: link_contacto 1.5s linear infinite; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto .boton_contacto {
+              font-family: 'Lexend';
+              text-transform: uppercase;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              text-decoration: none;
+              color: #F1FAFF; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
+            margin: 0 0.5rem 0 0.5rem; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
+          margin-top: 4.5rem; }
 
 @keyframes link_contacto {
   0% {
     transform: scale(1); }
   50% {
     transform: scale(1.05); } }
+
+body main#main_index h1.titulo-index {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center; }
+
+body main#main_index .subtitulos-index {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px; }
+
+body main#main_index img.img-index {
+  width: 100%; }
+
+body main#main_index p.parrafo-index {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; }
+
+body main#main_index div.cont-btn {
+  display: flex;
+  justify-content: center; }
+  body main#main_index div.cont-btn button.btn-index {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    background-color: #F39100;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F1FAFF; }
+
+body main div#carouselExampleSlidesOnly div.carousel-inner {
+  height: 448px; }
+  body main div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item {
+    transition: transform .4s ease-in-out;
+    width: 100%;
+    height: 448px; }
+
+body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
+  width: 5.5rem;
+  height: 3rem;
+  padding: 0.4rem;
+  border: 1px solid #6FD1FF;
+  background: transparent;
+  border-radius: 8px;
+  font-family: 'Lexend';
+  color: #F1FAFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px; }
+  body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select option.option_select {
+    background: #141956; }
 
 * {
   margin: 0;
@@ -149,3 +230,6 @@ body header {
   text-decoration: none;
   border: none;
   outline: none; }
+
+body {
+  background-color: #F1FAFF; }

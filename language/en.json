@@ -1,14 +1,25 @@
 {
-    "titulo-home": "WELCOME TO TIG",
-    "about-us": "hey! this is us.",
+    "navbar-contacto": "Contact",
     "legend-form": "Complete this form",
     "label-1": "Insert your email",
     "label-2": "insert your full name",
     "label-3": "insert yor message or questions",
+
+
     "navbar-index": "Home",
-    "navbar-contacto": "Contact",
+    "h1-index": "Home",
+    "h2-index": "",
+    "p1-index": "We are health and life insurance specialists focusing in providing exceptional service for the best value possible. We work with Obama Care directly to provide you with best service and value possible.",
+    "bot1-index": "Our Insurance",
+    "h2-index2": "¿What do our custumers say?",
+
     "navbar-nuestros-seguros":"Our Service",
+
+
     "navbar-sobre-nosotros":"About Us",
+
+
+
     "p-footer": "",
     "pol-de-priv": "privacy policy"
 }

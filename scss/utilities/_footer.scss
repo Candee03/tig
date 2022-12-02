@@ -22,12 +22,7 @@ body footer.pieDePagina {
             list-style: none;
             padding-left: 0;
             li.link_nav_contacto {
-                margin-bottom: 1.5rem;
-                display: inline-block;
-                padding: 1rem 1.5rem;
-                background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
-                border-radius: 50px;
-                animation: link_contacto 1.5s linear infinite;
+                @include boton_contacto_animated;
                 .boton_contacto {
                     @include link-contact;
                 }
@@ -40,8 +35,7 @@ body footer.pieDePagina {
             padding: 0;
             margin: 1.5rem 0;
             li, a {
-                text-align: center;
-                @include estilo-texto-footer;
+                @include estilo-link-footer;
             }
         }
     }

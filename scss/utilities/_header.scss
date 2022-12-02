@@ -1,7 +1,7 @@
 @import "variables";
 
 body header {
-    height: 3.5rem;
+    height: 4.5rem;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +16,7 @@ body header {
         a.logo {
             img {
                 margin-left: 1.5rem;
-                height: 3.5rem;
+                height: 4.5rem;
             }
         }
         div.div-boton {
@@ -26,7 +26,7 @@ body header {
         }
         div button.estilo_boton_navbar {
             img {
-                width: 3rem;
+                width: 3.5rem;
             }
         }
         div.estilo_recuadro_offcanvas {
@@ -39,11 +39,15 @@ body header {
                 }
             }
             div.offcanvas-body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 ul.navbar-nav {
-                    margin-top:calc( 13.20rem - 88px);
+                    margin-top: 3rem;
                     align-items: center;
                     li.nav-item {
-                        margin-bottom: 3.75rem;
+                        margin-bottom: 3rem;
                         a.link_nav {
                             @include link-nav ;
                         }
@@ -53,19 +57,14 @@ body header {
                     }
                 }
                 ul.ul-boton {
-                    margin-top: 8.20rem;
+                    margin-top: 4.5rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     list-style: none;
                     padding-left: 0;
                     li.link_nav_contacto {
-                        margin-bottom: 1.5rem;
-                        display: inline-block;
-                        padding: 1rem 1.5rem;
-                        background: linear-gradient(180deg, #F39100 0%, #FFFFFF 188.39%);
-                        border-radius: 50px;
-                        animation: link_contacto 1.5s linear infinite;
+                        @include boton_contacto_animated;
                         .boton_contacto {
                             @include link-contact;
                         }
@@ -73,6 +72,9 @@ body header {
                     img.logo-redesSociales {
                         margin: 0 0.5rem 0 0.5rem;
                     }
+                }
+                select.estilo_select {
+                    margin-top: 4.5rem;
                 }
             }
         }

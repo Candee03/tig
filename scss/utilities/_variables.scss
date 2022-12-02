@@ -1,11 +1,15 @@
 
 $color-texto-header: #F1FAFF;
-$color-texto-boton-contacto: #000112;
+$color-option-select-lng: #141956;
 
 $color-principal-header: #179BD0;
 $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
-$color-fondo-footer: #7B7B7B;
+$color-fondo-footer: #2D9ACD;
+
+$color-blanco: #F1FAFF;
+$color-negro: #000112;
+
 
 @mixin link-nav {
     font-family: 'Lexend';
@@ -18,12 +22,48 @@ $color-fondo-footer: #7B7B7B;
     color: $color-texto-header;
     text-decoration: none;
 }
+@mixin boton_contacto_animated {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
+    border-radius: 50px;
+    display: inline-block;
+    animation: link_contacto 1.5s linear infinite;
+    
+}
+@mixin boton {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    background-color: #F39100;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F1FAFF;
+}
 @mixin estilo-texto-footer {
     color: $color-texto-header;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    line-height: 40px;
+    text-decoration: none;
+}
+@mixin estilo-link-footer {
+    color: $color-texto-header;
+    font-family: 'Lexend';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
     line-height: 40px;
     text-decoration: none;
 }
@@ -34,5 +74,31 @@ $color-fondo-footer: #7B7B7B;
     font-size: 20px;
     line-height: 24px;
     text-decoration: none;
-    color: $color-texto-boton-contacto;
+    color: $color-texto-header;
+}
+@mixin titulos {
+    color: $color-negro;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+
+@mixin subtitulos {
+    color: $color-negro;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+@mixin parrafos {
+    color: $color-negro;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
 }
