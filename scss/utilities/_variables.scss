@@ -5,9 +5,9 @@ $color-option-select-lng: #141956;
 $color-principal-header: #179BD0;
 $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
-$color-fondo-footer: #2D9ACD;
+$color-fondo-footer: #2B529F;
 
-$color-blanco: #F1FAFF;
+$color-blanco: #FAFAFA;
 $color-negro: #000112;
 
 
@@ -63,7 +63,6 @@ $color-negro: #000112;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
-    text-align: center;
     line-height: 40px;
     text-decoration: none;
 }
@@ -76,6 +75,17 @@ $color-negro: #000112;
     text-decoration: none;
     color: $color-texto-header;
 }
+@mixin links-tab-content {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: $color-negro;
+}
+
+
+
 @mixin titulos {
     color: $color-negro;
     font-family: 'Lexend';
@@ -85,14 +95,13 @@ $color-negro: #000112;
     line-height: 40px;
     text-align: center;
 }
-
-@mixin subtitulos {
+@mixin subtitulos ($font-weight, $line-height) {
     color: $color-negro;
     font-family: 'Lexend';
     font-style: normal;
-    font-weight: 700;
+    font-weight: $font-weight;
     font-size: 24px;
-    line-height: 32px;
+    line-height: $line-height;
 }
 @mixin parrafos {
     color: $color-negro;

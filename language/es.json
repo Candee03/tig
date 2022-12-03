@@ -1,15 +1,23 @@
 {
+    "h1-contacto": "¡Contáctanos!",
+    "p1-contacto": "Ponte en contacto con nosotros para poder brindarte el mejor asesoramiento personalizado.",
     "navbar-contacto": "Contacto",
-    "legend-form": "Complete el formulario para que lo contactemos",
+    "link-tab-content1":"Mensaje",
+    "link-tab-content2":"Teléfono",
+    "link-tab-content3":"Oficina",
     "label-1": "Ingrese su Email",
     "label-2": "Ingrese su nombre",
     "label-3": "Escriba aqui su consulta",
+    "boton-enviar": "Enviar Mensaje",
+    "boton-vaciar-form": "Vaciar Formulario",
+    "boton-llamar": "llamar",
+    "boton-enviar-wsp": "Enviar Whatsapp",
 
 
     "navbar-index": "Inicio",
     "h1-index": "Inicio",
     "h2-index": "¿Por qué tener un seguro?",
-    "p1-index": "We are health and life insurance specialists focusing in providing exceptional service for the best value possible. We work with Obama Care directly to provide you with best service and value possible.",
+    "p1-index": "",
     "bot1-index": "ver seguros",
     "h2-index2": "¿Qué dicen nuestros clientes?",
     

@@ -1,0 +1,47 @@
+@import "variables";
+
+body main#main-contacto {
+    h1.titulo-contacto {
+        margin: 1.5rem;
+        @include titulos;
+    }
+    img.img-contacto {
+        width: 100%;
+    }
+    p.p1-contacto {
+        margin: 1.5rem;
+        @include subtitulos (400, 36px);
+    }
+    section {
+        ul.nav-tabs {
+            margin-top: 3rem; 
+            justify-content: center; 
+            align-items: center;
+            display: flex;
+            flex-wrap: nowrap;
+            li.nav-item {
+                padding: 0 1.3rem 1.5rem 1.3rem;
+                button.button-tab {
+                    display: flex;
+                    align-items: center;
+                    img.img-tab-content {
+                        width: 1.5rem;
+                        margin-right: 0.5rem;
+                    }
+                    a.nav-link-tab {
+                        display: none;
+                    }
+                }
+                button.active {
+                    border-bottom: 4px $color-negro solid;
+                    a.nav-link-tab {
+                        text-decoration: none;
+                        @include links-tab-content;
+                        display: block !important;
+                    }
+
+                }
+            }
+        }
+    }
+}

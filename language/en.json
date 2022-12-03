@@ -1,6 +1,10 @@
 {
+    "h1-contacto": "Contact Us",
+    "p1-contacto": "",
     "navbar-contacto": "Contact",
-    "legend-form": "Complete this form",
+    "link-tab-content1":"Message",
+    "link-tab-content2":"Telephone",
+    "link-tab-content3":"Office",
     "label-1": "Insert your email",
     "label-2": "insert your full name",
     "label-3": "insert yor message or questions",

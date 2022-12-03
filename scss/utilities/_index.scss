@@ -8,7 +8,7 @@ body {
         }
         .subtitulos-index {
             margin: 1.5rem;
-            @include subtitulos;
+            @include subtitulos (700, 32px);
         }
         img.img-index {
             width: 100%;

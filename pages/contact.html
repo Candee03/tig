@@ -59,80 +59,70 @@
       </div>
     </nav>
   </header>
-  <main>
-    <h1 lng="titulo-home"></h1>
-    <p lng="about-us"></p>
+  <main id="main-contacto">
+    <h1  class="titulo-contacto" lng="h1-contacto"></h1>
+    <img src="../img/img-1-contacto.png" alt="" class="img-contacto">
+    <img src="../img/img-2-contacto.png" alt="" class="img-contacto">
+    <p class="p1-contacto" lng="p1-contacto"></p>
+
     <section>
-      <form action="https://formsubmit.co/candelamreales@gmail.com" method="POST" />
-      <fieldset>
-        <legend lng="legend-form"></legend>
-        <label for="email" lng="label-1"></label>
-        <input type="email" id="email" name="Email">
-
-        <label for="name" lng="label-2"></label>
-        <input type="text" id="name" name="Name">
-
-        <label for="message" lng="label-3"></label>
-        <textarea name="Text-Area" id="message" cols="30" rows="5"></textarea>
-
-        <button type="submit">Send</button>
-        <button type="reset">Reset</button>
-        <input type="hidden" name="_subject" value="Consultas desde la pagina">
-        <input type="hidden" name="_captcha" value="false">
-      </fieldset>
-      </form>
-    </section>
-    <section>
-      <ul style="margin-top: 3rem; justify-content: center; display: flex;" class="nav nav-tabs" id="myTab" role="tablist">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link  active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">MENSAJE</button>
+          <button class="button-tab active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="true" type="button">
+            <img class="img-tab-content" src="../img/material-symbols_mail-outline.png" alt="">
+            <a class="nav-link-tab" lng="link-tab-content1" ></a>
+          </button>
         </li>
+
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">LLAMADA</button>
+          <button class="button-tab" id="home-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="false" type="button">
+            <img class="img-tab-content" src="../img/material-symbols_call-outline.png" alt="">
+            <a class="nav-link-tab" lng="link-tab-content2" ></a>
+          </button>
         </li>
+
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">MAPA</button>
+          <button class="button-tab" id="home-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="false" type="button">
+            <img class="img-tab-content" src="../img/heroicons-outline_office-building.png" alt="">
+            <a class="nav-link-tab" lng="link-tab-content3" ></a>
+          </button>
         </li>
       </ul>
+      <!-- MENSAJE -->
       <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-          <button>HACER LLAMADA</button>
-          <p style="margin-top: 3rem;">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis officia excepturi exercitationem, culpa sit
-            blanditiis. Autem consequatur quae, sapiente ullam ab assumenda deleniti accusamus quibusdam similique
-            suscipit, quasi deserunt incidunt?
-            Unde, praesentium nostrum similique incidunt, nesciunt officiis aut, animi non porro aliquam at quaerat
-            ullam repudiandae eos est odio? Voluptate quo fugit quas rerum! Dolor magni ab delectus facere fugit.
-            Quo cumque obcaecati fugit aliquam minima hic molestiae adipisci nostrum repudiandae. Dolores, eligendi
-            saepe? Vitae, sit quas earum non aperiam obcaecati eos a pariatur modi, quos molestias possimus, quod
-            quaerat.
-            Non, dolor modi. Iure impedit atque suscipit, obcaecati soluta dolorem provident rem, ut molestiae minima
-            perspiciatis cum ad accusantium. Aut blanditiis voluptates error dolor dolores nisi id quae nostrum
-            perspiciatis.
-            Nihil a nisi fuga ducimus. Error quisquam ducimus molestias debitis corrupti adipisci magnam aut iste
-            reprehenderit dicta alias neque quo veniam nam, recusandae odio a. Ad quod tempora voluptates amet.
-          </p>
+        <div class="tab-pane fade active show" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <form action="https://formsubmit.co/candelamreales@gmail.com" method="POST" />
+            <label for="email" lng="label-1"></label>
+            <input type="email" id="email" name="Email">
+        
+            <label for="name" lng="label-2"></label>
+            <input type="text" id="name" name="Name">
+        
+            <label for="message" lng="label-3"></label>
+            <textarea name="Text-Area" id="message" cols="30" rows="5"></textarea>
+        
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+            <input type="hidden" name="_subject" value="Consultas desde la pagina">
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+          
         </div>
+        <!-- LLAMADA -->
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia aliquid, rem aliquam ipsa pariatur enim
-            corporis obcaecati dolorum. Quisquam debitis voluptates a maiores, obcaecati ratione ea? Esse nam eum vero!
-            A quas eaque nobis fugit inventore neque corrupti harum incidunt quis rem omnis voluptatem necessitatibus
-            dolores laborum repudiandae, maiores earum veritatis error voluptates. Quam porro id tenetur ipsam, sequi
-            repudiandae?
-            Ad consequuntur ullam voluptate accusantium minima nemo, suscipit quaerat vitae assumenda dignissimos,
-            soluta possimus, odit perspiciatis ducimus autem laborum dicta exercitationem quod earum amet ex blanditiis.
-            Et repellat placeat exercitationem.
-          </p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae necessitatibus nulla adipisci illo vero, sint ratione totam maxime nostrum omnis voluptatibus sit soluta sed quasi saepe sapiente. Ipsa, tempore consectetur!
+          Dolorem illum optio eius, quisquam pariatur natus incidunt veniam esse debitis inventore praesentium iste obcaecati laboriosam rem voluptatum ab reprehenderit earum fuga repudiandae maxime laudantium! Quasi, numquam. Obcaecati, ex mollitia.
+          Consequatur labore dignissimos corporis nemo consectetur, at facere, nihil vitae beatae, expedita unde quidem quibusdam perspiciatis ratione autem ipsam soluta voluptas tempore accusantium veniam magnam blanditiis id non sit? Aliquid.</p>
         </div>
+        <!-- OFICINA -->
         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-          <h1>HOLA A TODOSSSS</h1>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.1263044955776!2d-64.14075658536532!3d-31.438189604451626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432bd2f1bbbabe7%3A0x687908caf1997ffc!2sLucio%20V.%20Mansilla%203664%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1669418172780!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusamus voluptates error distinctio voluptatum corporis, sequi minima voluptas. Temporibus fugit expedita cupiditate aperiam mollitia quod suscipit totam quaerat earum eligendi!
+          Fuga ipsa a atque quis! Fuga tempore at, nesciunt minima ut necessitatibus possimus maxime maiores voluptatem eum doloribus ipsam magni ipsum eveniet, officia laboriosam nobis aliquam ipsa porro accusamus explicabo.</p>
         </div>
       </div>
     </section>
   </main>
-
+  
   <footer class="pieDePagina">
     <div class="cont_pieDePagina">
       <img class="img_footer" src="../img/logo-footer.png" alt="">
@@ -147,12 +137,12 @@
           <img class="logo-redesSociales" src="../img/logo-tiktok.png" alt="">
         </div>
       </ul>
-      <ul class="ul-footer">
-        <li lng="pol-de-priv"></li>
-        <li><a href="#">link importante</a></li>
-        <li><a href="#">link importante</a></li>
-        <li><a href="#">link importante</a></li>
-      </ul>
+      <div class="div-footer-links">
+        <h3 lng="pol-de-priv">Politica de privacidad</h3>
+        <a href="#">link importante</a>
+        <a href="#">link importante</a>
+        <a href="#">link importante</a>
+      </div>
     </div>
   </footer>
   <!-- JavaScript Bundle with Popper -->
