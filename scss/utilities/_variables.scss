@@ -25,7 +25,7 @@ $color-negro: #000112;
 @mixin boton_contacto_animated {
     margin-bottom: 1.5rem;
     padding: 1rem 1.5rem;
-    background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
+    background: linear-gradient(180deg, $color-boton-resaltado 46.71%, #FFFFFF 188.39%);
     border-radius: 50px;
     display: inline-block;
     animation: link_contacto 1.5s linear infinite;
@@ -34,9 +34,8 @@ $color-negro: #000112;
 @mixin boton {
     padding: 1rem 1.5rem;
     display: inline-block;
-    padding: 1rem 1.5rem;
     border-radius: 50px;
-    background-color: #F39100;
+    background-color: $color-boton-resaltado;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 700;
@@ -46,6 +45,41 @@ $color-negro: #000112;
     text-align: center;
     letter-spacing: 0.02em;
     color: #F1FAFF;
+}
+@mixin boton-sendYreset ($colorDeFondo, $text-color) {
+    height: 3.5rem;
+    width: 100%;
+    display: inline-block;
+    border-radius: 28px;
+
+    background-color: $colorDeFondo;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    border: $color-boton-resaltado 4px solid;
+}
+@mixin boton-llamarYwsp ($colorDeFondo, $text-color) {
+    height: 3.5rem;
+    width: 100%;
+    display: inline-block;
+    border-radius: 28px;
+
+    background-color: $colorDeFondo;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    text-transform: uppercase;
+    border: $color-boton-resaltado 4px solid;
 }
 @mixin estilo-texto-footer {
     color: $color-texto-header;
@@ -80,6 +114,14 @@ $color-negro: #000112;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    line-height: 40px;
+    color: $color-negro;
+}
+@mixin label-form {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 40px;
     color: $color-negro;
 }

@@ -14,14 +14,16 @@ body main#main-contacto {
     }
     section {
         ul.nav-tabs {
+            border: none;
             margin-top: 3rem; 
             justify-content: center; 
             align-items: center;
             display: flex;
             flex-wrap: nowrap;
             li.nav-item {
-                padding: 0 1.3rem 1.5rem 1.3rem;
                 button.button-tab {
+                    background: transparent;
+                    padding: 0 1.3rem 1rem 1.3rem;
                     display: flex;
                     align-items: center;
                     img.img-tab-content {
@@ -39,7 +41,86 @@ body main#main-contacto {
                         @include links-tab-content;
                         display: block !important;
                     }
-
+                }
+            }
+        }
+        div.tab-content {
+            margin: 2rem 1.5rem;
+            div.tab-pane {
+                form {
+                    display: flex;
+                    flex-direction: column;
+                    div.cont-input {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 1rem;
+                        label {
+                            @include label-form;
+                        }
+                        .input-formulario, .input-formulario2 {
+                            padding-left: 1rem;
+                            border: 2px solid $color-negro;
+                            border-radius: 28px;
+                            width: 77%;
+                            font-family: 'Lexend';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 36px;
+                        }
+                        .input-formulario {
+                            height: 3.5rem;
+                        }
+                    }
+                    button.btn-send {
+                        margin-bottom: 1.5rem;
+                        @include boton-sendYreset ($color-boton-resaltado, $color-blanco);
+                    }
+                    button.btn-reset {
+                        @include boton-sendYreset ($color-blanco, $color-boton-resaltado);
+                    }
+                }
+                div.cont-telefono {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h2.h2-contact {
+                        font-family: 'Lexend';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 48px;
+                        text-align: center;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-family: 'Lexend';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        text-align: center;
+                        letter-spacing: 0.02em;
+                        color: $color-blanco;
+                        text-transform: uppercase;
+                    }
+                    button.btn-llamarYwsp {
+                        margin-top: 1.5rem;
+                        @include boton-llamarYwsp ($color-boton-resaltado, $color-blanco)
+                    }
+                }
+                div.cont-oficina {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h2.h2-contact2 {
+                        font-family: 'Lexend';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 48px;
+                        text-align: center;
+                    }
                 }
             }
         }

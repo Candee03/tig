@@ -201,7 +201,6 @@ body main#main_index div.cont-btn {
   body main#main_index div.cont-btn button.btn-index {
     padding: 1rem 1.5rem;
     display: inline-block;
-    padding: 1rem 1.5rem;
     border-radius: 50px;
     background-color: #F39100;
     font-family: 'Lexend';
@@ -237,32 +236,143 @@ body main#main-contacto p.p1-contacto {
   line-height: 36px; }
 
 body main#main-contacto section ul.nav-tabs {
+  border: none;
   margin-top: 3rem;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-wrap: nowrap; }
-  body main#main-contacto section ul.nav-tabs li.nav-item {
-    padding: 0 1.3rem 1.5rem 1.3rem; }
-    body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab {
+  body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab {
+    background: transparent;
+    padding: 0 1.3rem 1rem 1.3rem;
+    display: flex;
+    align-items: center; }
+    body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab img.img-tab-content {
+      width: 1.5rem;
+      margin-right: 0.5rem; }
+    body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab a.nav-link-tab {
+      display: none; }
+  body main#main-contacto section ul.nav-tabs li.nav-item button.active {
+    border-bottom: 4px #000112 solid; }
+    body main#main-contacto section ul.nav-tabs li.nav-item button.active a.nav-link-tab {
+      text-decoration: none;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 40px;
+      color: #000112;
+      display: block !important; }
+
+body main#main-contacto section div.tab-content {
+  margin: 2rem 1.5rem; }
+  body main#main-contacto section div.tab-content div.tab-pane form {
+    display: flex;
+    flex-direction: column; }
+    body main#main-contacto section div.tab-content div.tab-pane form div.cont-input {
       display: flex;
-      align-items: center; }
-      body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab img.img-tab-content {
-        width: 1.5rem;
-        margin-right: 0.5rem; }
-      body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab a.nav-link-tab {
-        display: none; }
-    body main#main-contacto section ul.nav-tabs li.nav-item button.active {
-      border-bottom: 4px #000112 solid; }
-      body main#main-contacto section ul.nav-tabs li.nav-item button.active a.nav-link-tab {
-        text-decoration: none;
+      justify-content: space-between;
+      margin-bottom: 1rem; }
+      body main#main-contacto section div.tab-content div.tab-pane form div.cont-input label {
         font-family: 'Lexend';
         font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 40px;
-        color: #000112;
-        display: block !important; }
+        color: #000112; }
+      body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario, body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario2 {
+        padding-left: 1rem;
+        border: 2px solid #000112;
+        border-radius: 28px;
+        width: 77%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px; }
+      body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario {
+        height: 3.5rem; }
+    body main#main-contacto section div.tab-content div.tab-pane form button.btn-send {
+      margin-bottom: 1.5rem;
+      height: 3.5rem;
+      width: 100%;
+      display: inline-block;
+      border-radius: 28px;
+      background-color: #F39100;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FAFAFA;
+      border: #F39100 4px solid; }
+    body main#main-contacto section div.tab-content div.tab-pane form button.btn-reset {
+      height: 3.5rem;
+      width: 100%;
+      display: inline-block;
+      border-radius: 28px;
+      background-color: #FAFAFA;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #F39100;
+      border: #F39100 4px solid; }
+  body main#main-contacto section div.tab-content div.tab-pane div.cont-telefono {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body main#main-contacto section div.tab-content div.tab-pane div.cont-telefono h2.h2-contact {
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center; }
+    body main#main-contacto section div.tab-content div.tab-pane div.cont-telefono a {
+      text-decoration: none;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FAFAFA;
+      text-transform: uppercase; }
+    body main#main-contacto section div.tab-content div.tab-pane div.cont-telefono button.btn-llamarYwsp {
+      margin-top: 1.5rem;
+      height: 3.5rem;
+      width: 100%;
+      display: inline-block;
+      border-radius: 28px;
+      background-color: #F39100;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #FAFAFA;
+      text-transform: uppercase;
+      border: #F39100 4px solid; }
+  body main#main-contacto section div.tab-content div.tab-pane div.cont-oficina {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    body main#main-contacto section div.tab-content div.tab-pane div.cont-oficina h2.h2-contact2 {
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center; }
 
 body main div#carouselExampleSlidesOnly div.carousel-inner {
   max-height: 600px; }

@@ -88,36 +88,49 @@
           </button>
         </li>
       </ul>
-      <!-- MENSAJE -->
       <div class="tab-content" id="myTabContent">
+        <!-- MENSAJE -->
         <div class="tab-pane fade active show" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
           <form action="https://formsubmit.co/candelamreales@gmail.com" method="POST" />
-            <label for="email" lng="label-1"></label>
-            <input type="email" id="email" name="Email">
-        
-            <label for="name" lng="label-2"></label>
-            <input type="text" id="name" name="Name">
-        
-            <label for="message" lng="label-3"></label>
-            <textarea name="Text-Area" id="message" cols="30" rows="5"></textarea>
-        
-            <button type="submit">Send</button>
-            <button type="reset">Reset</button>
-            <input type="hidden" name="_subject" value="Consultas desde la pagina">
+            <div class="cont-input">
+              <label for="name" lng="label-1"></label>
+              <input class="input-formulario" type="text" id="name" name="Name">
+            </div>
+
+            <div class="cont-input">
+              <label for="email" lng="label-2"></label>
+              <input class="input-formulario" type="email" id="email" name="Email" placeholder="example@mail.com">
+            </div>
+
+            <div class="cont-input">
+              <label for="_subject" lng="label-3"></label>
+              <input class="input-formulario" type="text" id="_subject" name="subject">
+            </div>
+            <div class="cont-input">
+              <label for="message" lng="label-4"></label>
+              <textarea class="input-formulario2" name="Text-Area" id="message" cols="30" rows="10"></textarea>
+            </div>
+          
+            <button class="btn-send" type="submit" lng="boton-enviar"></button>
+            <button class="btn-reset" type="reset" lng="boton-vaciar-form"></button>
             <input type="hidden" name="_captcha" value="false">
           </form>
           
         </div>
         <!-- LLAMADA -->
         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae necessitatibus nulla adipisci illo vero, sint ratione totam maxime nostrum omnis voluptatibus sit soluta sed quasi saepe sapiente. Ipsa, tempore consectetur!
-          Dolorem illum optio eius, quisquam pariatur natus incidunt veniam esse debitis inventore praesentium iste obcaecati laboriosam rem voluptatum ab reprehenderit earum fuga repudiandae maxime laudantium! Quasi, numquam. Obcaecati, ex mollitia.
-          Consequatur labore dignissimos corporis nemo consectetur, at facere, nihil vitae beatae, expedita unde quidem quibusdam perspiciatis ratione autem ipsam soluta voluptas tempore accusantium veniam magnam blanditiis id non sit? Aliquid.</p>
+          <div class="cont-telefono">
+            <h2 class="h2-contact">+1 872 666 1324</h2>
+            <button class="btn-llamarYwsp"><a href="tel:+1 872 666 1324" lng="boton-llamar"></a></button>
+            <button class="btn-llamarYwsp" lng="boton-enviar-wsp"> <a href="#"></a></button>
+          </div>
         </div>
         <!-- OFICINA -->
         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusamus voluptates error distinctio voluptatum corporis, sequi minima voluptas. Temporibus fugit expedita cupiditate aperiam mollitia quod suscipit totam quaerat earum eligendi!
-          Fuga ipsa a atque quis! Fuga tempore at, nesciunt minima ut necessitatibus possimus maxime maiores voluptatem eum doloribus ipsam magni ipsum eveniet, officia laboriosam nobis aliquam ipsa porro accusamus explicabo.</p>
+          <div class="cont-oficina">
+            <h2 class="h2-contact2">4725 Christa Ct, Tampa, FL 33614, Estados Unidos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.236998771672!2d-82.48956192568217!3d27.986644613119743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3efaeacb847%3A0xccf3110180bdf927!2s4725%20Christa%20Ct%2C%20Tampa%2C%20FL%2033614%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1670124414804!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </div>
     </section>
