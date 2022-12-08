@@ -1,7 +1,15 @@
 {
+    "navbar-index": "Inicio",
+    "h1-index": "¡Te damos la bienvenida!",
+    "h2-index": "¿Por qué contratar un seguro?",
+    "p1-index": "Los imprevistos ocurren, pero no tienen por qué tomarte por sorpresa. Contratar un seguro te permitirá afrontar distintas situaciones de tu vida sin contraer deudas. Conocer las opciones disponibles y cómo pueden beneficiarte te ayudará a tomar decisiones de las que no te arrepentirás.",
+    "bot1-index": "ver seguros",
+    "h2-index2": "¿Qué opinan nuestros clientes?",
+
+
+    "navbar-contacto": "Contactar",
     "h1-contacto": "¡Contáctanos!",
-    "p1-contacto": "Ponte en contacto con nosotros para poder brindarte el mejor asesoramiento personalizado.",
-    "navbar-contacto": "Contacto",
+    "p1-contacto": "Te brindamos asesoramiento personalizado y amable sin costo. ¡Ponte en contacto hoy mismo!",
     "link-tab-content1":"Mensaje",
     "link-tab-content2":"Teléfono",
     "link-tab-content3":"Oficina",
@@ -10,25 +18,26 @@
     "label-3": "Asunto",
     "label-4": "Mensaje",
     "boton-enviar": "Enviar Mensaje",
+    "boton-sub": "Subscribirme",
     "boton-vaciar-form": "Vaciar Formulario",
     "boton-llamar": "llamar",
     "boton-enviar-wsp": "Enviar Whatsapp",
 
 
-    "navbar-index": "Inicio",
-    "h1-index": "Inicio",
-    "h2-index": "¿Por qué tener un seguro?",
-    "p1-index": "",
-    "bot1-index": "ver seguros",
-    "h2-index2": "¿Qué dicen nuestros clientes?",
-    
-    "navbar-nuestros-seguros":"Nuestros Seguros",
-    
-    
     "navbar-sobre-nosotros":"Sobre Nosotros",
+    "h1-SN":"Sobre Nosotros",
+    "p1-SN":"Somos especialistas en seguros de vida y salud en Estados Unidos. Nuestro objetivo es brindar un servicio profesional, amable y con interés sincero en quien acude a nosotros por asesoramiento. Nos da mucha satisfacción tener un impacto positivo en las vidas de nuestros clientes y brindarles tranquilidad en momentos especiales.",
+    "h2-SN":"¿Por qué elegirnos?",
+    "p2-SN":"Trabajamos con empresas de seguros privados y con ObamaCare, por lo que siempre encontrarás una opción que se adapten a tus necesidades. Nuestros agentes hablan varios idiomas y brindamos soporte las 24 hs del día los 7 días de la semana.",
+    "h2-SN-2":"Nuestros Socios",
+    
+    
+    "navbar-nuestros-seguros":"Seguros",
+    "h1-NS": "¿Quienes somos?",
+    "span-NS1": "Seguros de salud",
 
 
-
-    "p-footer": "Te brindamos asesoramiento para tu seguro ideal.¡Contáctanos sin costo!",
+    "p-footer2": "Recibe nuestras novedades y ofertas en tu email.",
+    "p-footer": "¿Necesitas orientación para escoger tu seguro? ¡Contáctanos y te asesoramos sin costo!",
     "pol-de-priv": "politica de privacidad"
 }

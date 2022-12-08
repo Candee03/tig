@@ -1,12 +1,14 @@
-@import "utilities/mq";
 @import "utilities/footer";
 @import "utilities/header";
 @import "utilities/variables";
 @import "utilities/index";
+@import "utilities/nuestrosSeguros";
+@import "utilities/sobre-nosotros";
 @import "utilities/contacto";
 @import "utilities/carrousel";
 @import "utilities/slide";
 @import "utilities/selector";
+@import "utilities/mq";
 
 *{
 	margin: 0;
@@ -15,8 +17,4 @@
 	text-decoration: none;
 	border: none;
 	outline: none;
-}
-
-body {
-	background-color: $color-blanco;
 }

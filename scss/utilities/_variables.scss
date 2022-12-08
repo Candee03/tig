@@ -6,6 +6,7 @@ $color-principal-header: #179BD0;
 $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
 $color-fondo-footer: #2B529F;
+$color-fondo-slide: #BED4FF;
 
 $color-blanco: #FAFAFA;
 $color-negro: #000112;
@@ -23,9 +24,11 @@ $color-negro: #000112;
     text-decoration: none;
 }
 @mixin boton_contacto_animated {
+    text-align: center;
+    width: 12.5rem;
     margin-bottom: 1.5rem;
     padding: 1rem 1.5rem;
-    background: linear-gradient(180deg, $color-boton-resaltado 46.71%, #FFFFFF 188.39%);
+    background-color:$color-boton-resaltado;
     border-radius: 50px;
     display: inline-block;
     animation: link_contacto 1.5s linear infinite;
@@ -81,14 +84,15 @@ $color-negro: #000112;
     text-transform: uppercase;
     border: $color-boton-resaltado 4px solid;
 }
-@mixin estilo-texto-footer {
+@mixin estilo-texto-footer ($font-size, $line-height){
     color: $color-texto-header;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
+    font-size: $font-size;
+    line-height: $line-height;
     text-decoration: none;
+    text-align: center;
 }
 @mixin estilo-link-footer {
     color: $color-texto-header;
@@ -125,9 +129,6 @@ $color-negro: #000112;
     line-height: 40px;
     color: $color-negro;
 }
-
-
-
 @mixin titulos {
     color: $color-negro;
     font-family: 'Lexend';

@@ -11,11 +11,11 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Nuestros Seguros</title>
+    <title>Seguros</title>
     <script src="https://code.jquery.com/jquery-3.6.1.slim.js" integrity="sha256-tXm+sa1uzsbFnbXt8GJqsgi2Tw+m4BLGDof6eUPjbtk=" crossorigin="anonymous"></script>
 </head>
-<body onload="translate(localStorage.getItem('lng') || 'es','lng')">
 
+<body onload="translate(localStorage.getItem('lng') || 'es','lng')">
     <!--ENCABEZADO-->
     <header class="navbar-expand-lg navbar-dark bd-navbar">
         <nav class="contenedor bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
@@ -59,23 +59,40 @@
           </div>
         </nav>
     </header>
+    <main id="main-nuestrosSeguros">
+      <h1 class="titulo-nuestrosSeguros" lng="h1-NS"></h1>
+      <section class="section1-NS">
+        <p class="p-NS" lng="p-NS"></p>
+      </section>
 
-
+    </main>
+<!-- PIE DE PAGINA -->
     <footer class="pieDePagina">
       <div class="cont_pieDePagina">
         <img class="img_footer" src="../img/logo-footer.png" alt="">
-        <p class="parrafo_footer" lng="p-footer"></p>
-        <ul class="ul-boton">
-          <li class="nav-item link_nav_contacto">
-            <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
-          </li>
-          <div>
-            <img class="logo-redesSociales" src="../img/logo-instagram.png" alt="">
-            <img class="logo-redesSociales" src="../img/logo-facebook.png" alt="">
-            <img class="logo-redesSociales" src="../img/logo-tiktok.png" alt="">
-          </div>
-        </ul>
-        <<div class="div-footer-links">
+        <div class="form-sub">
+          <p class="p2-footer" lng="p-footer2"></p>
+          <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
+            <input class="input-formulario" type="email" id="email" name="Email" placeholder="example@mail.com">
+            <button class="btn-send" type="submit" lng="boton-sub"></button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Subscripcion">
+          </form>
+        </div>
+        <div>
+          <p class="parrafo_footer" lng="p-footer"></p>
+          <ul class="ul-boton">
+            <li class="nav-item link_nav_contacto">
+              <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
+            </li>
+            <div>
+              <img class="logo-redesSociales" src="../img/logo-instagram.png" alt="">
+              <img class="logo-redesSociales" src="../img/logo-facebook.png" alt="">
+              <img class="logo-redesSociales" src="../img/logo-tiktok.png" alt="">
+            </div>
+          </ul>
+        </div>
+        <div class="div-footer-links">
           <h3 lng="pol-de-priv">Politica de privacidad</h3>
           <a href="#">link importante</a>
           <a href="#">link importante</a>

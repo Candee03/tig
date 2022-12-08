@@ -1,9 +1,3 @@
-@media (min-width: 992px) {
-  body header.navbar {
-    justify-content: space-around; }
-    body header.navbar nav div.offcanvas-lg div.offcanvas-body {
-      justify-content: center; } }
-
 body footer.pieDePagina {
   background-color: #2B529F;
   display: flex;
@@ -16,30 +10,76 @@ body footer.pieDePagina {
     body footer.pieDePagina div.cont_pieDePagina img.img_footer {
       margin: 1.5rem 0 1.5rem;
       height: auto;
-      width: 100%; }
-    body footer.pieDePagina div.cont_pieDePagina p.parrafo_footer {
+      width: 100%;
+      max-width: 340px; }
+    body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
       margin-bottom: 1.5rem;
       color: #F1FAFF;
       font-family: 'Lexend';
       font-style: normal;
       font-weight: 400;
-      font-size: 24px;
+      font-size: 16px;
+      line-height: 28px;
+      text-decoration: none;
+      text-align: center; }
+    body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot {
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot input.input-formulario {
+        padding-left: 0.7rem;
+        border: 2px solid #000112;
+        border-radius: 28px;
+        width: 100%;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        height: 3.5rem; }
+      body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        height: 3.5rem;
+        width: 100%;
+        display: inline-block;
+        border-radius: 28px;
+        background-color: #F39100;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FAFAFA;
+        border: #F39100 4px solid; }
+    body footer.pieDePagina div.cont_pieDePagina div p.parrafo_footer {
+      margin-bottom: 1.5rem;
+      color: #F1FAFF;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
       line-height: 40px;
-      text-decoration: none; }
-    body footer.pieDePagina div.cont_pieDePagina ul.ul-boton {
+      text-decoration: none;
+      text-align: center; }
+    body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton {
       display: flex;
       flex-direction: column;
       align-items: center;
       list-style: none;
       padding-left: 0; }
-      body footer.pieDePagina div.cont_pieDePagina ul.ul-boton li.link_nav_contacto {
+      body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton li.link_nav_contacto {
+        text-align: center;
+        width: 12.5rem;
         margin-bottom: 1.5rem;
         padding: 1rem 1.5rem;
-        background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
+        background-color: #F39100;
         border-radius: 50px;
         display: inline-block;
         animation: link_contacto 1.5s linear infinite; }
-        body footer.pieDePagina div.cont_pieDePagina ul.ul-boton li.link_nav_contacto .boton_contacto {
+        body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton li.link_nav_contacto .boton_contacto {
           font-family: 'Lexend';
           text-transform: uppercase;
           font-weight: 700;
@@ -47,7 +87,7 @@ body footer.pieDePagina {
           line-height: 24px;
           text-decoration: none;
           color: #F1FAFF; }
-      body footer.pieDePagina div.cont_pieDePagina ul.ul-boton img.logo-redesSociales {
+      body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton img.logo-redesSociales {
         margin: 0 0.5rem 0 0.5rem; }
     body footer.pieDePagina div.cont_pieDePagina div.div-footer-links {
       display: flex;
@@ -139,9 +179,11 @@ body header {
           list-style: none;
           padding-left: 0; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
+            text-align: center;
+            width: 12.5rem;
             margin-bottom: 1.5rem;
             padding: 1rem 1.5rem;
-            background: linear-gradient(180deg, #F39100 46.71%, #FFFFFF 188.39%);
+            background-color: #F39100;
             border-radius: 50px;
             display: inline-block;
             animation: link_contacto 1.5s linear infinite; }
@@ -198,20 +240,80 @@ body main#main_index p.parrafo-index {
 body main#main_index div.cont-btn {
   display: flex;
   justify-content: center; }
-  body main#main_index div.cont-btn button.btn-index {
-    padding: 1rem 1.5rem;
-    display: inline-block;
-    border-radius: 50px;
-    background-color: #F39100;
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #F1FAFF; }
+  body main#main_index div.cont-btn a {
+    text-decoration: none; }
+    body main#main_index div.cont-btn a button.btn-index {
+      padding: 1rem 1.5rem;
+      display: inline-block;
+      border-radius: 50px;
+      background-color: #F39100;
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: #F1FAFF; }
+
+body main#main-nuestrosSeguros section div button .img1 {
+  width: 15rem; }
+
+body main#main-nuestrosSeguros section div button :focus img.img1 {
+  transform: scaleY(0.05); }
+
+body main#main-nuestrosSeguros section div img.img2 {
+  width: 15rem;
+  position: relative; }
+
+body main#main-nuestrosSeguros p button.btn {
+  height: auto; }
+
+body main#main-nuestrosSeguros p button.btn:not(.collapsed) img {
+  transform: scaleY(0.05); }
+
+body main#main-SobreNosotros h1.h1-SN {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center; }
+
+body main#main-SobreNosotros p.p1-SN, body main#main-SobreNosotros p.p2-SN {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; }
+
+body main#main-SobreNosotros h2.h2-SN, body main#main-SobreNosotros h2.h2-SN-2 {
+  margin: 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px; }
+
+body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div img.img-slide1, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 div.div-slide-SN1 img.img-slide2 {
+  width: 12.5rem; }
+
+body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 {
+  height: 200px; }
+  body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 div.div-slide-SN1 {
+    width: auto;
+    height: 144px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 24px; }
 
 body main#main-contacto h1.titulo-contacto {
   margin: 1.5rem;
@@ -281,7 +383,7 @@ body main#main-contacto section div.tab-content {
         line-height: 40px;
         color: #000112; }
       body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario, body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario2 {
-        padding-left: 1rem;
+        padding-left: 0.7rem;
         border: 2px solid #000112;
         border-radius: 28px;
         width: 77%;
@@ -415,6 +517,15 @@ body main div#carouselExampleSlidesOnly div.carousel-inner {
     max-width: 296px;
     height: auto;
     object-fit: cover; }
+  .swiper-slide div.estilo3 {
+    width: 12.5rem;
+    display: inline-block;
+    object-fit: cover; }
+  .swiper-slide div.margen {
+    width: 12.5rem;
+    display: inline-block;
+    margin-left: 1rem;
+    object-fit: cover; }
 
 body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
   width: 5.5rem;
@@ -432,6 +543,42 @@ body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.of
   body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select option.option_select {
     background: #141956; }
 
+body {
+  background-color: #FAFAFA; }
+
+@media (min-width: 992px) {
+  body header nav.contenedor {
+    height: auto;
+    width: 100%;
+    justify-content: center; }
+    body header nav.contenedor a.logo img {
+      margin: 0 2rem 0 0; }
+    body header nav.contenedor div.estilo_recuadro_offcanvas {
+      flex-grow: 0 !important; }
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header {
+        display: none; }
+      body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
+          margin-top: 0; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
+            margin: 0 1rem;
+            margin-bottom: 0; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
+          margin: 0 1rem 0 2rem; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
+            margin-bottom: 0; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton div {
+            display: none; }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
+          margin-top: 0; } }
+
+@media (min-width: 768px) {
+  body footer.pieDePagina {
+    flex-direction: row; } }
+
 * {
   margin: 0;
   padding: 0;
@@ -439,6 +586,3 @@ body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.of
   text-decoration: none;
   border: none;
   outline: none; }
-
-body {
-  background-color: #FAFAFA; }

@@ -1,0 +1,48 @@
+@import "variables";
+
+body main#main-SobreNosotros { 
+    h1.h1-SN {
+        margin: 1.5rem;
+        @include titulos;
+    }
+    p.p1-SN {
+        margin: 1.5rem;
+        @include parrafos;
+    }
+    h2.h2-SN {
+        margin: 1.5rem;
+        @include subtitulos (700, 32px);
+    }
+    div.swiper{
+        div.swiper-wrapper{ 
+            div.swiper-slide {
+                div {
+                    img.img-slide1{
+                        width: 12.5rem;
+                    }
+                }
+            }
+            div.swiper-slide.sw2 {
+                height: 200px;
+                div.div-slide-SN1 {
+                    width: auto;
+                    height: 144px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                    border-radius: 24px;
+                    img.img-slide2 {
+                        @extend img.img-slide1;
+                    }
+                }
+            }
+        }
+    }
+    p.p2-SN {
+        @extend p.p1-SN;
+    }
+    h2.h2-SN-2 {
+        @extend h2.h2-SN;
+    }
+}

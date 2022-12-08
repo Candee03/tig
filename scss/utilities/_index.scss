@@ -20,8 +20,11 @@ body {
         div.cont-btn {
             display: flex;
             justify-content: center;
-            button.btn-index {
-                @include boton;
+            a {
+                text-decoration: none;
+                button.btn-index {
+                    @include boton;
+                }
             }
         }
     }

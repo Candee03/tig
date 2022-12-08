@@ -62,7 +62,6 @@
     </nav>
   </header>
   
-
   <!-- CONTENIDO DEL SITIO -->
   <main id="main_index">
     <h1 class="titulo-index" lng="h1-index"></h1>
@@ -84,7 +83,7 @@
     <img src="img/img_index.png" alt="" class="img-index">
     <p class="parrafo-index" lng="p1-index"></p>
     <div class="cont-btn">
-      <button class="btn-index" lng="bot1-index"></button>
+      <a href="pages/nuestros_seguros.html"><button class="btn-index" lng="bot1-index"></button></a>
     </div>
     <h2 class="subtitulos-index" lng="h2-index2"></h2>
     <!-- Swiper -->
@@ -109,17 +108,28 @@
   <footer class="pieDePagina">
     <div class="cont_pieDePagina">
       <img class="img_footer" src="img/logo-footer.png" alt="">
-      <p class="parrafo_footer" lng="p-footer"></p>
-      <ul class="ul-boton">
-        <li class="nav-item link_nav_contacto">
-          <a class="boton_contacto" href="pages/contact.html" lng="navbar-contacto"></a>
-        </li>
-        <div>
-          <img class="logo-redesSociales" src="img/logo-instagram.png" alt="">
-          <img class="logo-redesSociales" src="img/logo-facebook.png" alt="">
-          <img class="logo-redesSociales" src="img/logo-tiktok.png" alt="">
-        </div>
-      </ul>
+      <div class="form-sub">
+        <p class="p2-footer" lng="p-footer2"></p>
+        <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
+          <input class="input-formulario" type="email" id="email" name="Email" placeholder="example@mail.com">
+          <button class="btn-send" type="submit" lng="boton-sub"></button>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="Subscripcion">
+        </form>
+      </div>
+      <div>
+        <p class="parrafo_footer" lng="p-footer"></p>
+        <ul class="ul-boton">
+          <li class="nav-item link_nav_contacto">
+            <a class="boton_contacto" href="pages/contact.html" lng="navbar-contacto"></a>
+          </li>
+          <div>
+            <img class="logo-redesSociales" src="img/logo-instagram.png" alt="">
+            <img class="logo-redesSociales" src="img/logo-facebook.png" alt="">
+            <img class="logo-redesSociales" src="img/logo-tiktok.png" alt="">
+          </div>
+        </ul>
+      </div>
       <div class="div-footer-links">
         <h3 lng="pol-de-priv">Politica de privacidad</h3>
         <a href="#">link importante</a>
