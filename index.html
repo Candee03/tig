@@ -69,18 +69,27 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/carousel_index1.png" class="d-block" alt="...">
+          <img class="img-1" src="img/carousel_index1.png" alt="">
+          <img class="img-1-t" src="img/carousel_index1-tablet.png" alt="">
+          <img class="img-1-d" src="" alt="">
         </div>
         <div class="carousel-item">
-          <img src="img/carousel_index2.png" class="d-block" alt="...">
+          <img class="img-2" src="img/carousel_index2.png" alt="">
+          <img class="img-2-t" src="img/carousel_index2-tablet.png" alt="">
+          <img class="img-2-d" src="" alt="">
         </div>
         <div class="carousel-item">
-          <img src="img/carousel_index3.png" class="d-block" alt="...">
+          <img class="img-3" src="img/carousel_index3.png" alt="">
+          <img class="img-3-t" src="img/carousel_index3-tablet.png" alt="">
+          <img class="img-3-d" src="" alt="">
         </div>
       </div>
     </div>
     <h2 class="subtitulos-index" lng="h2-index"></h2>
+
     <img src="img/img_index.png" alt="" class="img-index">
+    <img src="img/img_index-tablet.png" alt="" class="img-index-t">
+    <img src="" alt="" class="img-index-d">
     <p class="parrafo-index" lng="p1-index"></p>
     <div class="cont-btn">
       <a href="pages/nuestros_seguros.html"><button class="btn-index" lng="bot1-index"></button></a>
@@ -95,19 +104,22 @@
         <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
         <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
         <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
-        <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
-        <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
-        <div class="swiper-slide"><img class="estilo2" src="img/testimony-cards.png" alt=""></div>
       </div>
     </div>
-
-
+    <div class="cont-img-slide-d">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+      <img class="estilo-img-slide-d" src="img/testimony-cards.png" alt="">
+    </div>
 
   </main>
 <!-- PIE DE PAGINA -->
   <footer class="pieDePagina">
+    <img class="img_footer" src="img/logo-footer.png" alt="">
     <div class="cont_pieDePagina">
-      <img class="img_footer" src="img/logo-footer.png" alt="">
       <div class="form-sub">
         <p class="p2-footer" lng="p-footer2"></p>
         <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
@@ -117,7 +129,7 @@
           <input type="hidden" name="_subject" value="Subscripcion">
         </form>
       </div>
-      <div>
+      <div class="div-footer-contact">
         <p class="parrafo_footer" lng="p-footer"></p>
         <ul class="ul-boton">
           <li class="nav-item link_nav_contacto">
@@ -130,12 +142,12 @@
           </div>
         </ul>
       </div>
-      <div class="div-footer-links">
-        <h3 lng="pol-de-priv">Politica de privacidad</h3>
-        <a href="#">link importante</a>
-        <a href="#">link importante</a>
-        <a href="#">link importante</a>
-      </div>
+    </div>
+    <div class="div-footer-links">
+      <h3 lng="pol-de-priv">Politica de privacidad</h3>
+      <a href="#">link importante</a>
+      <a href="#">link importante</a>
+      <a href="#">link importante</a>
     </div>
   </footer>
 
@@ -150,6 +162,25 @@
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 1.3,
       spaceBetween: 16,
+      
+      breakpoints: {
+        480: {
+          slidesPerView: 1.8,
+          spaceBetween: 16,
+        },
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 16,
+        },
+        768: {
+          slidesPerView: 2.7,
+          spaceBetween: 16,
+        },
+        900: {
+          slidesPerView: 3,
+          spaceBetween: 16,
+        }
+      }
     });
   </script>
 </body>

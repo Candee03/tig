@@ -2,12 +2,12 @@ body {
     main {
         div#carouselExampleSlidesOnly {
             div.carousel-inner {
-                max-height: 600px;
+                max-height: 448px;
                 div.carousel-item {
                     transition: transform .4s ease-in-out;
                     width: 100%;
-                    img.d-block {
-                        width: 100%;
+                    img {
+                        display: block;
                     }
                 }
             }

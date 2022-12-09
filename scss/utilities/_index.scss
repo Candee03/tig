@@ -6,12 +6,32 @@ body {
             margin: 1.5rem;
             @include titulos;
         }
+        div#carouselExampleSlidesOnly div.carousel-inner {
+            div.carousel-item {
+                img.img-1, img.img-2, img.img-3 {
+                    width: 100%;
+                    display: block;
+                }
+                img.img-1-t, img.img-2-t, img.img-3-t {
+                    width: 100%;
+                    display: none;
+                }
+                img.img-1-d, img.img-2-d, img.img-3-d {
+                    width: 100%;
+                    display: none;
+                }
+            }
+        }
         .subtitulos-index {
             margin: 1.5rem;
             @include subtitulos (700, 32px);
         }
         img.img-index {
             width: 100%;
+        }
+        img.img-index-t, img.img-index-d {
+            width: 100%;
+            display: none;
         }
         p.parrafo-index {
             margin: 1.5rem;
@@ -26,6 +46,9 @@ body {
                     @include boton;
                 }
             }
+        }
+        div.cont-img-slide-d {
+            display: none;
         }
     }
 }

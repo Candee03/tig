@@ -113,19 +113,19 @@ $color-negro: #000112;
     text-decoration: none;
     color: $color-texto-header;
 }
-@mixin links-tab-content {
+@mixin links-tab-content ($font-size, $font-weight) {
     font-family: 'Lexend';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: $font-weight;
+    font-size: $font-size;
     line-height: 40px;
     color: $color-negro;
 }
-@mixin label-form {
+@mixin label-form ($font-size) {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: $font-size;
     line-height: 40px;
     color: $color-negro;
 }

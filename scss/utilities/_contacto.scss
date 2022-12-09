@@ -5,8 +5,14 @@ body main#main-contacto {
         margin: 1.5rem;
         @include titulos;
     }
-    img.img-contacto {
-        width: 100%;
+    div.cont-img-contact {
+        img.img-contacto {
+            width: 100%;
+        }
+        img.img-contacto-t {
+            width: 100%;
+            display: none;
+        }
     }
     p.p1-contacto {
         margin: 1.5rem;
@@ -38,7 +44,7 @@ body main#main-contacto {
                     border-bottom: 4px $color-negro solid;
                     a.nav-link-tab {
                         text-decoration: none;
-                        @include links-tab-content;
+                        @include links-tab-content(24px, 700);
                         display: block !important;
                     }
                 }
@@ -55,7 +61,7 @@ body main#main-contacto {
                         justify-content: space-between;
                         margin-bottom: 1rem;
                         label {
-                            @include label-form;
+                            @include label-form(16px);
                         }
                         .input-formulario, .input-formulario2 {
                             padding-left: 0.7rem;

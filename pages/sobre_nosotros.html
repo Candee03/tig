@@ -94,10 +94,10 @@
         </div>
       </div>
     </main>
-<!--PIE DE PAGINA-->
+    <!-- PIE DE PAGINA -->
     <footer class="pieDePagina">
+      <img class="img_footer" src="../img/logo-footer.png" alt="">
       <div class="cont_pieDePagina">
-        <img class="img_footer" src="../img/logo-footer.png" alt="">
         <div class="form-sub">
           <p class="p2-footer" lng="p-footer2"></p>
           <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
@@ -107,7 +107,7 @@
             <input type="hidden" name="_subject" value="Subscripcion">
           </form>
         </div>
-        <div>
+        <div class="div-footer-contact">
           <p class="parrafo_footer" lng="p-footer"></p>
           <ul class="ul-boton">
             <li class="nav-item link_nav_contacto">
@@ -120,15 +120,15 @@
             </div>
           </ul>
         </div>
-        <div class="div-footer-links">
-          <h3 lng="pol-de-priv">Politica de privacidad</h3>
-          <a href="#">link importante</a>
-          <a href="#">link importante</a>
-          <a href="#">link importante</a>
-        </div>
+      </div>
+      <div class="div-footer-links">
+        <h3 lng="pol-de-priv">Politica de privacidad</h3>
+        <a href="#">link importante</a>
+        <a href="#">link importante</a>
+        <a href="#">link importante</a>
       </div>
     </footer>
-      <!-- Swiper JS -->
+    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -136,12 +136,48 @@
     <script src="../js_pages/index.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper1", {
-        slidesPerView: 1.8,
+        slidesPerView: 1.3,
         spaceBetween: 16,
+        breakpoints: {
+          375: {
+            slidesPerView: 1.8,
+            spaceBetween: 16,
+          },
+          450: {
+            slidesPerView: 2.3,
+            spaceBetween: 16,
+          },
+          600: {
+            slidesPerView: 2.7,
+            spaceBetween: 16,
+          },
+          768: {
+            slidesPerView: 3.5,
+            spaceBetween: 16,
+          },
+        }
       });
       var swiper = new Swiper(".mySwiper2", {
-        slidesPerView: 1.6,
+        slidesPerView: 1.5,
         spaceBetween: 16,
+        breakpoints: {
+          375: {
+            slidesPerView: 1.8,
+            spaceBetween: 16,
+          },
+          450: {
+            slidesPerView: 2.3,
+            spaceBetween: 16,
+          },
+          600: {
+            slidesPerView: 2.7,
+            spaceBetween: 16,
+          },
+          768: {
+            slidesPerView: 3.5,
+            spaceBetween: 16,
+          },
+        }
       });
     </script>
 </body>

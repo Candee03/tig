@@ -1,17 +1,18 @@
 body footer.pieDePagina {
   background-color: #2B529F;
   display: flex;
-  justify-content: center; }
+  flex-direction: column;
+  align-items: center; }
+  body footer.pieDePagina img.img_footer {
+    margin: 1.5rem 0 1.5rem;
+    height: auto;
+    width: 90%;
+    max-width: 340px; }
   body footer.pieDePagina div.cont_pieDePagina {
     width: 85%;
     display: flex;
     flex-direction: column;
     align-items: center; }
-    body footer.pieDePagina div.cont_pieDePagina img.img_footer {
-      margin: 1.5rem 0 1.5rem;
-      height: auto;
-      width: 100%;
-      max-width: 340px; }
     body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
       margin-bottom: 1.5rem;
       color: #F1FAFF;
@@ -54,7 +55,7 @@ body footer.pieDePagina {
         letter-spacing: 0.02em;
         color: #FAFAFA;
         border: #F39100 4px solid; }
-    body footer.pieDePagina div.cont_pieDePagina div p.parrafo_footer {
+    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
       margin-bottom: 1.5rem;
       color: #F1FAFF;
       font-family: 'Lexend';
@@ -64,13 +65,13 @@ body footer.pieDePagina {
       line-height: 40px;
       text-decoration: none;
       text-align: center; }
-    body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton {
+    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
       display: flex;
       flex-direction: column;
       align-items: center;
       list-style: none;
       padding-left: 0; }
-      body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton li.link_nav_contacto {
+      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
         text-align: center;
         width: 12.5rem;
         margin-bottom: 1.5rem;
@@ -79,7 +80,7 @@ body footer.pieDePagina {
         border-radius: 50px;
         display: inline-block;
         animation: link_contacto 1.5s linear infinite; }
-        body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton li.link_nav_contacto .boton_contacto {
+        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto .boton_contacto {
           font-family: 'Lexend';
           text-transform: uppercase;
           font-weight: 700;
@@ -87,32 +88,32 @@ body footer.pieDePagina {
           line-height: 24px;
           text-decoration: none;
           color: #F1FAFF; }
-      body footer.pieDePagina div.cont_pieDePagina div ul.ul-boton img.logo-redesSociales {
+      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton img.logo-redesSociales {
         margin: 0 0.5rem 0 0.5rem; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-links {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-      margin: 1.5rem 0; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-links h3 {
-        color: #F1FAFF;
-        font-family: 'Lexend';
-        font-style: normal;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 40px;
-        text-decoration: none; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-links a {
-        color: #F1FAFF;
-        font-family: 'Lexend';
-        font-style: normal;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 40px;
-        text-decoration: none; }
+  body footer.pieDePagina div.div-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 1.5rem 0; }
+    body footer.pieDePagina div.div-footer-links h3 {
+      color: #F1FAFF;
+      font-family: 'Lexend';
+      font-style: normal;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 40px;
+      text-decoration: none; }
+    body footer.pieDePagina div.div-footer-links a {
+      color: #F1FAFF;
+      font-family: 'Lexend';
+      font-style: normal;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 40px;
+      text-decoration: none; }
 
 @keyframes link_contacto {
   0% {
@@ -216,6 +217,18 @@ body main#main_index h1.titulo-index {
   line-height: 40px;
   text-align: center; }
 
+body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-1, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-2, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-3 {
+  width: 100%;
+  display: block; }
+
+body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-1-t, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-2-t, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-3-t {
+  width: 100%;
+  display: none; }
+
+body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-1-d, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-2-d, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-3-d {
+  width: 100%;
+  display: none; }
+
 body main#main_index .subtitulos-index {
   margin: 1.5rem;
   color: #000112;
@@ -227,6 +240,10 @@ body main#main_index .subtitulos-index {
 
 body main#main_index img.img-index {
   width: 100%; }
+
+body main#main_index img.img-index-t, body main#main_index img.img-index-d {
+  width: 100%;
+  display: none; }
 
 body main#main_index p.parrafo-index {
   margin: 1.5rem;
@@ -256,6 +273,9 @@ body main#main_index div.cont-btn {
       text-align: center;
       letter-spacing: 0.02em;
       color: #F1FAFF; }
+
+body main#main_index div.cont-img-slide-d {
+  display: none; }
 
 body main#main-nuestrosSeguros section div button .img1 {
   width: 15rem; }
@@ -325,8 +345,12 @@ body main#main-contacto h1.titulo-contacto {
   line-height: 40px;
   text-align: center; }
 
-body main#main-contacto img.img-contacto {
+body main#main-contacto div.cont-img-contact img.img-contacto {
   width: 100%; }
+
+body main#main-contacto div.cont-img-contact img.img-contacto-t {
+  width: 100%;
+  display: none; }
 
 body main#main-contacto p.p1-contacto {
   margin: 1.5rem;
@@ -477,12 +501,12 @@ body main#main-contacto section div.tab-content {
       text-align: center; }
 
 body main div#carouselExampleSlidesOnly div.carousel-inner {
-  max-height: 600px; }
+  max-height: 448px; }
   body main div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item {
     transition: transform .4s ease-in-out;
     width: 100%; }
-    body main div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.d-block {
-      width: 100%; }
+    body main div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img {
+      display: block; }
 
 .swiper {
   width: 100%;
@@ -564,7 +588,7 @@ body {
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
           margin-top: 0; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
-            margin: 0 1rem;
+            margin: 0 0.7rem;
             margin-bottom: 0; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
           margin: 0 1rem 0 2rem; }
@@ -575,9 +599,105 @@ body {
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
           margin-top: 0; } }
 
+@media (min-width: 500px) {
+  body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-1, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-2, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-3 {
+    display: none; }
+  body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-1-t, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-2-t, body main#main_index div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item img.img-3-t {
+    display: block; } }
+
 @media (min-width: 768px) {
+  body main#main_index img.img-index-t {
+    display: inline; }
+  body main#main_index img.img-index {
+    display: none; }
+  body main#main_index .subtitulos-index, body main#main_index p.parrafo-index {
+    margin: 1.5rem 3.5rem; }
+  body main#main-contacto div.cont-img-contact {
+    display: flex; }
+    body main#main-contacto div.cont-img-contact img.img-contacto {
+      display: none; }
+    body main#main-contacto div.cont-img-contact img.img-contacto-t {
+      width: 50%;
+      display: inline; }
+  body main#main-contacto p.p1-contacto {
+    margin: 1.5rem 3.5rem;
+    text-align: center; }
+  body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab a.nav-link-tab {
+    text-decoration: none;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000112;
+    display: block; }
+  body main#main-contacto section ul.nav-tabs li.nav-item button.active a.nav-link-tab {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #000112; }
+  body main#main-contacto section div.tab-content div.tab-pane form div.cont-input {
+    justify-content: space-around; }
+    body main#main-contacto section div.tab-content div.tab-pane form div.cont-input label {
+      font-family: 'Lexend';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      color: #000112; }
   body footer.pieDePagina {
-    flex-direction: row; } }
+    padding: 3.5rem;
+    display: block; }
+    body footer.pieDePagina div.cont_pieDePagina {
+      width: 100%;
+      flex-direction: row;
+      align-items: flex-end; }
+      body footer.pieDePagina div.cont_pieDePagina div.form-sub {
+        display: flex;
+        flex-direction: column; }
+        body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
+          text-align: start;
+          margin-top: 0.5rem;
+          margin-bottom: 1rem; }
+        body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
+          margin-bottom: 0; }
+      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; }
+        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
+          margin-bottom: 0;
+          text-align: end; }
+        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
+          margin-bottom: 0; }
+          body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
+            margin-bottom: 1rem; }
+    body footer.pieDePagina div.div-footer-links {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      body footer.pieDePagina div.div-footer-links h3 {
+        margin: 0; }
+      body footer.pieDePagina div.div-footer-links a {
+        line-height: 20px;
+        margin-left: 0.25rem;
+        padding-left: 0.25rem;
+        border-left: 1px solid white; } }
+
+@media (min-width: 1024px) {
+  body main#main_index div.swiper {
+    display: none; }
+  body main#main_index div.cont-img-slide-d {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem; }
+    body main#main_index div.cont-img-slide-d .estilo-img-slide-d {
+      width: 360; } }
 
 * {
   margin: 0;
