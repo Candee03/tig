@@ -277,21 +277,121 @@ body main#main_index div.cont-btn {
 body main#main_index div.cont-img-slide-d {
   display: none; }
 
-body main#main-nuestrosSeguros section div button .img1 {
-  width: 15rem; }
+body main#main-nuestrosSeguros .titulo-nuestrosSeguros {
+  margin: 1.5rem 0;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center; }
 
-body main#main-nuestrosSeguros section div button :focus img.img1 {
-  transform: scaleY(0.05); }
+body main#main-nuestrosSeguros .section1-NS {
+  width: 100%;
+  height: 14rem;
+  background-color: #BED4FF;
+  margin-bottom: 1.5rem; }
 
-body main#main-nuestrosSeguros section div img.img2 {
-  width: 15rem;
-  position: relative; }
-
-body main#main-nuestrosSeguros p button.btn {
-  height: auto; }
-
-body main#main-nuestrosSeguros p button.btn:not(.collapsed) img {
-  transform: scaleY(0.05); }
+body main#main-nuestrosSeguros #section-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem; }
+  body main#main-nuestrosSeguros #section-cards .mycard {
+    background: linear-gradient(180deg, #179BD0 0%, #6FD1FF 100%);
+    width: 342px;
+    height: 342px;
+    border-radius: 44px;
+    overflow: hidden; }
+    body main#main-nuestrosSeguros #section-cards .mycard .card-on {
+      opacity: 100%;
+      transition: 0.5s; }
+      body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on {
+        display: flex;
+        justify-content: center;
+        position: relative; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .card-img {
+          position: absolute;
+          width: 342px; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .logo {
+          position: relative;
+          height: 2rem;
+          top: 287px;
+          margin-right: 0.5rem; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .title-card {
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          color: #FAFAFA;
+          top: 287px;
+          position: relative; }
+    body main#main-nuestrosSeguros #section-cards .mycard .card-off {
+      opacity: 0%;
+      transition: 0.3s; }
+      body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off {
+        display: none; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .logo2 {
+          margin-bottom: 1rem;
+          height: 92px; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .title-card {
+          margin-bottom: 1rem;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          color: #FAFAFA; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .text-card {
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FAFAFA; }
+      body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-btn-card {
+        display: none; }
+  body main#main-nuestrosSeguros #section-cards .info .card-on {
+    opacity: 0%;
+    transition: 0.5s; }
+    body main#main-nuestrosSeguros #section-cards .info .card-on .cont-card-on {
+      display: none; }
+  body main#main-nuestrosSeguros #section-cards .info .card-off {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    opacity: 100%;
+    transition: 0.5s; }
+    body main#main-nuestrosSeguros #section-cards .info .card-off .cont-card-off {
+      margin: 1rem 1rem 0 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; }
+    body main#main-nuestrosSeguros #section-cards .info .card-off .cont-btn-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 1rem; }
+      body main#main-nuestrosSeguros #section-cards .info .card-off .cont-btn-card .btn-card {
+        padding: 16px 24px;
+        width: 288px;
+        height: 56px;
+        background: #F39100;
+        border-radius: 28px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Lexend';
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FAFAFA; }
 
 body main#main-SobreNosotros h1.h1-SN {
   margin: 1.5rem;

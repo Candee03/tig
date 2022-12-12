@@ -33,8 +33,26 @@
     
     
     "navbar-nuestros-seguros":"Seguros",
-    "h1-NS": "¿Quienes somos?",
-    "span-NS1": "Seguros de salud",
+    "h1-NS": "Nuestros Seguros",
+    "p-NS": "Conoce las distintas opciones de seguros que tenemos para ofrecerte y cómo pueden beneficiarte.",
+    "title-card1": "Seguros de salud",
+    "txt-card1": " ¡Nada más importante que tu salud! Recibe atención médica evitando deudas.",
+
+    "title-card2": "Seguros dentales",
+    "txt-card2": " Luce una sonrisa sana sin gastar de más.",
+
+    "title-card3": "Seguros de vision",
+    "txt-card3": " Realízate chequeos de visión por un monto mínimo.",
+
+    "title-card4": "Seguros de vida",
+    "txt-card4": " Una ayuda para tus seres queridos en caso de fallecimiento.",
+
+    "title-card5": "Seguros de viaje",
+    "txt-card5": " Viaja sin preocupaciones con un seguro que cubre imprevistos en el extranjero.",
+
+    "title-card6": "Seguros de embarazo",
+    "txt-card6": " Recibe tratamiento de fertilidad, cobertura en el embarazo y parto, y más.",
+    "boton-card": "Quiero asesorarme",
 
 
     "p-footer2": "Recibe nuestras novedades y ofertas en tu email.",

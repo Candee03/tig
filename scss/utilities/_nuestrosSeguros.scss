@@ -1,33 +1,112 @@
 @import "variables";
 
 body main#main-nuestrosSeguros {
-    section {
-        div {
-            button {
-                .img1 {
-                    width: 15rem;
-                }
-            }
-            button :focus {
-                img.img1 {
-                    transform:scaleY(0.05);
-                }
-            }
-            img.img2 {
-                width: 15rem;
-                position: relative;
-            }
-        }
+    .titulo-nuestrosSeguros {
+        margin: 1.5rem 0;
+        @include titulos;
+    }
+    .section1-NS {
+        width: 100%;
+        height: 14rem;
+        background-color: $color-lavanda;
+        margin-bottom: 1.5rem;
     }
 
-    p {
-        button.btn {
-            height: auto;
+    #section-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        // CARD
+        .mycard {
+            background: linear-gradient(180deg, #179BD0 0%, #6FD1FF 100%);
+            width: 342px;
+            height: 342px;
+            border-radius: 44px;
+            overflow: hidden;
+            .card-on {
+                opacity: 100%;
+                transition: 0.5s;
+                .cont-card-on {
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    .card-img {
+                        position: absolute;
+                        width: 342px;
+                    }
+                    .logo {
+                        position: relative;
+                        height: 2rem;
+                        top: 287px;
+                        margin-right: 0.5rem;
+                    }
+                    .title-card {
+                        @include title-card;
+                        top: 287px;
+                        position: relative;
+                    }
+                }
+            }
+            .card-off {
+                opacity: 0%;
+                transition: 0.3s;
+                .cont-card-off {
+                    display: none;
+                    .logo2 {
+                        margin-bottom: 1rem;
+                        height: 92px;
+                    }
+                    .title-card {
+                        margin-bottom: 1rem;
+                        @include title-card;
+                    }
+                    .text-card {
+                        @include txt-card;
+                    }
+                }
+                .cont-btn-card {
+                    display: none;
+                }
+            }
         }
-        button.btn:not(.collapsed) {
-            img {
-
-                transform:scaleY(0.05);
+        .info {
+            .card-on {
+                opacity: 0%;
+                transition: 0.5s;
+                .cont-card-on {
+                    display: none;
+                }
+            }
+            .card-off {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100%;
+                opacity: 100%;
+                transition: 0.5s;
+                .cont-card-off {
+                    margin: 1rem 1rem 0 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-start;
+                }
+                .cont-btn-card {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: flex-end;
+                    margin-bottom: 1rem;
+                    .btn-card {
+                        padding: 16px 24px;
+                        width: 288px;
+                        height: 56px;
+                        background: $color-boton-resaltado;
+                        border-radius: 28px;
+                        @include btn-card;
+                    }
+                }
             }
         }
     }

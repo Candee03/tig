@@ -6,7 +6,7 @@ $color-principal-header: #179BD0;
 $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
 $color-fondo-footer: #2B529F;
-$color-fondo-slide: #BED4FF;
+$color-lavanda: #BED4FF;
 
 $color-blanco: #FAFAFA;
 $color-negro: #000112;
@@ -153,4 +153,31 @@ $color-negro: #000112;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
+}
+@mixin title-card {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $color-blanco;
+}
+@mixin txt-card {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-blanco;
+}
+@mixin btn-card {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lexend';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: $color-blanco;
 }
