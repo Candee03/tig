@@ -1,13 +1,17 @@
 
-$color-texto-header: #F1FAFF;
+$color-texto-header: #2D9ACD;
+// $color-texto-header: #F1FAFF;
 $color-option-select-lng: #141956;
 
-$color-principal-header: #179BD0;
-$color-principal-contenedores: #BED4FF;
+// $color-principal-header: #179BD0;
+$color-principal-header: #FAFAFA;
+// $color-principal-contenedores: #BED4FF;
 $color-boton-resaltado: #F39100;
 $color-fondo-footer: #2B529F;
 $color-lavanda: #BED4FF;
+$color-slide: #A6E3FF;
 
+$color-azul: #141956;
 $color-blanco: #FAFAFA;
 $color-negro: #000112;
 
@@ -85,7 +89,7 @@ $color-negro: #000112;
     border: $color-boton-resaltado 4px solid;
 }
 @mixin estilo-texto-footer ($font-size, $line-height){
-    color: $color-texto-header;
+    color: $color-blanco;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
@@ -95,7 +99,7 @@ $color-negro: #000112;
     text-align: center;
 }
 @mixin estilo-link-footer {
-    color: $color-texto-header;
+    color: $color-blanco;
     font-family: 'Lexend';
     font-style: normal;
     text-transform: uppercase;
@@ -111,7 +115,7 @@ $color-negro: #000112;
     font-size: 20px;
     line-height: 24px;
     text-decoration: none;
-    color: $color-texto-header;
+    color: $color-blanco;
 }
 @mixin links-tab-content ($font-size, $font-weight) {
     font-family: 'Lexend';
@@ -129,30 +133,30 @@ $color-negro: #000112;
     line-height: 40px;
     color: $color-negro;
 }
-@mixin titulos {
-    color: $color-negro;
+@mixin titulos($size, $height) {
+    color: $color-azul;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: $size;
+    line-height:$height;
     text-align: center;
 }
-@mixin subtitulos ($font-weight, $line-height) {
+@mixin subtitulos ($font-weight,$size, $line-height) {
     color: $color-negro;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: $font-weight;
-    font-size: 24px;
+    font-size: $size;
     line-height: $line-height;
 }
-@mixin parrafos {
+@mixin parrafos ($size, $height){
     color: $color-negro;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
+    font-size: $size;
+    line-height: $height;
 }
 @mixin title-card {
     font-family: 'Lexend';
@@ -180,4 +184,21 @@ $color-negro: #000112;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: $color-blanco;
+}
+
+@mixin p-slide-testimonio {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: $color-azul;
+}
+@mixin p-slide-test-name {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-azul;
 }

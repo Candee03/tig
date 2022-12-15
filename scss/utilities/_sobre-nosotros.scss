@@ -3,22 +3,59 @@
 body main#main-SobreNosotros { 
     h1.h1-SN {
         margin: 1.5rem;
-        @include titulos;
+        @include titulos(26px, 40px);
     }
     p.p1-SN {
-        margin: 1.5rem;
-        @include parrafos;
+        margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+        @include parrafos (16px, 30px);
+    }
+    p.p1-SN2 {
+        margin: 0 1.5rem 1.5rem 1.5rem;
+        @include parrafos (16px, 30px);
     }
     h2.h2-SN {
         margin: 1.5rem;
-        @include subtitulos (700, 32px);
+        @include subtitulos (700, 22px, 32px);
     }
     div.swiper{
         div.swiper-wrapper{ 
             div.swiper-slide {
-                div {
-                    img.img-slide1{
-                        width: 12.5rem;
+                div.margen, div.estilo3 {
+                    width: 200px;
+                    height: 260px;
+                    background: $color-slide;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                    border-radius: 24px;
+                    div.div-slide1{
+                        padding-top: 1.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .logo-slide {
+                            width: auto;
+                            height: 107px;
+                        }
+                        .subtitulo-valores {
+                            margin-top: 1rem;
+                            font-style: normal;
+                            font-family: 'Lexend';
+                            font-weight: 700;
+                            font-size: 32px;
+                            line-height: 40px;
+                            text-align: center;
+                            color: $color-azul;
+                        }
+                        .texto-valores {
+                            padding: 0 1.5rem;
+                            font-style: normal;
+                            font-family: 'Lexend';
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 28px;
+                            text-align: center;
+                            color: $color-azul;
+                        }
                     }
                 }
             }
@@ -33,7 +70,7 @@ body main#main-SobreNosotros {
                     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
                     border-radius: 24px;
                     img.img-slide2 {
-                        @extend img.img-slide1;
+                        width: 12.5rem;
                     }
                 }
             }
@@ -42,7 +79,11 @@ body main#main-SobreNosotros {
     p.p2-SN {
         @extend p.p1-SN;
     }
+    p.p2-SN2 {
+        @extend p.p1-SN2;
+    }
     h2.h2-SN-2 {
-        @extend h2.h2-SN;
+        margin: 1.5rem 1.5rem 0 1.5rem;
+        @include subtitulos (700, 22px, 32px);
     }
 }

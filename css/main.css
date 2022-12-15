@@ -15,7 +15,7 @@ body footer.pieDePagina {
     align-items: center; }
     body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
       margin-bottom: 1.5rem;
-      color: #F1FAFF;
+      color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
       font-weight: 400;
@@ -57,7 +57,7 @@ body footer.pieDePagina {
         border: #F39100 4px solid; }
     body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
       margin-bottom: 1.5rem;
-      color: #F1FAFF;
+      color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
       font-weight: 400;
@@ -87,7 +87,7 @@ body footer.pieDePagina {
           font-size: 20px;
           line-height: 24px;
           text-decoration: none;
-          color: #F1FAFF; }
+          color: #FAFAFA; }
       body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton img.logo-redesSociales {
         margin: 0 0.5rem 0 0.5rem; }
   body footer.pieDePagina div.div-footer-links {
@@ -97,7 +97,7 @@ body footer.pieDePagina {
     padding: 0;
     margin: 1.5rem 0; }
     body footer.pieDePagina div.div-footer-links h3 {
-      color: #F1FAFF;
+      color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
       text-transform: uppercase;
@@ -106,7 +106,7 @@ body footer.pieDePagina {
       line-height: 40px;
       text-decoration: none; }
     body footer.pieDePagina div.div-footer-links a {
-      color: #F1FAFF;
+      color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
       text-transform: uppercase;
@@ -128,7 +128,8 @@ body header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #179BD0; }
+  background-color: #FAFAFA;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15); }
   body header nav.contenedor {
     display: flex;
     flex-wrap: inherit;
@@ -145,7 +146,7 @@ body header {
       width: 3.5rem; }
     body header nav.contenedor div.estilo_recuadro_offcanvas {
       max-width: 83%;
-      background-color: #179BD0; }
+      background-color: #FAFAFA; }
       body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header {
         display: inline-block; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header .boton-close {
@@ -168,7 +169,7 @@ body header {
               text-transform: uppercase;
               letter-spacing: 0.02em;
               font-weight: 500;
-              color: #F1FAFF;
+              color: #2D9ACD;
               text-decoration: none; }
             body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
               font-weight: 800 !important; }
@@ -195,7 +196,7 @@ body header {
               font-size: 20px;
               line-height: 24px;
               text-decoration: none;
-              color: #F1FAFF; }
+              color: #FAFAFA; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
             margin: 0 0.5rem 0 0.5rem; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
@@ -209,11 +210,11 @@ body header {
 
 body main#main_index h1.titulo-index {
   margin: 1.5rem;
-  color: #000112;
+  color: #141956;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 40px;
   text-align: center; }
 
@@ -235,18 +236,20 @@ body main#main_index .subtitulos-index {
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px; }
 
 body main#main_index img.img-index {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 1.5rem; }
 
 body main#main_index img.img-index-t, body main#main_index img.img-index-d {
   width: 100%;
+  margin-bottom: 1.5rem;
   display: none; }
 
 body main#main_index p.parrafo-index {
-  margin: 1.5rem;
+  margin: 0 1.5rem;
   color: #000112;
   font-family: 'Lexend';
   font-style: normal;
@@ -256,7 +259,8 @@ body main#main_index p.parrafo-index {
 
 body main#main_index div.cont-btn {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 1.5rem; }
   body main#main_index div.cont-btn a {
     text-decoration: none; }
     body main#main_index div.cont-btn a button.btn-index {
@@ -274,34 +278,70 @@ body main#main_index div.cont-btn {
       letter-spacing: 0.02em;
       color: #F1FAFF; }
 
-body main#main_index div.cont-img-slide-d {
-  display: none; }
+body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18.5rem;
+  height: auto;
+  background: #A6E3FF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 44px; }
+  body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 img.img-testimony, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 img.img-testimony {
+    margin: 1.5rem;
+    width: 13.5rem; }
+  body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-testimony, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-testimony {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #141956;
+    margin: 0 1.5rem; }
+  body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-test-name, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-test-name {
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #141956;
+    margin: 1.5rem;
+    display: flex;
+    align-self: end; }
 
-body main#main-nuestrosSeguros .titulo-nuestrosSeguros {
+body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
   margin: 1.5rem 0;
-  color: #000112;
+  color: #141956;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 40px;
   text-align: center; }
 
-body main#main-nuestrosSeguros .section1-NS {
-  width: 100%;
-  height: 14rem;
-  background-color: #BED4FF;
-  margin-bottom: 1.5rem; }
+body main#main-nuestrosSeguros .img-seguros {
+  width: 100%; }
+
+body main#main-nuestrosSeguros .p-NS {
+  margin: 1.5rem;
+  text-align: center;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; }
 
 body main#main-nuestrosSeguros #section-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 1.5rem; }
+  gap: 1.5rem;
+  margin-bottom: 1.5rem; }
   body main#main-nuestrosSeguros #section-cards .mycard {
-    background: linear-gradient(180deg, #179BD0 0%, #6FD1FF 100%);
+    background: #2B529F;
     width: 342px;
-    height: 342px;
+    height: 224px;
     border-radius: 44px;
     overflow: hidden; }
     body main#main-nuestrosSeguros #section-cards .mycard .card-on {
@@ -312,12 +352,16 @@ body main#main-nuestrosSeguros #section-cards {
         justify-content: center;
         position: relative; }
         body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .card-img {
+          display: none;
+          position: absolute;
+          width: 342px; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .card-img-phone {
           position: absolute;
           width: 342px; }
         body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .logo {
           position: relative;
           height: 2rem;
-          top: 287px;
+          top: 180px;
           margin-right: 0.5rem; }
         body main#main-nuestrosSeguros #section-cards .mycard .card-on .cont-card-on .title-card {
           font-family: 'Lexend';
@@ -326,24 +370,27 @@ body main#main-nuestrosSeguros #section-cards {
           font-size: 24px;
           line-height: 30px;
           color: #FAFAFA;
-          top: 287px;
+          top: 180px;
           position: relative; }
     body main#main-nuestrosSeguros #section-cards .mycard .card-off {
       opacity: 0%;
       transition: 0.3s; }
       body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off {
         display: none; }
-        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .logo2 {
-          margin-bottom: 1rem;
-          height: 92px; }
-        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .title-card {
-          margin-bottom: 1rem;
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 30px;
-          color: #FAFAFA; }
+        body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .cont-titulo {
+          display: flex; }
+          body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .cont-titulo .logo2 {
+            margin-bottom: 1rem;
+            height: 32px;
+            margin-right: 0.5rem; }
+          body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .cont-titulo .title-card {
+            margin-bottom: 1rem;
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+            color: #FAFAFA; }
         body main#main-nuestrosSeguros #section-cards .mycard .card-off .cont-card-off .text-card {
           font-family: 'Lexend';
           font-style: normal;
@@ -395,16 +442,16 @@ body main#main-nuestrosSeguros #section-cards {
 
 body main#main-SobreNosotros h1.h1-SN {
   margin: 1.5rem;
-  color: #000112;
+  color: #141956;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 40px;
   text-align: center; }
 
 body main#main-SobreNosotros p.p1-SN, body main#main-SobreNosotros p.p2-SN {
-  margin: 1.5rem;
+  margin: 1.5rem 1.5rem 0.5rem 1.5rem;
   color: #000112;
   font-family: 'Lexend';
   font-style: normal;
@@ -412,17 +459,57 @@ body main#main-SobreNosotros p.p1-SN, body main#main-SobreNosotros p.p2-SN {
   font-size: 16px;
   line-height: 30px; }
 
-body main#main-SobreNosotros h2.h2-SN, body main#main-SobreNosotros h2.h2-SN-2 {
+body main#main-SobreNosotros p.p1-SN2, body main#main-SobreNosotros p.p2-SN2 {
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px; }
+
+body main#main-SobreNosotros h2.h2-SN {
   margin: 1.5rem;
   color: #000112;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px; }
 
-body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div img.img-slide1, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 div.div-slide-SN1 img.img-slide2 {
-  width: 12.5rem; }
+body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.margen, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.estilo3 {
+  width: 200px;
+  height: 260px;
+  background: #A6E3FF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 24px; }
+  body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.margen div.div-slide1, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.estilo3 div.div-slide1 {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.margen div.div-slide1 .logo-slide, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.estilo3 div.div-slide1 .logo-slide {
+      width: auto;
+      height: 107px; }
+    body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.margen div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores {
+      margin-top: 1rem;
+      font-style: normal;
+      font-family: 'Lexend';
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      color: #141956; }
+    body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.margen div.div-slide1 .texto-valores, body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide div.estilo3 div.div-slide1 .texto-valores {
+      padding: 0 1.5rem;
+      font-style: normal;
+      font-family: 'Lexend';
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #141956; }
 
 body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 {
   height: 200px; }
@@ -434,14 +521,25 @@ body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 24px; }
+    body main#main-SobreNosotros div.swiper div.swiper-wrapper div.swiper-slide.sw2 div.div-slide-SN1 img.img-slide2 {
+      width: 12.5rem; }
 
-body main#main-contacto h1.titulo-contacto {
-  margin: 1.5rem;
+body main#main-SobreNosotros h2.h2-SN-2 {
+  margin: 1.5rem 1.5rem 0 1.5rem;
   color: #000112;
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 22px;
+  line-height: 32px; }
+
+body main#main-contacto h1.titulo-contacto {
+  margin: 1.5rem;
+  color: #141956;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 40px;
   text-align: center; }
 
@@ -458,8 +556,8 @@ body main#main-contacto p.p1-contacto {
   font-family: 'Lexend';
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px; }
+  font-size: 20px;
+  line-height: 30px; }
 
 body main#main-contacto section ul.nav-tabs {
   border: none;
@@ -514,8 +612,8 @@ body main#main-contacto section div.tab-content {
         font-family: 'Lexend';
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
-        line-height: 36px; }
+        font-size: 16px;
+        line-height: 40px; }
       body main#main-contacto section div.tab-content div.tab-pane form div.cont-input .input-formulario {
         height: 3.5rem; }
     body main#main-contacto section div.tab-content div.tab-pane form button.btn-send {
@@ -634,7 +732,21 @@ body main div#carouselExampleSlidesOnly div.carousel-inner {
     height: auto;
     object-fit: cover;
     display: block; }
+  .swiper-slide div.margen1 {
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover;
+    display: block; }
   .swiper-slide img.estilo2 {
+    display: block;
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover; }
+  .swiper-slide div.estilo2 {
     display: block;
     margin-left: 1rem;
     min-width: 250px;
@@ -659,7 +771,7 @@ body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.of
   background: transparent;
   border-radius: 8px;
   font-family: 'Lexend';
-  color: #F1FAFF;
+  color: #2D9ACD;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 24px;
@@ -706,12 +818,44 @@ body {
     display: block; } }
 
 @media (min-width: 768px) {
+  body main#main_index h1.titulo-index {
+    margin: 2rem;
+    color: #141956;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center; }
   body main#main_index img.img-index-t {
     display: inline; }
+  body main#main_index .subtitulos-index {
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px; }
   body main#main_index img.img-index {
     display: none; }
   body main#main_index .subtitulos-index, body main#main_index p.parrafo-index {
     margin: 1.5rem 3.5rem; }
+  body main#main_index p.parrafo-index {
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px; }
+  body main#main-contacto h1.titulo-contacto {
+    margin: 2rem;
+    color: #141956;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center; }
   body main#main-contacto div.cont-img-contact {
     display: flex; }
     body main#main-contacto div.cont-img-contact img.img-contacto {
@@ -747,6 +891,56 @@ body {
       font-size: 18px;
       line-height: 40px;
       color: #000112; }
+  body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
+    margin: 2rem;
+    color: #141956;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center; }
+  body main#main-SobreNosotros h1.h1-SN {
+    margin: 2rem;
+    color: #141956;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center; }
+  body main#main-SobreNosotros p.p1-SN, body main#main-SobreNosotros p.p2-SN {
+    margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px; }
+  body main#main-SobreNosotros p.p1-SN2, body main#main-SobreNosotros p.p2-SN2 {
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px; }
+  body main#main-SobreNosotros h2.h2-SN {
+    margin: 1.5rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px; }
+  body main#main-SobreNosotros h2.h2-SN-2 {
+    margin: 1.5rem 1.5rem 0 1.5rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px; }
   body footer.pieDePagina {
     padding: 3.5rem;
     display: block; }
@@ -786,18 +980,6 @@ body {
         margin-left: 0.25rem;
         padding-left: 0.25rem;
         border-left: 1px solid white; } }
-
-@media (min-width: 1024px) {
-  body main#main_index div.swiper {
-    display: none; }
-  body main#main_index div.cont-img-slide-d {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-bottom: 3rem; }
-    body main#main_index div.cont-img-slide-d .estilo-img-slide-d {
-      width: 360; } }
 
 * {
   margin: 0;

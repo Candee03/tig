@@ -1,15 +1,17 @@
 @import "variables";
 
 body main#main-nuestrosSeguros {
-    .titulo-nuestrosSeguros {
+    h1.titulo-nuestrosSeguros {
         margin: 1.5rem 0;
-        @include titulos;
+        @include titulos(26px, 40px);
     }
-    .section1-NS {
+    .img-seguros {
         width: 100%;
-        height: 14rem;
-        background-color: $color-lavanda;
-        margin-bottom: 1.5rem;
+    }
+    .p-NS{
+        margin: 1.5rem;
+        text-align: center;
+        @include parrafos(20px, 30px);
     }
 
     #section-cards {
@@ -17,11 +19,12 @@ body main#main-nuestrosSeguros {
         justify-content: center;
         flex-wrap: wrap;
         gap: 1.5rem;
+        margin-bottom: 1.5rem;
         // CARD
         .mycard {
-            background: linear-gradient(180deg, #179BD0 0%, #6FD1FF 100%);
+            background: #2B529F;
             width: 342px;
-            height: 342px;
+            height: 224px;
             border-radius: 44px;
             overflow: hidden;
             .card-on {
@@ -32,18 +35,23 @@ body main#main-nuestrosSeguros {
                     justify-content: center;
                     position: relative;
                     .card-img {
+                        display: none;
+                        position: absolute;
+                        width: 342px;
+                    }
+                    .card-img-phone {
                         position: absolute;
                         width: 342px;
                     }
                     .logo {
                         position: relative;
                         height: 2rem;
-                        top: 287px;
+                        top: 180px;
                         margin-right: 0.5rem;
                     }
                     .title-card {
                         @include title-card;
-                        top: 287px;
+                        top: 180px;
                         position: relative;
                     }
                 }
@@ -53,13 +61,17 @@ body main#main-nuestrosSeguros {
                 transition: 0.3s;
                 .cont-card-off {
                     display: none;
-                    .logo2 {
-                        margin-bottom: 1rem;
-                        height: 92px;
-                    }
-                    .title-card {
-                        margin-bottom: 1rem;
-                        @include title-card;
+                    .cont-titulo {
+                        display: flex;
+                        .logo2 {
+                            margin-bottom: 1rem;
+                            height: 32px;
+                            margin-right: 0.5rem;
+                        }
+                        .title-card {
+                            margin-bottom: 1rem;
+                            @include title-card;
+                        }
                     }
                     .text-card {
                         @include txt-card;

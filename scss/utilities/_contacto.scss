@@ -3,7 +3,7 @@
 body main#main-contacto {
     h1.titulo-contacto {
         margin: 1.5rem;
-        @include titulos;
+        @include titulos(26px, 40px);
     }
     div.cont-img-contact {
         img.img-contacto {
@@ -16,7 +16,7 @@ body main#main-contacto {
     }
     p.p1-contacto {
         margin: 1.5rem;
-        @include subtitulos (400, 36px);
+        @include parrafos(20px, 30px);;
     }
     section {
         ul.nav-tabs {
@@ -71,8 +71,8 @@ body main#main-contacto {
                             font-family: 'Lexend';
                             font-style: normal;
                             font-weight: 400;
-                            font-size: 20px;
-                            line-height: 36px;
+                            font-size: 16px;
+                            line-height: 40px;
                         }
                         .input-formulario {
                             height: 3.5rem;

@@ -76,8 +76,15 @@ $nav-bar-break: 992px;
     body {
         //index
         main#main_index {
+            h1.titulo-index {
+                margin: 2rem;
+                @include titulos(36px, 44px);
+            }
             img.img-index-t {
                 display: inline;
+            }
+            .subtitulos-index {
+                @include subtitulos (700, 28px, 40px);
             }
             img.img-index {
                 display: none;
@@ -85,9 +92,16 @@ $nav-bar-break: 992px;
             .subtitulos-index, p.parrafo-index {
                 margin: 1.5rem 3.5rem;
             }
+            p.parrafo-index {
+                @include parrafos (20px, 36px);
+            }
         }
         //contacto
         main#main-contacto {
+            h1.titulo-contacto {
+                margin: 2rem;
+                @include titulos(36px, 44px);
+            }
             div.cont-img-contact {
                 display: flex;
                 img.img-contacto {
@@ -127,6 +141,36 @@ $nav-bar-break: 992px;
                 }
             }
         }
+        //SEGUROS
+        main#main-nuestrosSeguros {
+            h1.titulo-nuestrosSeguros {
+                margin: 2rem;
+                @include titulos(36px, 44px);
+            }
+        }
+        //SOBRE NOSOTROS
+        main#main-SobreNosotros {
+            h1.h1-SN {
+                margin: 2rem;
+                @include titulos(36px, 44px);
+            }
+            p.p1-SN {
+                margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                @include parrafos (20px, 36px);
+            }
+            p.p1-SN2 {
+                margin: 0 1.5rem 1.5rem 1.5rem;
+                @include parrafos (20px, 36px);
+            }
+            h2.h2-SN {
+                margin: 1.5rem;
+                @include subtitulos (700, 28px, 40px);
+            }
+            h2.h2-SN-2 {
+                margin: 1.5rem 1.5rem 0 1.5rem;
+                @include subtitulos (700, 28px, 40px);
+            }
+        } 
 
 
         //footer
@@ -188,19 +232,7 @@ $nav-bar-break: 992px;
 @media (min-width: $laptop) {
     body {
         main#main_index {
-            div.swiper {
-                display: none;
-            }
-            div.cont-img-slide-d {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 1.5rem;
-                margin-bottom: 3rem;
-                .estilo-img-slide-d {
-                    width: 360;
-                }
-            }
+            
         }
     }
 }

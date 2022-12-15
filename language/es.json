@@ -1,10 +1,13 @@
 {
     "navbar-index": "Inicio",
     "h1-index": "¡Te damos la bienvenida!",
-    "h2-index": "¿Por qué contratar un seguro?",
-    "p1-index": "Los imprevistos ocurren, pero no tienen por qué tomarte por sorpresa. Contratar un seguro te permitirá afrontar distintas situaciones de tu vida sin contraer deudas. Conocer las opciones disponibles y cómo pueden beneficiarte te ayudará a tomar decisiones de las que no te arrepentirás.",
+    "h2-index": "¿Por qué estar asegurado?",
+    "p1-index": "Los imprevistos ocurren, pero no tienen por qué tomarte por sorpresa. Contratar un seguro te permitirá afrontar distintas situaciones de tu vida sin contraer deudas.",
+    "p2-index": "Conocer las opciones disponibles y cómo pueden beneficiarte te ayudará a tomar decisiones de las que no te arrepentirás.",
     "bot1-index": "ver seguros",
     "h2-index2": "¿Qué opinan nuestros clientes?",
+    "testimony1": "“Los recomiendo ampliamente, los encontré por TikTok son súper amables y te resuelven todas tus dudas, te responden a la brevedad, simplemente quedé encantada con el servicio.”",
+    "name-testimony1": "Valeria Vera",
 
 
     "navbar-contacto": "Contactar",
@@ -24,16 +27,34 @@
     "boton-enviar-wsp": "Enviar Whatsapp",
 
 
-    "navbar-sobre-nosotros":"Sobre Nosotros",
-    "h1-SN":"Sobre Nosotros",
-    "p1-SN":"Somos especialistas en seguros de vida y salud en Estados Unidos. Nuestro objetivo es brindar un servicio profesional, amable y con interés sincero en quien acude a nosotros por asesoramiento. Nos da mucha satisfacción tener un impacto positivo en las vidas de nuestros clientes y brindarles tranquilidad en momentos especiales.",
+    "navbar-sobre-nosotros":"¿Quienes somos?",
+    "h1-SN":"¿Quienes somos?",
+    "p1-SN":"Somos especialistas en seguros de vida y salud en Estados Unidos. Nuestro objetivo es brindar un servicio profesional, amable y con interés sincero en quien acude a nosotros por asesoramiento.",
+    "p1-2-SN":"Nos da mucha satisfacción tener un impacto positivo en las vidas de nuestros clientes y brindarles tranquilidad en momentos especiales.",
+
+    "sub-valor1-SN": "+10 AÑOS",
+    "txt-valor1-SN": "aportando valor",
+
+    "sub-valor2-SN": "+1000",
+    "txt-valor2-SN": "clientes satisfechos",
+
+    "sub-valor3-SN": "6",
+    "txt-valor3-SN": "miembros de equipo",
+
+    "sub-valor4-SN": "+13",
+    "txt-valor4-SN": "estados de USA",
+
+    "sub-valor5-SN": "10",
+    "txt-valor5-SN": "certificados",
+
     "h2-SN":"¿Por qué elegirnos?",
-    "p2-SN":"Trabajamos con empresas de seguros privados y con ObamaCare, por lo que siempre encontrarás una opción que se adapten a tus necesidades. Nuestros agentes hablan varios idiomas y brindamos soporte las 24 hs del día los 7 días de la semana.",
+    "p2-SN":"Trabajamos con empresas de seguros privados y con ObamaCare, por lo que siempre encontrarás una opción que se adapten a tus necesidades.",
+    "p2-2-SN":"Nuestros agentes hablan varios idiomas y brindamos soporte las 24 hs del día los 7 días de la semana.",
     "h2-SN-2":"Nuestros Socios",
     
     
     "navbar-nuestros-seguros":"Seguros",
-    "h1-NS": "Nuestros Seguros",
+    "h1-NS": "Seguros",
     "p-NS": "Conoce las distintas opciones de seguros que tenemos para ofrecerte y cómo pueden beneficiarte.",
     "title-card1": "Seguros de salud",
     "txt-card1": " ¡Nada más importante que tu salud! Recibe atención médica evitando deudas.",

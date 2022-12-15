@@ -8,6 +8,7 @@ body header {
     align-items: center;
     justify-content: space-between;
     background-color: $color-principal-header;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     nav.contenedor {
         display: flex;
         flex-wrap: inherit;

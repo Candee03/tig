@@ -4,7 +4,7 @@ body {
     main#main_index {
         h1.titulo-index {
             margin: 1.5rem;
-            @include titulos;
+            @include titulos(26px, 40px);
         }
         div#carouselExampleSlidesOnly div.carousel-inner {
             div.carousel-item {
@@ -24,22 +24,25 @@ body {
         }
         .subtitulos-index {
             margin: 1.5rem;
-            @include subtitulos (700, 32px);
+            @include subtitulos (700, 22px, 32px);
         }
         img.img-index {
             width: 100%;
+            margin-bottom: 1.5rem;
         }
         img.img-index-t, img.img-index-d {
             width: 100%;
+            margin-bottom: 1.5rem;
             display: none;
         }
         p.parrafo-index {
-            margin: 1.5rem;
-            @include parrafos;
+            margin: 0 1.5rem;
+            @include parrafos (16px, 30px);
         }
         div.cont-btn {
             display: flex;
             justify-content: center;
+            margin: 1.5rem;
             a {
                 text-decoration: none;
                 button.btn-index {
@@ -47,8 +50,35 @@ body {
                 }
             }
         }
-        div.cont-img-slide-d {
-            display: none;
+        div.mySwiper {
+            div.swiper-wrapper {
+                div.swiper-slide {
+                    .margen1, .estilo2 {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 18.5rem;
+                        height: auto;
+                        background: $color-slide;
+                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+                        border-radius: 44px;
+                        img.img-testimony {
+                            margin: 1.5rem;
+                            width: 13.5rem;
+                        }
+                        .p-slide-testimony {
+                            @include p-slide-testimonio;
+                            margin: 0 1.5rem;
+                        }
+                        .p-slide-test-name {
+                            @include p-slide-test-name;
+                            margin: 1.5rem;
+                            display: flex;
+                            align-self: end;
+                        }
+                    }
+                }
+            }
         }
     }
 }
