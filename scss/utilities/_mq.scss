@@ -81,6 +81,7 @@ $nav-bar-break: 992px;
                 @include titulos(36px, 44px);
             }
             img.img-index-t {
+                width: 100%;
                 display: inline;
             }
             .subtitulos-index {
@@ -147,6 +148,57 @@ $nav-bar-break: 992px;
                 margin: 2rem;
                 @include titulos(36px, 44px);
             }
+            .img-seguros {
+                display: none;
+            }
+            .img-seguros-t {
+                display: inline;
+            }
+            .p-NS{
+                line-height: 36px;
+            }
+            #section-cards {
+                margin: 1.5rem;
+                .mycard {
+                    height: 342px;
+                    .card-on {
+                        .cont-card-on {
+                            .card-img {
+                                display: block;
+                                position: absolute;
+                                width: 342px;
+                            }
+                            .card-img-phone {
+                                display: none;
+                            }
+                            .logo {
+                                top: 285px;
+                            }
+                            .title-card {
+                                top: 285px;
+                            }
+                        }
+                    }
+                    .card-off {
+                        .cont-card-off {
+                            .cont-titulo {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                .logo2 {
+                                    margin-bottom: 1rem;
+                                    width: auto;
+                                    height: 92px;
+                                    margin-right: 0.5rem;
+                                }
+                                .title-card {
+                                    margin-bottom: 1rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         //SOBRE NOSOTROS
         main#main-SobreNosotros {
@@ -154,11 +206,25 @@ $nav-bar-break: 992px;
                 margin: 2rem;
                 @include titulos(36px, 44px);
             }
-            p.p1-SN {
+            div.cont-sobre-nosotros-iframe {
+                div#cont-iframeYText {
+                    div.text-iframe {
+                        p.p1-SN {
+                            margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                            @include parrafos (20px, 36px);
+                        }
+                        p.p1-SN2 {
+                            margin: 0 1.5rem 1.5rem 1.5rem;
+                            @include parrafos (20px, 36px);
+                        }
+                    }
+                }
+            }
+            p.p2-SN {
                 margin: 1.5rem 1.5rem 0.5rem 1.5rem;
                 @include parrafos (20px, 36px);
             }
-            p.p1-SN2 {
+            p.p2-SN2 {
                 margin: 0 1.5rem 1.5rem 1.5rem;
                 @include parrafos (20px, 36px);
             }
@@ -171,16 +237,13 @@ $nav-bar-break: 992px;
                 @include subtitulos (700, 28px, 40px);
             }
         } 
-
-
         //footer
         footer.pieDePagina {
-            padding: 3.5rem;
-            display: block;
             div.cont_pieDePagina {
-                width: 100%;
+                width: 90%;
                 flex-direction: row;
                 align-items: flex-end;
+                justify-content: space-between;
                 div.form-sub {
                     display: flex;
                     flex-direction: column;
@@ -231,9 +294,227 @@ $nav-bar-break: 992px;
 }
 @media (min-width: $laptop) {
     body {
+        //index
         main#main_index {
-            
+            .subtitulos-index {
+                @include subtitulos (700, 32px, 40px);
+            }
+            .subtitulos-index, p.parrafo-index {
+                margin: 3rem 9.75rem;
+            }
+            p.parrafo-index {
+                @include parrafos (24px, 40px);
+            }
+            .mySwiper {
+                display: none;
+            }
+            #testimony-content {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                .content-card-testimony {
+                    margin: 0 1rem;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 1.5rem;
+                    .card-testimony {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 22.5rem;
+                        height: auto;
+                        background: $color-slide;
+                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+                        border-radius: 44px;
+                        img.img-testimony {
+                            margin: 1.5rem;
+                            width: 13.5rem;
+                        }
+                        .p-slide-testimony {
+                            @include p-slide-testimonio;
+                            margin: 0 1.5rem;
+                        }
+                        .p-slide-test-name {
+                            @include p-slide-test-name;
+                            margin: 1.5rem;
+                            display: flex;
+                            align-self: end;
+                        }
+                    }
+                }
+            }
+        }
+        //SOBRE NOSOTROS
+        main#main-SobreNosotros {
+            h1.h1-SN {
+                margin: 2rem;
+                @include titulos(36px, 44px);
+            }
+            div.cont-sobre-nosotros-iframe {
+                display: flex;
+                justify-content: center;
+                div#cont-iframeYText {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 90%;
+                    div.text-iframe {
+                        width: 40%;
+                        p.p1-SN {
+                            margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                            @include parrafos (24px, 40px);
+                        }
+                        p.p1-SN2 {
+                            margin: 0 1.5rem 1.5rem 1.5rem;
+                            @include parrafos (24px, 40px);
+                        }
+                    }
+                }
+            }
+            p.p2-SN {
+                margin: 1.5rem 6rem 0.5rem 6rem;
+                @include parrafos (24px, 40px);
+            }
+            p.p2-SN2 {
+                margin: 0 6rem 1.5rem 6rem;
+                @include parrafos (24px, 40px);
+            }
+            h2.h2-SN {
+                margin: 1.5rem 6rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+            h2.h2-SN-2 {
+                margin: 1.5rem 6rem 0 6rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+        }
+        //SEGUROS
+        main#main-nuestrosSeguros {
+            h1.titulo-nuestrosSeguros {
+                font-size: 40px;
+                line-height: 56px;
+            }
+            .img-seguros-d {
+                display: inline;
+            }
+            .img-seguros-t {
+                display: none;
+            }
+            .p-NS{
+                font-size: 32px;
+                line-height: 48px;
+            }
+        }
+        //footer
+        footer.pieDePagina {
+            div.cont_pieDePagina {
+                div.form-sub {
+                    justify-content: center;
+                    p.p2-footer {
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-align: center;
+                    }
+                    form.form-foot {
+                        input.input-formulario {
+                            width: 455px;
+                        }
+                        button.btn-send {
+                            width: 455px;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+                div.div-footer-contact {
+                    width: 55%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    p.parrafo_footer {
+                        font-size: 24px;
+                        line-height: 40px;
+                    }
+                    ul.ul-boton {
+                        margin-bottom: 0;
+                        li.link_nav_contacto {
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+            div.div-footer-links {
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                h3 {
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+                a {
+                    font-size: 18px;
+                    line-height: 32px;
+                }
+            }
         }
     }
 }
-
+@media (min-width: 1300px) {
+    body {
+        //index
+        main#main_index {
+            p.parrafo-index {
+                display: none;
+            }
+            div.cont-btn {
+                display: none;
+            }
+            div.cont-img-index {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img.img-index-d {
+                    position: relative;
+                    z-index: -1;
+                    width: 80%;
+                    max-width: 85rem;
+                    display: block;
+                }
+                .cont-parrafos-index-d {
+                    position: absolute;
+                    width: 75%;
+                    max-width: 80rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    p.parrafo-index-d {
+                        margin-top: 1rem;
+                        width: 35%;
+                        display: inline;
+                        @include parrafos (24px, 40px);
+                    }
+                    p.parrafo-index-d2 {
+                        width: 35%;
+                        display: inline;
+                        @include parrafos (24px, 40px);
+                    }
+                    div.cont-btn-d {
+                        display: flex;
+                        justify-content: center;
+                        margin: 1.5rem;
+                        a {
+                            text-decoration: none;
+                            button.btn-index {
+                                @include boton;
+                            }
+                        }
+                    }
+                }
+            }
+            img.img-index-t {
+                display: none;
+            }
+        }
+    }
+}

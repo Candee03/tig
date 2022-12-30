@@ -5,22 +5,31 @@ body main#main-SobreNosotros {
         margin: 1.5rem;
         @include titulos(26px, 40px);
     }
-    p.p1-SN {
-        margin: 1.5rem 1.5rem 0.5rem 1.5rem;
-        @include parrafos (16px, 30px);
-    }
-    p.p1-SN2 {
-        margin: 0 1.5rem 1.5rem 1.5rem;
-        @include parrafos (16px, 30px);
+    div.cont-sobre-nosotros-iframe {
+        div#cont-iframeYText {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div.text-iframe {
+                p.p1-SN {
+                    margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                    @include parrafos (16px, 30px);
+                }
+                p.p1-SN2 {
+                    margin: 0 1.5rem 1.5rem 1.5rem;
+                    @include parrafos (16px, 30px);
+                }
+            }
+        }
     }
     h2.h2-SN {
         margin: 1.5rem;
         @include subtitulos (700, 22px, 32px);
     }
-    div.swiper{
-        div.swiper-wrapper{ 
+    #sw2, #sw1{
+        #swiperWrapper, #swiperWrapper1{
             div.swiper-slide {
-                div.margen, div.estilo3 {
+                div.margenSN, div.estilo3 {
                     width: 200px;
                     height: 260px;
                     background: $color-slide;
@@ -59,7 +68,7 @@ body main#main-SobreNosotros {
                     }
                 }
             }
-            div.swiper-slide.sw2 {
+            div.sw2 {
                 height: 200px;
                 div.div-slide-SN1 {
                     width: auto;
@@ -77,10 +86,12 @@ body main#main-SobreNosotros {
         }
     }
     p.p2-SN {
-        @extend p.p1-SN;
+        margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+        @include parrafos (16px, 30px);
     }
     p.p2-SN2 {
-        @extend p.p1-SN2;
+        margin: 0 1.5rem 1.5rem 1.5rem;
+        @include parrafos (16px, 30px);
     }
     h2.h2-SN-2 {
         margin: 1.5rem 1.5rem 0 1.5rem;

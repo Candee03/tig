@@ -30,9 +30,11 @@ body {
             width: 100%;
             margin-bottom: 1.5rem;
         }
-        img.img-index-t, img.img-index-d {
-            width: 100%;
+        img.img-index-t, div.cont-img-index img.img-index-d {
             margin-bottom: 1.5rem;
+            display: none;
+        }
+        p.parrafo-index-d2, p.parrafo-index-d {
             display: none;
         }
         p.parrafo-index {
@@ -49,6 +51,12 @@ body {
                     @include boton;
                 }
             }
+        }
+        div.cont-btn-d {
+            display: none;
+        }
+        .content-card-testimony {
+            display: none;
         }
         div.mySwiper {
             div.swiper-wrapper {

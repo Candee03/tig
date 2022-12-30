@@ -18,47 +18,49 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    img.margen {
-        margin-left: 1rem;
-        min-width: 250px;
-        max-width: 296px;
-        height: auto;
-        object-fit: cover;
-        display: block;
-    }
-    div.margen1 {
-        margin-left: 1rem;
-        min-width: 250px;
-        max-width: 296px;
-        height: auto;
-        object-fit: cover;
-        display: block;
-    }
-    img.estilo2 {
-        display: block;
-        margin-left: 1rem;
-        min-width: 250px;
-        max-width: 296px;
-        height: auto;
-        object-fit: cover;
-    }
-    div.estilo2 {
-        display: block;
-        margin-left: 1rem;
-        min-width: 250px;
-        max-width: 296px;
-        height: auto;
-        object-fit: cover;
-    }
-    div.estilo3 {
-        width: 12.5rem;
-        display: inline-block;
-        object-fit: cover;
-    }
-    div.margen {
-        width: 12.5rem;
-        display: inline-block;
-        margin-left: 1rem;
-        object-fit: cover;
-    }
+}
+
+div.margen1 {
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+img.estilo2 {
+    display: block;
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover;
+}
+div.estilo2 {
+    display: block;
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover;
+}
+div.estilo3 {
+    width: 12.5rem;
+    display: inline-block;
+    object-fit: cover;
+}
+div.margenSN {
+    width: 12.5rem;
+    display: inline-block;
+    margin-left: 1rem;
+    object-fit: cover;
+}
+
+img.margen {
+    margin-left: 1rem;
+    min-width: 250px;
+    max-width: 296px;
+    height: auto;
+    object-fit: cover;
+    display: block;
 }
