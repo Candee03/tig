@@ -6,7 +6,7 @@ body {
             margin: 1.5rem;
             @include titulos(26px, 40px);
         }
-        div#carouselExampleSlidesOnly div.carousel-inner {
+        div#carouselExampleRide div.carousel-inner {
             div.carousel-item {
                 img.img-1, img.img-2, img.img-3 {
                     width: 100%;

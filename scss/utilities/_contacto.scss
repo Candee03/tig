@@ -13,6 +13,10 @@ body main#main-contacto {
             width: 100%;
             display: none;
         }
+        img.img-contacto-d {
+            width: 100%;
+            display: none;
+        }
     }
     p.p1-contacto {
         margin: 1.5rem;
@@ -78,12 +82,16 @@ body main#main-contacto {
                             height: 3.5rem;
                         }
                     }
-                    button.btn-send {
-                        margin-bottom: 1.5rem;
-                        @include boton-sendYreset ($color-boton-resaltado, $color-blanco);
-                    }
-                    button.btn-reset {
-                        @include boton-sendYreset ($color-blanco, $color-boton-resaltado);
+                    div.contenedor-btn-form {
+                        div.cont-btn {
+                            button.btn-send {
+                                margin-bottom: 1.5rem;
+                                @include boton-sendYreset ($color-boton-resaltado, $color-blanco);
+                            }
+                            button.btn-reset {
+                                @include boton-sendYreset ($color-blanco, $color-boton-resaltado);
+                            }
+                        }
                     }
                 }
                 div.cont-telefono {

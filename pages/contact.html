@@ -66,6 +66,7 @@
       <img src="../img/img-2-contacto.png" alt="" class="img-contacto">
       <img src="../img/img-1-contacto-tablet.png" alt="" class="img-contacto-t">
       <img src="../img/img-2-contacto-tablet.png" alt="" class="img-contacto-t">
+      <img src="../img/banner-contacto-desktop.png" alt="" class="img-contacto-d">
     </div>
     <p class="p1-contacto" lng="p1-contacto"></p>
 
@@ -112,11 +113,15 @@
             </div>
             <div class="cont-input">
               <label for="message" lng="label-4"></label>
-              <textarea class="input-formulario2" name="Text-Area" id="message" cols="30" rows="10"></textarea>
+              <textarea class="input-formulario2" name="Text-Area" id="message" cols="20" rows="6"></textarea>
             </div>
-          
-            <button class="btn-send" type="submit" lng="boton-enviar"></button>
-            <button class="btn-reset" type="reset" lng="boton-vaciar-form"></button>
+            
+            <div class="contenedor-btn-form">
+              <div class="cont-btn">
+                <button class="btn-send" type="submit" lng="boton-enviar"></button>
+                <button class="btn-reset" type="reset" lng="boton-vaciar-form"></button>
+              </div>
+            </div>
             <input type="hidden" name="_captcha" value="false">
           </form>
           
@@ -142,7 +147,9 @@
   
   <!-- PIE DE PAGINA -->
   <footer class="pieDePagina">
-    <img class="img_footer" src="../img/logo-footer.png" alt="">
+    <div class="cont-img-footer">
+      <img class="img_footer" src="../img/logo-footer.png" alt="">
+    </div>
     <div class="cont_pieDePagina">
       <div class="form-sub">
         <p class="p2-footer" lng="p-footer2"></p>

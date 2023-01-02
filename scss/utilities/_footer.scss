@@ -5,11 +5,13 @@ body footer.pieDePagina {
     display: flex;
     flex-direction: column;
     align-items: center;
-    img.img_footer {
-        margin: 1.5rem 0 1.5rem;
-        height: auto;
-        width: 90%;
-        max-width: 340px;
+    div.cont-img-footer {
+        img.img_footer {
+            margin: 1.5rem 0 1.5rem;
+            height: auto;
+            width: 90%;
+            max-width: 340px;
+        }
     }
     div.cont_pieDePagina {
         width: 85%;
