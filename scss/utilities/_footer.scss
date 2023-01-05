@@ -63,8 +63,11 @@ body footer.pieDePagina {
                         @include link-contact;
                     }
                 }
-                img.logo-redesSociales {
-                    margin: 0 0.5rem 0 0.5rem;
+                a.link-redes-sociales {
+                    text-decoration: none;
+                    img.logo-redesSociales {
+                        margin: 0 0.5rem 0 0.5rem;
+                    }
                 }
             }
         }
@@ -75,10 +78,10 @@ body footer.pieDePagina {
         align-items: center;
         padding: 0;
         margin: 1.5rem 0;
-        h3 {
+        a.link-pol-de-priv h3 {
             @include estilo-link-footer;
         }
-        a {
+        a.links-footer, a.link-pol-de-priv {
             @include estilo-link-footer;
         }
     }

@@ -81,20 +81,12 @@ const pintarCards = () => {
         `
         contenedorCards.appendChild(contMyCard)
 
-        
         // contMyCard.addEventListener("click", () => {
-        //     if(contMyCard.className.split(' ').length > 1){
-        //         contMyCard.className = "mycard"
-        //     }else{
-        //         contMyCard.className = "mycard info"
-        //     }
+        //     contMyCard.className.split(' ').length > 1? contMyCard.className = "mycard" : contMyCard.className = "mycard info"
         // })
-        contMyCard.addEventListener("mouseover", (event) => {
-            contMyCard.className = "mycard info"
-        },false)
-        contMyCard.addEventListener("mouseout", (event) => {
-            contMyCard.className = "mycard"
-        },false)
+
+        contMyCard.addEventListener("mouseover", () => contMyCard.className = "mycard info")
+        contMyCard.addEventListener("mouseout", () => contMyCard.className = "mycard")
     });
 }
 

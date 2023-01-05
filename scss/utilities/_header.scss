@@ -35,6 +35,7 @@ body header {
             background-color: $color-principal-header;
             div.offcanvas-header {
                 display: inline-block;
+                padding: 1rem 0 0 1rem;
                 .boton-close {
                     background: transparent;
                 }
@@ -43,9 +44,8 @@ body header {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-around;
                 ul.navbar-nav {
-                    margin-top: 3rem;
                     align-items: center;
                     li.nav-item {
                         margin-bottom: 3rem;
@@ -58,7 +58,6 @@ body header {
                     }
                 }
                 ul.ul-boton {
-                    margin-top: 4.5rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -73,9 +72,6 @@ body header {
                     img.logo-redesSociales {
                         margin: 0 0.5rem 0 0.5rem;
                     }
-                }
-                select.estilo_select {
-                    margin-top: 4.5rem;
                 }
             }
         }

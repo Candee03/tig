@@ -9,6 +9,21 @@
     "testimony1": "“Los recomiendo ampliamente, los encontré por TikTok son súper amables y te resuelven todas tus dudas, te responden a la brevedad, simplemente quedé encantada con el servicio.”",
     "name-testimony1": "Valeria Vera",
 
+    "testimony2": "“Excelente servicio, las ocaciones en la que he necesitado información me atienden súper rápido y el día de ayer me ayudaron a sacar una cita en urgencias, lo cual me ayudó bastante a que me atendieran rápido, los costos fueron los acordados. Recomiendo estos seguros ampliamente!”",
+    "name-testimony2": "Tatiana Sosa",
+
+    "testimony3": "“Los recomiendo ampliamente di con ellos por medio de Tik tok ya que estaba desesperada porque no tenia aseguranza y estaba en la recta final de mi embarazo. Ellos me atendieron amablemente explicando a detalle cada una de mis dudas, buscando una aseguranza acorde a mis necesidades. Muy bien servicio!”",
+    "name-testimony3": "Andrea Ordonez",
+
+    "testimony4": "“Me lo recomendó una amiga y gracias a este seguro estoy haciendo realidad el mayor anhelo de mi vida que es ser mamá solo agradecimiento puedo darles. Excelente servicio y rápida atención. Los amo mejor dicho porque en este país es muy complicado tener una buena atención médica sin seguro y esté realmente es muy adsequible”",
+    "name-testimony4": "Diana Santana Sanchez",
+
+    "testimony5": "“Excelente atención! Resolvieron todas mis dudas y conseguí una cobertura ideal para mi y mi esposo! Además me ayudaron en cada paso del proceso! Súper recomendable!”",
+    "name-testimony5": "Eileen Lauri",
+
+    "testimony6": "“Excelente servicio, durante el proceso de la compra y más importante después de esta. Te acomodan al mejor plan de acuerdo a tus necesidades, altamente satisfecho y plenamente recomendado.”",
+    "name-testimony6": "Alonso Alvarez",
+
 
     "navbar-contacto": "Contactar",
     "h1-contacto": "¡Contáctanos!",
@@ -57,26 +72,54 @@
     "h1-NS": "Seguros",
     "p-NS": "Conoce las distintas opciones de seguros que tenemos para ofrecerte y cómo pueden beneficiarte.",
     "title-card1": "Seguros de salud",
-    "txt-card1": " ¡Nada más importante que tu salud! Recibe atención médica evitando deudas.",
+    "txt-card1": "¡Nada más importante que tu salud! Recibe atención médica evitando deudas.",
 
     "title-card2": "Seguros dentales",
-    "txt-card2": " Luce una sonrisa sana sin gastar de más.",
+    "txt-card2": "Luce una sonrisa sana sin gastar de más.",
 
     "title-card3": "Seguros de vision",
-    "txt-card3": " Realízate chequeos de visión por un monto mínimo.",
+    "txt-card3": "Realízate chequeos de visión por un monto mínimo.",
 
     "title-card4": "Seguros de vida",
-    "txt-card4": " Una ayuda para tus seres queridos en caso de fallecimiento.",
+    "txt-card4": "Una ayuda para tus seres queridos en caso de fallecimiento.",
 
     "title-card5": "Seguros de viaje",
-    "txt-card5": " Viaja sin preocupaciones con un seguro que cubre imprevistos en el extranjero.",
+    "txt-card5": "Viaja sin preocupaciones con un seguro que cubre imprevistos en el extranjero.",
 
     "title-card6": "Seguros de embarazo",
-    "txt-card6": " Recibe tratamiento de fertilidad, cobertura en el embarazo y parto, y más.",
+    "txt-card6": "Recibe tratamiento de fertilidad, cobertura en el embarazo y parto, y más.",
     "boton-card": "Quiero asesorarme",
 
 
     "p-footer2": "Recibe nuestras novedades y ofertas en tu email.",
     "p-footer": "¿Necesitas orientación para escoger tu seguro? ¡Contáctanos y te asesoramos sin costo!",
-    "pol-de-priv": "politica de privacidad"
+    "pol-de-priv": "politica de privacidad",
+
+    "encabezado-pdp":"Este aviso describe nuestra política de privacidad ('Aviso'). Al visitar nuestro sitio web ('sitio web') y/o comunicarse con nosotros por correo electrónico, mensaje de texto, llamada telefónica, correo ordinario, redes sociales o cualquier otro medio de comunicación, usted acepta las prácticas descritas en el presente Aviso.",
+    "titulo-pdp":"ARTÍCULO I - PRINCIPIOS:",
+
+    "section1-pdp":"Sección 1.01 - Principios: Podemos recopilar y utilizar información de la siguiente manera:",
+    "lista1-pdp":"(1) Notificación: Podemos recopilar y utilizar información de la siguiente manera:",
+    "listaA1-pdp":"(a) Información voluntaria: Recibiremos y almacenaremos cualquier información que introduzca en el sitio web o que nos facilite de otra manera y que le identifique personalmente para mejorar su experiencia en el Sitio Web, para obtener una mejor comprensión general del tipo de personas que visitan el Sitio Web, y para poder ponernos en contacto con usted cuando sea necesario. Normalmente proporcionar información en el sitio web para la compra de productos o servicios o cuando nos envía comentarios o preguntas para que los revisemos.",
+    "listaB1-pdp":"(b) Información automática: Para poder ofrecer contenidos que los usuariosusuarios necesitan y desean, recopilamos estadísticas agregadas de visitas al sitio mediante cookies. Una cookie es simplemente un pequeño archivo de datos que colocamos en el disco duro de su ordenador la primera vez que usted visita nuestro sitio web ('Cookie'). Este archivo contiene un número único que nos ayuda a identificarle cuando usted vuelva a visitar el sitio web. Miles de sitios web utilizan cookies para mejorar la experiencia de navegación de los usuarios. Las cookies no pueden dañar los archivos de los usuarios ni leer información de los discos duros de los usuarios. Combinamos toda la información de uso proporcionada por dichas Cookies y no controlamos su uso del sitio web. Permitirnos crear una Cookie en su disco duro no nos dará ni a nosotros ni a ningún otro sitio acceso al resto del disco duro de su ordenador, y sólo nosotros podremos leer la Cookie creada por el Sitio Web.",
+    "listaC1-pdp":"(c) Uso de la información: Utilizamos la información para la identificación personal; para obtener un mejor conocimiento general del tipo de personas que visitan el Sitio Web; para responder a sus solicitudes de compra, comentarios o preguntas; para mejorar su experiencia en el sitio web; para recopilar estadísticas agregadas de visitas al sitio; y para avisarle de mejoras de productos, ofertas especiales, información actualizada y otros nuevos servicios. También utilizamos la información para avisarle de descuentos en la renovación de la suscripción, renovarla automáticamente y de las próximas ofertas de servicios y eventos.",
+    "lista1-1-pdp":"Podemos revelar información a terceros, incluida la venta o divulgación de listas de clientes a usuarios comerciales o benéficos. La divulgación para tales fines se limita a su nombre, empresa, cargo, dirección, números de teléfono y fax, y direcciones de correo electrónico y sitio web. Si no desea que se divulgue dicha información, comuníquenoslo poniéndose en contacto con nosotros. Para que podamos tramitar su solicitud, incluya su nombre y dirección. Una vez debidamente notificada, eliminaremos su nombre de las listas y divulgaciones tan pronto como nos sea posible en el curso de las prácticas comerciales normales.",
+    "lista1-2-pdp":"Cuando nos encarga productos o servicios, le pedimos su número de tarjeta de crédito y su dirección de facturación. Utilizamos esta información únicamente para facturarle los productos o servicios que solicite en ese momento y para ningún otro fin. Las suscripciones anuales son pagaderas en la fecha de compra de la Suscripción y se renuevan automáticamente cada aniversario a menos que se cancelen por escrito treinta días antes de la fecha de cada aniversario.",
+    "lista1-3-pdp":"Las preguntas o comentarios de los usuarios que nos envíen podrán estar disponibles en las secciones públicas del Sitio Web, incluida una sección titulada 'Preguntas más frecuentes', inmediatamente después de que se nos envíen dichas preguntas o comentarios. Si publicamos las preguntas de los usuarios, dichas preguntas no contendrán hechos que identifiquen al usuario o a las partes concretas implicadas. También nos reservamos el derecho a utilizar comentarios de los usuarios con fines promocionales, y al enviar esos comentarios, usted acepta que lo hagamos.",
+    "lista1-4-pdp":"Podemos divulgar cualquier información del usuario si es necesario para cumplir la ley; para hacerla cumplir o aplicar los Términos y Condiciones del Sitio Web; o bajo la creencia de buena fe de que la divulgación es de otro modo necesaria o aconsejable incluyendo, sin limitación, para proteger los derechos, propiedades o seguridad de nosotros o nuestros usuarios.",
+
+    "lista2-pdp":"(2) Elección: Le damos la opción de elegir el tipo y la cantidad de información privada que tenemos, como sigue:",
+    "listaA2-pdp":"(a) Información voluntaria: Siempre puede optar por no facilitarnos determinada información. Si decide no facilitarnos información personal, podrá seguir utilizando muchas partes del sitio web. Sin embargo puede que no sea capaz de comprar productos y servicios y no podrá aprovechar muchas de nuestras funciones. Si ya nos ha provisto previamente cierta información y desea eliminarla de nuestras bases de datos, o si no desea que sea compartida a terceros, puede ponerse en <a href='contact.html'>contacto con nosotros</a> para eliminar dicha información.",
+    "listaB2-pdp":"(b) Información automática: La mayoría de los navegadores web aceptan automáticamente Cookies, pero si lo prefiere, puede modificar las opciones de su navegador para bloquear las cookies en el futuro. La sección 'Ayuda' de la barra de herramientas de la mayoría de los navegadores le explicará cómo evitar que su navegador acepte Cookies, cómo configurar el navegador para que le informe cuando reciba una nueva Cookie, o cómo rechazar las Cookies por completo.",
+
+    "lista3-pdp":"(3) Acceso: Le proporcionamos la posibilidad de asegurarse de que su información personal es correcta y está actualizada. Puede revisar y actualizar su información personal poniéndose en contacto con nosotros. Por motivos de seguridad, requerimos la verificación del usuario mediante su nombre de usuario y contraseña para recibir información personal.",
+
+    "lista4-pdp":"(4) Seguridad: Protegemos la seguridad de su información personal. Tomamos medidas para proteger sus datos contra pérdida, uso indebido, alteración, destrucción o acceso no autorizado. Utilizamos sofisticadas tecnologías de seguridad para proteger la información de pedido de los usuarios, nombre de usuario y contraseña. Encriptamos la información de los pedidos, el nombre de usuario y la contraseña de los usuarios (incluidas las cuentas de tarjetas de crédito de los usuarios) mediante la tecnología Secure Socket Layer ('SSL'). SSL es un sistema de codificación probado que permite a su navegador encriptar o codificar automáticamente los datos antes de enviárnoslos. Para utilizar esta tecnología los usuarios deben disponer de un navegador compatible con SSL. SSL es una de las tecnologías de encriptación más seguras que existen. Aunque utilizamos esta sofisticada tecnología de seguridad para proteger la información de los pedidos, el nombre de usuario y la contraseña de los usuarios, no podemos garantizar que el comercio electrónico sea totalmente seguro.",
+
+    "section2-pdp":"Sección 2.01 - Salvaguardias del usuario: Usted es responsable de mantener en secreto su nombre de usuario, contraseña y cualquier información de la cuenta. Es importante que sea responsable y proteja su nombre de usuario, contraseña y ordenador contra usuarios no autorizados. Es importante cerrar la sesión cuando haya terminado de utilizar un ordenador al que puedan acceder otras personas.",
+    "section3-pdp":"Sección 3.01 - Niños: No vendemos productos para niños. Los usuarios del Sitio Web deben tener al menos dieciocho años. Si un menor nos ha proporcionado información personal, los padres o tutores del menor deberán ponerse en <a href='contact.html'>contacto con nosotros</a> para eliminar dicha información de nuestros registros.",
+    "section4-pdp":"Sección 4.01 - Sitios web de terceros: Tenga en cuenta que el sitio web puede contener enlaces a sitios web de terceros que pueden recopilar información personal identificable. Cuando haga clic en uno de estos enlaces de terceros, entrará en otro sitio web del que no somos responsables. Este Aviso no cubre las prácticas o políticas de información de dichos sitios web de terceros. Le recomendamos que lea las declaraciones de privacidad de dichos sitios web, ya que sus políticas de privacidad pueden diferir sustancialmente de las de nuestro Aviso.",
+    "section5-pdp":"Sección 5.01 - Acuerdo y modificación: Al utilizar y acceder al Sitio web, usted indica que ha leído y comprendido el presente Aviso y que consiente en la recogida y uso de información por nuestra parte en la forma explicada en este Aviso. El presente Aviso y los Términos y condiciones del sitio web, incluidas, entre otras, las disposiciones relativas a la limitación de disputas y la aplicación de la ley de Texas rigen cualquier disputa sobre privacidad. Al utilizar y acceder al Sitio Web, usted acepta indemnizarnos por cualquier reclamación de terceros derivada del incumplimiento por su parte del presente Aviso o del Sitio Web. Si tiene alguna pregunta sobre su privacidad en el sitio web, póngase en <a href='contact.html'>contacto con nosotros</a>. Si no acepta el presente Aviso no acceda ni utilice el Sitio Web. Podemos revisar este Aviso en cualquier momento sin previo aviso actualizando el presente Aviso. Cualquier modificación en la forma en que utilizamos la información personal se proporcionará en futuras actualizaciones de este Aviso para que siempre sepa qué información recopilamos, cómo la utilizamos, en qué circunstancias lo hacemos y en qué circunstancias revelamos dicha información. Las modificaciones serán efectivas inmediatamente y estarán disponibles en la página web. Debe visitar esta página web periódicamente para revisar el Aviso. El usuario acepta cualquier modificación de este Aviso por uso continuado de la Página Web tras la realización de dichas modificaciones.",
+    "section6-pdp":"Sección 6.01 - Google Analytics: Tenga en cuenta que Google Analytics Demographics and Interest Reporting puede realizar un seguimiento de los datos de los visitantes de este sitio web. Google Analytics puede utilizar cookies para recopilar estos datos, que se utilizan para obtener una mejor comprensión general del tipo de individuos que visitan el sitio web; para recopilar estadísticas agregadas de visitas al sitio; y para mejorar las iniciativas de marketing y atención al cliente a través del sitio web. Esta información no se venderá a terceros, y los datos recopilados para Google Analytics Demographics and Interest Reporting no son identificables personalmente. Si desea inhabilitar el servicio de Informes demográficos y de intereses de Google Analytics, <a href='https://tools.google.com/dlpage/gaoptout/'>haga clic aquí.</a>"
+
 }

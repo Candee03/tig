@@ -1,17 +1,12 @@
 @import "variables";
-
 body {
 	background-color: $color-blanco;
 }
-
-
 $tablet-s: 500px;
 $tablet: 768px;
 $laptop-s: 900px;
 $laptop: 1024px;
 $nav-bar-break: 992px;
-
-
 //ENCABEZADO
 @media (min-width: $nav-bar-break) {
     body header {
@@ -227,6 +222,7 @@ $nav-bar-break: 992px;
                 align-items: flex-end;
                 justify-content: space-between;
                 div.form-sub {
+                    margin-right: 1.5rem;
                     display: flex;
                     flex-direction: column;
                     p.p2-footer {
@@ -241,6 +237,7 @@ $nav-bar-break: 992px;
                     }
                 }
                 div.div-footer-contact {
+                    margin-left: 1.5rem;
                     width: 60%;
                     display: flex;
                     flex-direction: column;
@@ -261,16 +258,19 @@ $nav-bar-break: 992px;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                h3 {
+                a.link-pol-de-priv h3 {
                     margin: 0;
                 }
-                a {
+                a.links-footer {
                     line-height: 20px;
                     margin-left: 0.25rem;
                     padding-left: 0.25rem;
                     border-left: 1px solid white;
                 }
             }
+        }
+        main#main-pol-de-priv {
+            margin: 1.5rem 2rem;
         }
     }
 }
@@ -568,15 +568,18 @@ $nav-bar-break: 992px;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                h3 {
+                a.link-pol-de-priv h3 {
                     font-size: 18px;
                     line-height: 32px;
                 }
-                a {
+                a.links-footer {
                     font-size: 18px;
                     line-height: 32px;
                 }
             }
+        }
+        main#main-pol-de-priv {
+            margin: 2rem 4rem;
         }
     }
 }

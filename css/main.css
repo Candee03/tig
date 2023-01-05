@@ -88,15 +88,17 @@ body footer.pieDePagina {
           line-height: 24px;
           text-decoration: none;
           color: #FAFAFA; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton img.logo-redesSociales {
-        margin: 0 0.5rem 0 0.5rem; }
+      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales {
+        text-decoration: none; }
+        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales img.logo-redesSociales {
+          margin: 0 0.5rem 0 0.5rem; }
   body footer.pieDePagina div.div-footer-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     margin: 1.5rem 0; }
-    body footer.pieDePagina div.div-footer-links h3 {
+    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
       color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
@@ -105,7 +107,7 @@ body footer.pieDePagina {
       font-size: 12px;
       line-height: 40px;
       text-decoration: none; }
-    body footer.pieDePagina div.div-footer-links a {
+    body footer.pieDePagina div.div-footer-links a.links-footer, body footer.pieDePagina div.div-footer-links a.link-pol-de-priv {
       color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
@@ -148,16 +150,16 @@ body header {
       max-width: 83%;
       background-color: #FAFAFA; }
       body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header {
-        display: inline-block; }
+        display: inline-block;
+        padding: 1rem 0 0 1rem; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-header .boton-close {
           background: transparent; }
       body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; }
+        justify-content: space-around; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
-          margin-top: 3rem;
           align-items: center; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
             margin-bottom: 3rem; }
@@ -174,7 +176,6 @@ body header {
             body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
               font-weight: 800 !important; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
-          margin-top: 4.5rem;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -199,8 +200,6 @@ body header {
               color: #FAFAFA; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
             margin: 0 0.5rem 0 0.5rem; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
-          margin-top: 4.5rem; }
 
 @keyframes link_contacto {
   0% {
@@ -739,6 +738,23 @@ body main#main-contacto section div.tab-content {
       line-height: 48px;
       text-align: center; }
 
+body main#main-pol-de-priv {
+  margin: 1rem; }
+  body main#main-pol-de-priv .estilo_select-pol-de-priv {
+    margin: 1rem;
+    padding: 0.4rem;
+    border: 1px solid #6FD1FF;
+    background: transparent;
+    border-radius: 8px;
+    font-family: 'Lexend';
+    color: #2D9ACD;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px; }
+    body main#main-pol-de-priv .estilo_select-pol-de-priv option.option_select {
+      background: #141956; }
+
 body main div#carouselExampleSlidesOnly div.carousel-inner {
   max-height: 448px; }
   body main div#carouselExampleSlidesOnly div.carousel-inner div.carousel-item {
@@ -1036,6 +1052,7 @@ body {
     align-items: flex-end;
     justify-content: space-between; }
     body footer.pieDePagina div.cont_pieDePagina div.form-sub {
+      margin-right: 1.5rem;
       display: flex;
       flex-direction: column; }
       body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
@@ -1045,6 +1062,7 @@ body {
       body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
         margin-bottom: 0; }
     body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact {
+      margin-left: 1.5rem;
       width: 60%;
       display: flex;
       flex-direction: column;
@@ -1060,13 +1078,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-    body footer.pieDePagina div.div-footer-links h3 {
+    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
       margin: 0; }
-    body footer.pieDePagina div.div-footer-links a {
+    body footer.pieDePagina div.div-footer-links a.links-footer {
       line-height: 20px;
       margin-left: 0.25rem;
       padding-left: 0.25rem;
-      border-left: 1px solid white; } }
+      border-left: 1px solid white; }
+  body main#main-pol-de-priv {
+    margin: 1.5rem 2rem; } }
 
 @media (min-width: 773px) {
   body main#main-nuestrosSeguros #section-cards {
@@ -1308,12 +1328,14 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-    body footer.pieDePagina div.div-footer-links h3 {
+    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
       font-size: 18px;
       line-height: 32px; }
-    body footer.pieDePagina div.div-footer-links a {
+    body footer.pieDePagina div.div-footer-links a.links-footer {
       font-size: 18px;
-      line-height: 32px; } }
+      line-height: 32px; }
+  body main#main-pol-de-priv {
+    margin: 2rem 4rem; } }
 
 @media (min-width: 1300px) {
   body main#main_index p.parrafo-index {
