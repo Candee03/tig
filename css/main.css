@@ -519,7 +519,7 @@ body main#main-SobreNosotros h2.h2-SN {
 
 body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 {
   width: 200px;
-  height: 260px;
+  height: 17rem;
   background: #A6E3FF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   border-radius: 24px; }
