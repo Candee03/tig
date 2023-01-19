@@ -13,7 +13,7 @@ $nav-bar-break: 992px;
         nav.contenedor {
             height: auto;
             width: 100%;
-            justify-content: center;
+            margin: 0 3.5rem;
             a.logo {
                 img {
                     margin: 0 2rem 0 0;
@@ -27,7 +27,6 @@ $nav-bar-break: 992px;
                 div.offcanvas-body {
                     flex-direction: row;
                     align-items: center;
-                    justify-content: center;
                     ul.navbar-nav {
                         margin-top: 0;
                         li.nav-item {
@@ -35,17 +34,21 @@ $nav-bar-break: 992px;
                             margin-bottom: 0;
                         }
                     }
-                    ul.ul-boton {
-                        margin: 0 1rem 0 2rem;
-                        li.link_nav_contacto {
-                            margin-bottom: 0;
+                    .cont-ulbotonYlngSelector {
+                        display: flex;
+                        align-items: center;
+                        ul.ul-boton {
+                            margin: 0 1rem 0 2rem;
+                            li.link_nav_contacto {
+                                margin-bottom: 0;
+                            }
+                            div {
+                                display: none;
+                            }
                         }
-                        div {
-                            display: none;
+                        select.estilo_select {
+                            margin-top: 0;
                         }
-                    }
-                    select.estilo_select {
-                        margin-top: 0;
                     }
                 }
             }
@@ -91,6 +94,25 @@ $nav-bar-break: 992px;
             p.parrafo-index {
                 @include parrafos (20px, 36px);
             }
+            .mySwiper {
+                margin: 0 1rem 1.5rem;
+                width: calc(100vw - 3rem);
+                overflow: hidden;
+                div.swiper-wrapper {
+                    div.swiper-slide {
+                        .margen1, .estilo2 {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            width: 25.5rem;
+                            height: auto;
+                            background: $color-slide;
+                            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+                            border-radius: 44px;
+                        }
+                    }
+                }
+            }
         }
         //SEGUROS
         main#main-nuestrosSeguros {
@@ -103,6 +125,7 @@ $nav-bar-break: 992px;
             }
             .img-seguros-t {
                 display: inline;
+                margin-bottom: 1.5rem;
             }
             .p-NS{
                 line-height: 36px;
@@ -162,7 +185,12 @@ $nav-bar-break: 992px;
                 }
             }
             p.p1-contacto {
-                margin: 1.5rem 3.5rem;
+                margin: 1.5rem 3.5rem 0;
+                text-align: center;
+                line-height: 36px;
+            }
+            p.p2-contacto {
+                margin:0 3.5rem 1.5rem;
                 text-align: center;
                 line-height: 36px;
             }
@@ -211,61 +239,64 @@ $nav-bar-break: 992px;
         }
         //footer
         footer.pieDePagina {
-            div.cont-img-footer {
-                width: 90%;
-                display: flex;
-                justify-content: flex-start;
-            }
-            div.cont_pieDePagina {
-                width: 90%;
-                flex-direction: row;
-                align-items: flex-end;
-                justify-content: space-between;
-                div.form-sub {
-                    margin-right: 1.5rem;
+            .cont-footer {
+                margin: 0 3.5rem;
+                div.cont-img-footer {
+                    width: 100%;
                     display: flex;
-                    flex-direction: column;
-                    p.p2-footer {
-                        text-align: start;
-                        margin-top: 0.5rem;
-                        margin-bottom: 1rem;
-                    }
-                    form.form-foot {
-                        button.btn-send {
-                            margin-bottom: 0;
-                        }
-                    }
+                    justify-content: flex-start;
                 }
-                div.div-footer-contact {
-                    margin-left: 1.5rem;
-                    width: 60%;
-                    display: flex;
-                    flex-direction: column;
+                div.cont_pieDePagina {
+                    width: 100%;
+                    flex-direction: row;
                     align-items: flex-end;
-                    p.parrafo_footer {
-                        margin-bottom: 0;
-                        text-align: end;
-                    }
-                    ul.ul-boton {
-                        margin-bottom: 0;
-                        li.link_nav_contacto {
+                    justify-content: space-between;
+                    div.form-sub {
+                        // margin-right: 1.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        p.p2-footer {
+                            text-align: start;
+                            margin-top: 0.5rem;
                             margin-bottom: 1rem;
                         }
+                        form.form-foot {
+                            button.btn-send {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    div.div-footer-contact {
+                        margin-left: 1.5rem;
+                        width: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        p.parrafo_footer {
+                            margin-bottom: 0;
+                            text-align: end;
+                        }
+                        ul.ul-boton {
+                            margin-bottom: 0;
+                            li.link_nav_contacto {
+                                margin-bottom: 1rem;
+                            }
+                        }
                     }
                 }
-            }
-            div.div-footer-links {
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                a.link-pol-de-priv h3 {
-                    margin: 0;
-                }
-                a.links-footer {
-                    line-height: 20px;
-                    margin-left: 0.25rem;
-                    padding-left: 0.25rem;
-                    border-left: 1px solid white;
+                div.div-footer-links {
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    a.link-pol-de-priv h3 {
+                        margin: 0;
+                    }
+                    a.links-footer {
+                        line-height: 20px;
+                        margin-left: 0.25rem;
+                        padding-left: 0.25rem;
+                        border-left: 1px solid white;
+                    }
                 }
             }
         }
@@ -344,9 +375,6 @@ $nav-bar-break: 992px;
         //index
         main#main_index {
             div#carouselExampleRide {
-                .carousel-control-prev, .carousel-control-next {
-                    //INSERTAR IMAGEN DE FLECHITA
-                }
                 div.carousel-inner div.carousel-item {
                     img.img-1-t, img.img-2-t, img.img-3-t {
                         display: none;
@@ -360,50 +388,15 @@ $nav-bar-break: 992px;
                 @include subtitulos (700, 32px, 40px);
             }
             .subtitulos-index, p.parrafo-index {
-                margin: 3rem 9.75rem;
+                margin: 3rem 3.5rem;
             }
             p.parrafo-index {
                 @include parrafos (24px, 40px);
             }
             .mySwiper {
-                display: none;
-            }
-            #testimony-content {
-                display: flex;
-                justify-content: center;
-                margin-bottom: 1.5rem;
-                .content-card-testimony {
-                    margin: 0 1rem;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    gap: 1.5rem;
-                    .card-testimony {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        width: 22.5rem;
-                        height: auto;
-                        background: $color-slide;
-                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-                        border-radius: 44px;
-                        img.img-testimony {
-                            margin: 1.5rem;
-                            width: 13.5rem;
-                        }
-                        .p-slide-testimony {
-                            @include p-slide-testimonio;
-                            margin: 0 1.5rem;
-                        }
-                        .p-slide-test-name {
-                            @include p-slide-test-name;
-                            margin: 1.5rem;
-                            display: flex;
-                            align-self: end;
-                        }
-                    }
-                }
+                margin: 0 3.5rem 1.5rem;
+                width: calc(100vw - 7rem);
+                overflow: hidden;
             }
         }
         //SOBRE NOSOTROS
@@ -453,6 +446,11 @@ $nav-bar-break: 992px;
                 margin: 1.5rem 6rem 0 6rem;
                 @include subtitulos (700, 32px, 40px);
             }
+            #sw2, #sw1{
+                margin: 0 6rem 0 6rem;
+                width: calc(100vw - 14rem);
+                overflow: hidden;
+            }
         }
         //SEGUROS
         main#main-nuestrosSeguros {
@@ -462,13 +460,15 @@ $nav-bar-break: 992px;
             }
             .img-seguros-d {
                 display: inline;
+                margin-bottom: 1.5rem;
             }
             .img-seguros-t {
                 display: none;
             }
             .p-NS{
-                font-size: 32px;
+                font-size: 28px;
                 line-height: 48px;
+                margin: 0 4rem;
             }
         }
         //contacto
@@ -485,7 +485,7 @@ $nav-bar-break: 992px;
                     display: none;
                 }
             }
-            p.p1-contacto {
+            p.p1-contacto, p.p2-contacto {
                 font-size: 32px;
                 line-height: 48px;
             }
@@ -529,52 +529,55 @@ $nav-bar-break: 992px;
         }
         //footer
         footer.pieDePagina {
-            div.cont_pieDePagina {
-                div.form-sub {
-                    justify-content: center;
-                    p.p2-footer {
-                        font-size: 20px;
-                        line-height: 28px;
-                        text-align: center;
-                    }
-                    form.form-foot {
-                        input.input-formulario {
-                            width: 455px;
+            .cont-footer {
+                div.cont_pieDePagina {
+                    width: 100%;
+                    div.form-sub {
+                        justify-content: center;
+                        p.p2-footer {
+                            font-size: 20px;
+                            line-height: 28px;
+                            text-align: center;
                         }
-                        button.btn-send {
-                            width: 455px;
+                        form.form-foot {
+                            input.input-formulario {
+                                width: 455px;
+                            }
+                            button.btn-send {
+                                width: 455px;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    div.div-footer-contact {
+                        width: 55%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        p.parrafo_footer {
+                            font-size: 24px;
+                            line-height: 40px;
+                        }
+                        ul.ul-boton {
                             margin-bottom: 0;
+                            li.link_nav_contacto {
+                                margin-bottom: 1rem;
+                            }
                         }
                     }
                 }
-                div.div-footer-contact {
-                    width: 55%;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-end;
-                    p.parrafo_footer {
-                        font-size: 24px;
-                        line-height: 40px;
+                div.div-footer-links {
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    a.link-pol-de-priv h3 {
+                        font-size: 18px;
+                        line-height: 32px;
                     }
-                    ul.ul-boton {
-                        margin-bottom: 0;
-                        li.link_nav_contacto {
-                            margin-bottom: 1rem;
-                        }
+                    a.links-footer {
+                        font-size: 18px;
+                        line-height: 32px;
                     }
-                }
-            }
-            div.div-footer-links {
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                a.link-pol-de-priv h3 {
-                    font-size: 18px;
-                    line-height: 32px;
-                }
-                a.links-footer {
-                    font-size: 18px;
-                    line-height: 32px;
                 }
             }
         }
@@ -585,6 +588,11 @@ $nav-bar-break: 992px;
 }
 @media (min-width: 1300px) {
     body {
+        header {
+            nav.contenedor {
+                margin: 0 9.7rem;
+            }
+        }
         //index
         main#main_index {
             p.parrafo-index {
@@ -592,6 +600,9 @@ $nav-bar-break: 992px;
             }
             div.cont-btn {
                 display: none;
+            }
+            .subtitulos-index{
+                margin: 3rem 9.7rem;
             }
             div.cont-img-index {
                 display: flex;
@@ -637,6 +648,160 @@ $nav-bar-break: 992px;
             }
             img.img-index-t {
                 display: none;
+            }
+            .mySwiper {
+                margin: 0 7rem 1.5rem;
+                width: calc(100vw - 17rem);
+                overflow: hidden;
+            }
+        }
+        //SOBRE NOSOTROS
+        main#main-SobreNosotros {
+            div.cont-sobre-nosotros-iframe {
+                display: flex;
+                justify-content: center;
+                div#cont-iframeYText {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+                    margin-left: 9.7rem;
+                    margin-right: 9.7rem;
+                }
+            }
+            p.p2-SN {
+                margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                @include parrafos (24px, 40px);
+            }
+            p.p2-SN2 {
+                margin: 0 9.7rem 1.5rem 9.7rem;
+                @include parrafos (24px, 40px);
+            }
+            h2.h2-SN {
+                margin: 1.5rem 9.7rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+            h2.h2-SN-2 {
+                margin: 1.5rem 9.7rem 0 9.7rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+            #sw2, #sw1{
+                margin: 0 7rem 0 7rem;
+                width: calc(100vw - 17rem);
+                overflow: hidden;
+                #swiperWrapper1 {
+                }
+            }
+        }
+        //contact
+        main#main-contacto {
+            section {
+                div.tab-content {
+                    margin: 2rem 9.7rem;
+                    div.tab-pane {
+                        form {
+                            div.cont-input {
+                                justify-content: space-between;
+                            }
+                            div.contenedor-btn-form {
+                                div.cont-btn {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer.pieDePagina {
+            .cont-footer {
+                margin: 0 9.7rem;
+            }
+        }
+    }
+}
+@media (min-width: 1600px) {
+    body {
+        //index
+        main#main_index {
+            .mySwiper {
+                display: none;
+            }
+            #testimony-content {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                .content-card-testimony {
+                    margin: 0 9.7rem;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 1.5rem;
+                    .card-testimony {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 22.5rem;
+                        height: auto;
+                        background: $color-slide;
+                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+                        border-radius: 44px;
+                        img.img-testimony {
+                            margin: 1.5rem;
+                            width: 13.5rem;
+                        }
+                        .p-slide-testimony {
+                            @include p-slide-testimonio;
+                            margin: 0 1.5rem;
+                            height: 23rem;
+                        }
+                        .p-slide-test-name {
+                            @include p-slide-test-name;
+                            margin: 1.5rem;
+                            display: flex;
+                            justify-content: end;
+                        }
+                    }
+                }
+            }
+        }
+        //SOBRE NOSOTROS
+        main#main-SobreNosotros {
+            div.cont-sobre-nosotros-iframe {
+                display: flex;
+                justify-content: center;
+                div#cont-iframeYText {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width: 100%;
+                    margin-left: 9.7rem;
+                    margin-right: 9.7rem;
+                }
+            }
+            p.p2-SN {
+                margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                @include parrafos (24px, 40px);
+            }
+            p.p2-SN2 {
+                margin: 0 9.7rem 1.5rem 9.7rem;
+                @include parrafos (24px, 40px);
+            }
+            h2.h2-SN {
+                margin: 1.5rem 9.7rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+            h2.h2-SN-2 {
+                margin: 1.5rem 9.7rem 0 9.7rem;
+                @include subtitulos (700, 32px, 40px);
+            }
+            #sw2, #sw1{
+                margin: 0 7rem 0 7rem;
+                width: calc(100vw - 17rem);
+                overflow: hidden;
+                #swiperWrapper1 {
+                }
             }
         }
     }

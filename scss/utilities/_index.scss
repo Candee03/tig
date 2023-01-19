@@ -77,12 +77,14 @@ body {
                         .p-slide-testimony {
                             @include p-slide-testimonio;
                             margin: 0 1.5rem;
+                            height: 27rem;
                         }
                         .p-slide-test-name {
                             @include p-slide-test-name;
                             margin: 1.5rem;
                             display: flex;
                             align-self: end;
+                            height: 3rem;
                         }
                     }
                 }

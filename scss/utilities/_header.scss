@@ -57,20 +57,22 @@ body header {
                         }
                     }
                 }
-                ul.ul-boton {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    list-style: none;
-                    padding-left: 0;
-                    li.link_nav_contacto {
-                        @include boton_contacto_animated;
-                        .boton_contacto {
-                            @include link-contact;
+                .cont-ulbotonYlngSelector {
+                    ul.ul-boton {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        list-style: none;
+                        padding-left: 0;
+                        li.link_nav_contacto {
+                            @include boton_contacto_animated;
+                            .boton_contacto {
+                                @include link-contact;
+                            }
                         }
-                    }
-                    img.logo-redesSociales {
-                        margin: 0 0.5rem 0 0.5rem;
+                        img.logo-redesSociales {
+                            margin: 0 0.5rem 0 0.5rem;
+                        }
                     }
                 }
             }

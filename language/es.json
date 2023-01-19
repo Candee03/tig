@@ -27,7 +27,8 @@
 
     "navbar-contacto": "Contactar",
     "h1-contacto": "¡Contáctanos!",
-    "p1-contacto": "Te brindamos asesoramiento personalizado y amable sin costo. ¡Ponte en contacto hoy mismo!",
+    "p1-contacto": "Te brindamos asesoramiento personalizado y amable sin costo.",
+    "p2-contacto": "¡Ponte en contacto hoy mismo!",
     "link-tab-content1":"Mensaje",
     "link-tab-content2":"Teléfono",
     "link-tab-content3":"Oficina",
@@ -70,7 +71,8 @@
     
     "navbar-nuestros-seguros":"Seguros",
     "h1-NS": "Seguros",
-    "p-NS": "Conoce las distintas opciones de seguros que tenemos para ofrecerte y cómo pueden beneficiarte.",
+    "p-NS": "Conoce las distintas opciones de seguros que tenemos ",
+    "p-NS2": "para ofrecerte y cómo pueden beneficiarte.",
     "title-card1": "Seguros de salud",
     "txt-card1": "¡Nada más importante que tu salud! Recibe atención médica evitando deudas.",
 

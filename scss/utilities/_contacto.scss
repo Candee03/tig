@@ -19,7 +19,11 @@ body main#main-contacto {
         }
     }
     p.p1-contacto {
-        margin: 1.5rem;
+        margin: 1.5rem 1.5rem 0;
+        @include parrafos(20px, 30px);;
+    }
+    p.p2-contacto {
+        margin: 0 1.5rem 1.5rem;
         @include parrafos(20px, 30px);;
     }
     section {

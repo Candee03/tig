@@ -3,102 +3,108 @@ body footer.pieDePagina {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  body footer.pieDePagina div.cont-img-footer img.img_footer {
-    margin: 1.5rem 0 1.5rem;
-    height: auto;
-    width: 90%;
-    max-width: 340px; }
-  body footer.pieDePagina div.cont_pieDePagina {
-    width: 85%;
+  body footer.pieDePagina .cont-footer div.cont-img-footer {
+    display: flex;
+    justify-content: center; }
+    body footer.pieDePagina .cont-footer div.cont-img-footer img.img_footer {
+      margin: 1.5rem 0 1.5rem;
+      height: auto;
+      width: 90%;
+      max-width: 340px; }
+  body footer.pieDePagina .cont-footer div.cont_pieDePagina {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
-      margin-bottom: 1.5rem;
-      color: #FAFAFA;
-      font-family: 'Lexend';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 28px;
-      text-decoration: none;
-      text-align: center; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot {
-      display: flex;
-      align-items: center;
-      flex-direction: column; }
-      body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot input.input-formulario {
-        padding-left: 0.7rem;
-        border: 2px solid #000112;
-        border-radius: 28px;
-        width: 100%;
+    body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub {
+      margin: 0 1.5rem; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub p.p2-footer {
+        margin-bottom: 1.5rem;
+        color: #FAFAFA;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-decoration: none;
+        text-align: center; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot {
+        display: flex;
+        align-items: center;
+        flex-direction: column; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot input.input-formulario {
+          padding-left: 0.7rem;
+          border: 2px solid #000112;
+          border-radius: 28px;
+          width: 100%;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 36px;
+          height: 3.5rem; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
+          margin-top: 1rem;
+          margin-bottom: 1.5rem;
+          height: 3.5rem;
+          width: 100%;
+          display: inline-block;
+          border-radius: 28px;
+          background-color: #F39100;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.02em;
+          color: #FAFAFA;
+          border: #F39100 4px solid; }
+    body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact {
+      margin: 0 1.5rem; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
+        margin-bottom: 1.5rem;
+        color: #FAFAFA;
         font-family: 'Lexend';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 36px;
-        height: 3.5rem; }
-      body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        height: 3.5rem;
-        width: 100%;
-        display: inline-block;
-        border-radius: 28px;
-        background-color: #F39100;
-        font-family: 'Lexend';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #FAFAFA;
-        border: #F39100 4px solid; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
-      margin-bottom: 1.5rem;
-      color: #FAFAFA;
-      font-family: 'Lexend';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 40px;
-      text-decoration: none;
-      text-align: center; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      list-style: none;
-      padding-left: 0; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
-        text-align: center;
-        width: 12.5rem;
-        margin-bottom: 1.5rem;
-        padding: 1rem 1.5rem;
-        background-color: #F39100;
-        border-radius: 50px;
-        display: inline-block;
-        animation: link_contacto 1.5s linear infinite; }
-        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto .boton_contacto {
-          font-family: 'Lexend';
-          text-transform: uppercase;
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 24px;
-          text-decoration: none;
-          color: #FAFAFA; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales {
-        text-decoration: none; }
-        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales img.logo-redesSociales {
-          margin: 0 0.5rem 0 0.5rem; }
-  body footer.pieDePagina div.div-footer-links {
+        line-height: 40px;
+        text-decoration: none;
+        text-align: center; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding-left: 0; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
+          text-align: center;
+          width: 12.5rem;
+          margin-bottom: 1.5rem;
+          padding: 1rem 1.5rem;
+          background-color: #F39100;
+          border-radius: 50px;
+          display: inline-block;
+          animation: link_contacto 1.5s linear infinite; }
+          body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto .boton_contacto {
+            font-family: 'Lexend';
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-decoration: none;
+            color: #FAFAFA; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales {
+          text-decoration: none; }
+          body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton a.link-redes-sociales img.logo-redesSociales {
+            margin: 0 0.5rem 0 0.5rem; }
+  body footer.pieDePagina .cont-footer div.div-footer-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0;
     margin: 1.5rem 0; }
-    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
+    body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv h3 {
       color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
@@ -107,7 +113,7 @@ body footer.pieDePagina {
       font-size: 12px;
       line-height: 40px;
       text-decoration: none; }
-    body footer.pieDePagina div.div-footer-links a.links-footer, body footer.pieDePagina div.div-footer-links a.link-pol-de-priv {
+    body footer.pieDePagina .cont-footer div.div-footer-links a.links-footer, body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv {
       color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
@@ -116,6 +122,18 @@ body footer.pieDePagina {
       font-size: 12px;
       line-height: 40px;
       text-decoration: none; }
+  body footer.pieDePagina .cont-footer .boost-link {
+    text-align: center;
+    color: #FAFAFA;
+    font-family: 'Lexend';
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;
+    text-decoration: none; }
+    body footer.pieDePagina .cont-footer .boost-link a {
+      color: #FAFAFA; }
 
 @keyframes link_contacto {
   0% {
@@ -175,13 +193,13 @@ body header {
               text-decoration: none; }
             body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item .select {
               font-weight: 800 !important; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton {
           display: flex;
           flex-direction: column;
           align-items: center;
           list-style: none;
           padding-left: 0; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton li.link_nav_contacto {
             text-align: center;
             width: 12.5rem;
             margin-bottom: 1.5rem;
@@ -190,7 +208,7 @@ body header {
             border-radius: 50px;
             display: inline-block;
             animation: link_contacto 1.5s linear infinite; }
-            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto .boton_contacto {
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton li.link_nav_contacto .boton_contacto {
               font-family: 'Lexend';
               text-transform: uppercase;
               font-weight: 700;
@@ -198,7 +216,7 @@ body header {
               line-height: 24px;
               text-decoration: none;
               color: #FAFAFA; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton img.logo-redesSociales {
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton img.logo-redesSociales {
             margin: 0 0.5rem 0 0.5rem; }
 
 @keyframes link_contacto {
@@ -304,7 +322,8 @@ body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, 
     font-size: 16px;
     line-height: 30px;
     color: #141956;
-    margin: 0 1.5rem; }
+    margin: 0 1.5rem;
+    height: 27rem; }
   body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-test-name, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-test-name {
     font-family: 'Lexend';
     font-style: normal;
@@ -314,7 +333,8 @@ body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, 
     color: #141956;
     margin: 1.5rem;
     display: flex;
-    align-self: end; }
+    align-self: end;
+    height: 3rem; }
 
 body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
   margin: 1.5rem 0;
@@ -327,7 +347,8 @@ body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
   text-align: center; }
 
 body main#main-nuestrosSeguros .img-seguros {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 1.5rem; }
 
 body main#main-nuestrosSeguros .img-seguros-d {
   display: none;
@@ -338,7 +359,7 @@ body main#main-nuestrosSeguros .img-seguros-t {
   width: 100%; }
 
 body main#main-nuestrosSeguros .p-NS {
-  margin: 1.5rem;
+  margin: 0 1.5rem;
   text-align: center;
   color: #000112;
   font-family: 'Lexend';
@@ -352,6 +373,7 @@ body main#main-nuestrosSeguros #section-cards {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
   body main#main-nuestrosSeguros #section-cards .mycard {
     background: #2B529F;
@@ -591,7 +613,16 @@ body main#main-contacto div.cont-img-contact img.img-contacto-d {
   display: none; }
 
 body main#main-contacto p.p1-contacto {
-  margin: 1.5rem;
+  margin: 1.5rem 1.5rem 0;
+  color: #000112;
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px; }
+
+body main#main-contacto p.p2-contacto {
+  margin: 0 1.5rem 1.5rem;
   color: #000112;
   font-family: 'Lexend';
   font-style: normal;
@@ -849,7 +880,7 @@ body {
   body header nav.contenedor {
     height: auto;
     width: 100%;
-    justify-content: center; }
+    margin: 0 3.5rem; }
     body header nav.contenedor a.logo img {
       margin: 0 2rem 0 0; }
     body header nav.contenedor div.estilo_recuadro_offcanvas {
@@ -858,21 +889,23 @@ body {
         display: none; }
       body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body {
         flex-direction: row;
-        align-items: center;
-        justify-content: center; }
+        align-items: center; }
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
           margin-top: 0; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
             margin: 0 0.7rem;
             margin-bottom: 0; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton {
-          margin: 0 1rem 0 2rem; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton li.link_nav_contacto {
-            margin-bottom: 0; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.ul-boton div {
-            display: none; }
-        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
-          margin-top: 0; } }
+        body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector {
+          display: flex;
+          align-items: center; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton {
+            margin: 0 1rem 0 2rem; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton li.link_nav_contacto {
+              margin-bottom: 0; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton div {
+              display: none; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector select.estilo_select {
+            margin-top: 0; } }
 
 @media (min-width: 500px) {
   body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3 {
@@ -911,6 +944,19 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px; }
+  body main#main_index .mySwiper {
+    margin: 0 1rem 1.5rem;
+    width: calc(100vw - 3rem);
+    overflow: hidden; }
+    body main#main_index .mySwiper div.swiper-wrapper div.swiper-slide .margen1, body main#main_index .mySwiper div.swiper-wrapper div.swiper-slide .estilo2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 25.5rem;
+      height: auto;
+      background: #A6E3FF;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 44px; }
   body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
     margin: 2rem;
     color: #141956;
@@ -923,7 +969,8 @@ body {
   body main#main-nuestrosSeguros .img-seguros {
     display: none; }
   body main#main-nuestrosSeguros .img-seguros-t {
-    display: inline; }
+    display: inline;
+    margin-bottom: 1.5rem; }
   body main#main-nuestrosSeguros .p-NS {
     line-height: 36px; }
   body main#main-SobreNosotros h1.h1-SN {
@@ -1000,7 +1047,11 @@ body {
       width: 50%;
       display: inline; }
   body main#main-contacto p.p1-contacto {
-    margin: 1.5rem 3.5rem;
+    margin: 1.5rem 3.5rem 0;
+    text-align: center;
+    line-height: 36px; }
+  body main#main-contacto p.p2-contacto {
+    margin: 0 3.5rem 1.5rem;
     text-align: center;
     line-height: 36px; }
   body main#main-contacto section ul.nav-tabs li.nav-item button.button-tab a.nav-link-tab {
@@ -1042,49 +1093,50 @@ body {
         margin-left: 1.5rem; }
       body main#main-contacto section div.tab-content div.tab-pane form div.contenedor-btn-form div.cont-btn button.btn-reset {
         width: 40%; }
-  body footer.pieDePagina div.cont-img-footer {
-    width: 90%;
-    display: flex;
-    justify-content: flex-start; }
-  body footer.pieDePagina div.cont_pieDePagina {
-    width: 90%;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub {
-      margin-right: 1.5rem;
+  body footer.pieDePagina .cont-footer {
+    margin: 0 3.5rem; }
+    body footer.pieDePagina .cont-footer div.cont-img-footer {
+      width: 100%;
       display: flex;
-      flex-direction: column; }
-      body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
-        text-align: start;
-        margin-top: 0.5rem;
-        margin-bottom: 1rem; }
-      body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
-        margin-bottom: 0; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact {
-      margin-left: 1.5rem;
-      width: 60%;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
-        margin-bottom: 0;
-        text-align: end; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
-        margin-bottom: 0; }
-        body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
+      justify-content: flex-start; }
+    body footer.pieDePagina .cont-footer div.cont_pieDePagina {
+      width: 100%;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub {
+        display: flex;
+        flex-direction: column; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub p.p2-footer {
+          text-align: start;
+          margin-top: 0.5rem;
           margin-bottom: 1rem; }
-  body footer.pieDePagina div.div-footer-links {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; }
-    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
-      margin: 0; }
-    body footer.pieDePagina div.div-footer-links a.links-footer {
-      line-height: 20px;
-      margin-left: 0.25rem;
-      padding-left: 0.25rem;
-      border-left: 1px solid white; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
+          margin-bottom: 0; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact {
+        margin-left: 1.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
+          margin-bottom: 0;
+          text-align: end; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
+          margin-bottom: 0; }
+          body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
+            margin-bottom: 1rem; }
+    body footer.pieDePagina .cont-footer div.div-footer-links {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv h3 {
+        margin: 0; }
+      body footer.pieDePagina .cont-footer div.div-footer-links a.links-footer {
+        line-height: 20px;
+        margin-left: 0.25rem;
+        padding-left: 0.25rem;
+        border-left: 1px solid white; }
   body main#main-pol-de-priv {
     margin: 1.5rem 2rem; } }
 
@@ -1136,7 +1188,7 @@ body {
     font-size: 32px;
     line-height: 40px; }
   body main#main_index .subtitulos-index, body main#main_index p.parrafo-index {
-    margin: 3rem 9.75rem; }
+    margin: 3rem 3.5rem; }
   body main#main_index p.parrafo-index {
     color: #000112;
     font-family: 'Lexend';
@@ -1145,48 +1197,9 @@ body {
     font-size: 24px;
     line-height: 40px; }
   body main#main_index .mySwiper {
-    display: none; }
-  body main#main_index #testimony-content {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1.5rem; }
-    body main#main_index #testimony-content .content-card-testimony {
-      margin: 0 1rem;
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 1.5rem; }
-      body main#main_index #testimony-content .content-card-testimony .card-testimony {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 22.5rem;
-        height: auto;
-        background: #A6E3FF;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-        border-radius: 44px; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony img.img-testimony {
-          margin: 1.5rem;
-          width: 13.5rem; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-testimony {
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 30px;
-          color: #141956;
-          margin: 0 1.5rem; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-test-name {
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 600;
-          font-size: 24px;
-          line-height: 24px;
-          color: #141956;
-          margin: 1.5rem;
-          display: flex;
-          align-self: end; }
+    margin: 0 3.5rem 1.5rem;
+    width: calc(100vw - 7rem);
+    overflow: hidden; }
   body main#main-SobreNosotros h1.h1-SN {
     margin: 2rem;
     color: #141956;
@@ -1257,16 +1270,22 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px; }
+  body main#main-SobreNosotros #sw2, body main#main-SobreNosotros #sw1 {
+    margin: 0 6rem 0 6rem;
+    width: calc(100vw - 14rem);
+    overflow: hidden; }
   body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
     font-size: 40px;
     line-height: 56px; }
   body main#main-nuestrosSeguros .img-seguros-d {
-    display: inline; }
+    display: inline;
+    margin-bottom: 1.5rem; }
   body main#main-nuestrosSeguros .img-seguros-t {
     display: none; }
   body main#main-nuestrosSeguros .p-NS {
-    font-size: 32px;
-    line-height: 48px; }
+    font-size: 28px;
+    line-height: 48px;
+    margin: 0 4rem; }
   body main#main-contacto h1.titulo-contacto {
     color: #141956;
     font-family: 'Lexend';
@@ -1281,7 +1300,7 @@ body {
       display: inline; }
     body main#main-contacto div.cont-img-contact img.img-contacto-t {
       display: none; }
-  body main#main-contacto p.p1-contacto {
+  body main#main-contacto p.p1-contacto, body main#main-contacto p.p2-contacto {
     font-size: 32px;
     line-height: 48px; }
   body main#main-contacto section ul.nav-tabs {
@@ -1301,47 +1320,53 @@ body {
   body main#main-contacto section div.tab-content div.tab-pane div.cont-oficina iframe {
     width: 38rem;
     height: 30rem; }
-  body footer.pieDePagina div.cont_pieDePagina div.form-sub {
-    justify-content: center; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub p.p2-footer {
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot input.input-formulario {
-      width: 455px; }
-    body footer.pieDePagina div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
-      width: 455px;
-      margin-bottom: 0; }
-  body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact {
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
-      font-size: 24px;
-      line-height: 40px; }
-    body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
-      margin-bottom: 0; }
-      body footer.pieDePagina div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
-        margin-bottom: 1rem; }
-  body footer.pieDePagina div.div-footer-links {
+  body footer.pieDePagina .cont-footer div.cont_pieDePagina {
+    width: 100%; }
+    body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub {
+      justify-content: center; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub p.p2-footer {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot input.input-formulario {
+        width: 455px; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.form-sub form.form-foot button.btn-send {
+        width: 455px;
+        margin-bottom: 0; }
+    body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact {
+      width: 55%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact p.parrafo_footer {
+        font-size: 24px;
+        line-height: 40px; }
+      body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton {
+        margin-bottom: 0; }
+        body footer.pieDePagina .cont-footer div.cont_pieDePagina div.div-footer-contact ul.ul-boton li.link_nav_contacto {
+          margin-bottom: 1rem; }
+  body footer.pieDePagina .cont-footer div.div-footer-links {
     flex-direction: row;
     justify-content: center;
     align-items: center; }
-    body footer.pieDePagina div.div-footer-links a.link-pol-de-priv h3 {
+    body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv h3 {
       font-size: 18px;
       line-height: 32px; }
-    body footer.pieDePagina div.div-footer-links a.links-footer {
+    body footer.pieDePagina .cont-footer div.div-footer-links a.links-footer {
       font-size: 18px;
       line-height: 32px; }
   body main#main-pol-de-priv {
     margin: 2rem 4rem; } }
 
 @media (min-width: 1300px) {
+  body header nav.contenedor {
+    margin: 0 9.7rem; }
   body main#main_index p.parrafo-index {
     display: none; }
   body main#main_index div.cont-btn {
     display: none; }
+  body main#main_index .subtitulos-index {
+    margin: 3rem 9.7rem; }
   body main#main_index div.cont-img-index {
     display: flex;
     flex-direction: column;
@@ -1399,7 +1424,157 @@ body {
             letter-spacing: 0.02em;
             color: #F1FAFF; }
   body main#main_index img.img-index-t {
-    display: none; } }
+    display: none; }
+  body main#main_index .mySwiper {
+    margin: 0 7rem 1.5rem;
+    width: calc(100vw - 17rem);
+    overflow: hidden; }
+  body main#main-SobreNosotros div.cont-sobre-nosotros-iframe {
+    display: flex;
+    justify-content: center; }
+    body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin-left: 9.7rem;
+      margin-right: 9.7rem; }
+  body main#main-SobreNosotros p.p2-SN {
+    margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
+  body main#main-SobreNosotros p.p2-SN2 {
+    margin: 0 9.7rem 1.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
+  body main#main-SobreNosotros h2.h2-SN {
+    margin: 1.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; }
+  body main#main-SobreNosotros h2.h2-SN-2 {
+    margin: 1.5rem 9.7rem 0 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; }
+  body main#main-SobreNosotros #sw2, body main#main-SobreNosotros #sw1 {
+    margin: 0 7rem 0 7rem;
+    width: calc(100vw - 17rem);
+    overflow: hidden; }
+  body main#main-contacto section div.tab-content {
+    margin: 2rem 9.7rem; }
+    body main#main-contacto section div.tab-content div.tab-pane form div.cont-input {
+      justify-content: space-between; }
+    body main#main-contacto section div.tab-content div.tab-pane form div.contenedor-btn-form div.cont-btn {
+      margin: 0; }
+  body footer.pieDePagina .cont-footer {
+    margin: 0 9.7rem; } }
+
+@media (min-width: 1600px) {
+  body main#main_index .mySwiper {
+    display: none; }
+  body main#main_index #testimony-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem; }
+    body main#main_index #testimony-content .content-card-testimony {
+      margin: 0 9.7rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem; }
+      body main#main_index #testimony-content .content-card-testimony .card-testimony {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 22.5rem;
+        height: auto;
+        background: #A6E3FF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 44px; }
+        body main#main_index #testimony-content .content-card-testimony .card-testimony img.img-testimony {
+          margin: 1.5rem;
+          width: 13.5rem; }
+        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-testimony {
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30px;
+          color: #141956;
+          margin: 0 1.5rem;
+          height: 23rem; }
+        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-test-name {
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 24px;
+          color: #141956;
+          margin: 1.5rem;
+          display: flex;
+          justify-content: end; }
+  body main#main-SobreNosotros div.cont-sobre-nosotros-iframe {
+    display: flex;
+    justify-content: center; }
+    body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin-left: 9.7rem;
+      margin-right: 9.7rem; }
+  body main#main-SobreNosotros p.p2-SN {
+    margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
+  body main#main-SobreNosotros p.p2-SN2 {
+    margin: 0 9.7rem 1.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
+  body main#main-SobreNosotros h2.h2-SN {
+    margin: 1.5rem 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; }
+  body main#main-SobreNosotros h2.h2-SN-2 {
+    margin: 1.5rem 9.7rem 0 9.7rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px; }
+  body main#main-SobreNosotros #sw2, body main#main-SobreNosotros #sw1 {
+    margin: 0 7rem 0 7rem;
+    width: calc(100vw - 17rem);
+    overflow: hidden; } }
 
 * {
   margin: 0;
@@ -1408,3 +1583,13 @@ body {
   text-decoration: none;
   border: none;
   outline: none; }
+
+html body::-webkit-scrollbar {
+  width: 10px; }
+
+html body::-webkit-scrollbar-track {
+  background: #FAFAFA; }
+
+html body::-webkit-scrollbar-thumb {
+  background-color: #F39100;
+  border-radius: 10px; }

@@ -44,20 +44,22 @@
               <a class="link_nav" aria-current="page" href="nuestros_seguros.html" lng="navbar-nuestros-seguros"></a>
             </li>
           </ul>
-          <ul class="ul-boton">
-            <li class="nav-item link_nav_contacto">
-              <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
-            </li>
-            <div>
-              <img class="logo-redesSociales" src="../img/logos/logo-instagram.png" alt="">
-              <img class="logo-redesSociales" src="../img/logos/logo-facebook.png" alt="">
-              <img class="logo-redesSociales" src="../img/logos/logo-tiktok.png" alt="">
-            </div>
-          </ul>
-          <select id="lng-selector" class="estilo_select">
-            <option class="option_select" value="es">Esp</option>
-            <option class="option_select" value="en">Eng</option>
-          </select>
+          <div class="cont-ulbotonYlngSelector">
+            <ul class="ul-boton">
+              <li class="nav-item link_nav_contacto">
+                <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
+              </li>
+              <div>
+                <img class="logo-redesSociales" src="../img/logos/logo-instagram.png" alt="">
+                <img class="logo-redesSociales" src="../img/logos/logo-facebook.png" alt="">
+                <img class="logo-redesSociales" src="../img/logos/logo-tiktok.png" alt="">
+              </div>
+            </ul>
+            <select id="lng-selector" class="estilo_select">
+              <option class="option_select" value="es">Esp</option>
+              <option class="option_select" value="en">Eng</option>
+            </select>
+          </div>
         </div>
       </div>
     </nav>
@@ -145,46 +147,49 @@
     </main>
     <!-- PIE DE PAGINA -->
     <footer class="pieDePagina">
-      <div class="cont-img-footer">
-        <img class="img_footer" src="../img/logo-footer.png" alt="">
-      </div>
-      <div class="cont_pieDePagina">
-        <div class="form-sub">
-          <p class="p2-footer" lng="p-footer2"></p>
-          <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
-            <input class="input-formulario" type="email" id="email" name="Email" placeholder="example@mail.com">
-            <button class="btn-send" type="submit" lng="boton-sub"></button>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_subject" value="Subscripcion">
-          </form>
+      <div class="cont-footer">
+        <div class="cont-img-footer">
+          <img class="img_footer" src="../img/logo-footer.png" alt="">
         </div>
-        <div class="div-footer-contact">
-          <p class="parrafo_footer" lng="p-footer"></p>
-          <ul class="ul-boton">
-            <li class="nav-item link_nav_contacto">
-              <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
-            </li>
-            <div>
-              <a class="link-redes-sociales" href="">
-                <img class="logo-redesSociales" src="../img/logos/logo-instagram.png" alt="">
-              </a>
-              <a class="link-redes-sociales" href="">
-                <img class="logo-redesSociales" src="../img/logos/logo-facebook.png" alt="">
-              </a>
-              <a class="link-redes-sociales" href="">
-                <img class="logo-redesSociales" src="../img/logos/logo-tiktok.png" alt="">
-              </a>
-            </div>
-          </ul>
+        <div class="cont_pieDePagina">
+          <div class="form-sub">
+            <p class="p2-footer" lng="p-footer2"></p>
+            <form class="form-foot" action="https://formsubmit.co/candelamreales@gmail.com" method="POST"/>
+              <input class="input-formulario" type="email" id="email" name="Email" placeholder="example@mail.com">
+              <button class="btn-send" type="submit" lng="boton-sub"></button>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="Subscripcion">
+            </form>
+          </div>
+          <div class="div-footer-contact">
+            <p class="parrafo_footer" lng="p-footer"></p>
+            <ul class="ul-boton">
+              <li class="nav-item link_nav_contacto">
+                <a class="boton_contacto" href="contact.html" lng="navbar-contacto"></a>
+              </li>
+              <div>
+                <a class="link-redes-sociales" href="" target="_blank">
+                  <img class="logo-redesSociales" src="../img/logos/logo-instagram.png" alt="">
+                </a>
+                <a class="link-redes-sociales" href="" target="_blank">
+                  <img class="logo-redesSociales" src="../img/logos/logo-facebook.png" alt="">
+                </a>
+                <a class="link-redes-sociales" href="" target="_blank">
+                  <img class="logo-redesSociales" src="../img/logos/logo-tiktok.png" alt="">
+                </a>
+              </div>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="div-footer-links">
-        <a class="link-pol-de-priv" href="politica-privacidad.html">
-          <h3 lng="pol-de-priv"></h3>
-        </a>
-        <a class="links-footer" href="#">link importante</a>
-        <a class="links-footer" href="#">link importante</a>
-        <a class="links-footer" href="#">link importante</a>
+        <div class="div-footer-links">
+          <a class="link-pol-de-priv" target="_blank" href="politica-privacidad.html">
+            <h3 lng="pol-de-priv"></h3>
+          </a>
+          <a class="links-footer" href="#" target="_blank">link importante</a>
+          <a class="links-footer" href="#" target="_blank">link importante</a>
+          <a class="links-footer" href="#" target="_blank">link importante</a>
+        </div>
+        <p class="boost-link">Desarollado por <a href="https://www.instagram.com/boost_servicios/" target="_blank">Boost Servicios Digitales</a> - ©2023</p>
       </div>
     </footer>
     <!-- Swiper JS -->
@@ -215,6 +220,14 @@
             spaceBetween: 16,
           },
           1024: {
+            slidesPerView: 4,
+            spaceBetween: 16,
+          },
+          1224: {
+            slidesPerView: 4.5,
+            spaceBetween: 16,
+          },
+          1300: {
             slidesPerView: 5,
             spaceBetween: 16,
           }
@@ -241,11 +254,19 @@
             spaceBetween: 16,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 3.7,
             spaceBetween: 16,
           },
           1224: {
-            slidesPerView: 5,
+            slidesPerView: 4.5,
+            spaceBetween: 16,
+          },
+          1300: {
+            slidesPerView: 4.8,
+            spaceBetween: 16,
+          },
+          1600: {
+            slidesPerView: 5.8,
             spaceBetween: 16,
           }
         }

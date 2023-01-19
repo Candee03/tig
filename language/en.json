@@ -27,7 +27,8 @@
 
     "navbar-contacto": "Contact",
     "h1-contacto": "Contact Us",
-    "p1-contacto": "We provide you with personalized and friendly advice at no cost, contact us today!",
+    "p1-contacto": "We provide you with personalized and friendly advice at no cost,",
+    "p2-contacto": "contact us today!",
     "link-tab-content1":"Message",
     "link-tab-content2":"Telephone",
     "link-tab-content3":"Office",

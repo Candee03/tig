@@ -19,3 +19,16 @@
 	border: none;
 	outline: none;
 }
+
+html body::-webkit-scrollbar {
+	width: 10px; 
+}
+
+html body::-webkit-scrollbar-track {
+	background: $color-blanco; 
+}
+
+html body::-webkit-scrollbar-thumb {
+	background-color: $color-boton-resaltado;
+	border-radius: 10px;
+}
