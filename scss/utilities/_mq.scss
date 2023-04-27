@@ -586,7 +586,7 @@ $nav-bar-break: 992px;
         }
     }
 }
-@media (min-width: 1300px) {
+@media (min-width: 1318px) {
     body {
         header {
             nav.contenedor {
@@ -751,7 +751,7 @@ $nav-bar-break: 992px;
                         }
                         .p-slide-testimony {
                             @include p-slide-testimonio;
-                            margin: 0 1.5rem;
+                            margin: 1.5rem;
                             height: 23rem;
                         }
                         .p-slide-test-name {

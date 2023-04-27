@@ -312,9 +312,6 @@ body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, 
   background: #A6E3FF;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
   border-radius: 44px; }
-  body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 img.img-testimony, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 img.img-testimony {
-    margin: 1.5rem;
-    width: 13.5rem; }
   body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-testimony, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-testimony {
     font-family: 'Lexend';
     font-style: normal;
@@ -322,7 +319,7 @@ body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, 
     font-size: 16px;
     line-height: 30px;
     color: #141956;
-    margin: 0 1.5rem;
+    margin: 1.5rem;
     height: 27rem; }
   body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-test-name, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-test-name {
     font-family: 'Lexend';
@@ -739,7 +736,8 @@ body main#main-contacto section div.tab-content {
       text-align: center;
       letter-spacing: 0.02em;
       color: #FAFAFA;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding: 1rem 2rem; }
     body main#main-contacto section div.tab-content div.tab-pane div.cont-telefono button.btn-llamarYwsp {
       margin-top: 1.5rem;
       height: 3.5rem;
@@ -1358,7 +1356,7 @@ body {
   body main#main-pol-de-priv {
     margin: 2rem 4rem; } }
 
-@media (min-width: 1300px) {
+@media (min-width: 1318px) {
   body header nav.contenedor {
     margin: 0 9.7rem; }
   body main#main_index p.parrafo-index {
@@ -1517,7 +1515,7 @@ body {
           font-size: 16px;
           line-height: 30px;
           color: #141956;
-          margin: 0 1.5rem;
+          margin: 1.5rem;
           height: 23rem; }
         body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-test-name {
           font-family: 'Lexend';
@@ -1575,6 +1573,17 @@ body {
     margin: 0 7rem 0 7rem;
     width: calc(100vw - 17rem);
     overflow: hidden; } }
+
+body main a.a-img-chat-wsp {
+  position: fixed;
+  z-index: 2;
+  right: 2rem;
+  bottom: 2rem; }
+  body main a.a-img-chat-wsp .img-chat-wsp {
+    width: 4rem;
+    transition: 0.2s; }
+  body main a.a-img-chat-wsp .img-chat-wsp:hover {
+    transform: scale(1.1); }
 
 * {
   margin: 0;

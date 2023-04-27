@@ -1,0 +1,15 @@
+body main {
+    a.a-img-chat-wsp {
+        position: fixed;
+        z-index: 2;
+        right: 2rem;
+        bottom: 2rem;
+        .img-chat-wsp {
+            width: 4rem;
+            transition: 0.2s;
+        }
+        .img-chat-wsp:hover {
+            transform: scale(1.1);
+        }
+    }
+}
