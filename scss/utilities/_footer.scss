@@ -85,7 +85,7 @@ body footer.pieDePagina {
             a.link-pol-de-priv h3 {
                 @include estilo-link-footer;
             }
-            a.links-footer, a.link-pol-de-priv {
+            a.link-pol-de-priv {
                 @include estilo-link-footer;
             }
         }

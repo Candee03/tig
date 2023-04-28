@@ -1,6 +1,8 @@
 @import "variables";
 
-body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body {
+body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector {
+    display: flex;
+    justify-content: center;
     select.estilo_select {
         width: 5.5rem;
         height: 3rem;

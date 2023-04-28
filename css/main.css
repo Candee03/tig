@@ -112,8 +112,9 @@ body footer.pieDePagina {
       font-weight: 400;
       font-size: 12px;
       line-height: 40px;
-      text-decoration: none; }
-    body footer.pieDePagina .cont-footer div.div-footer-links a.links-footer, body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv {
+      text-decoration: none;
+      text-align: center; }
+    body footer.pieDePagina .cont-footer div.div-footer-links a.link-pol-de-priv {
       color: #FAFAFA;
       font-family: 'Lexend';
       font-style: normal;
@@ -121,7 +122,8 @@ body footer.pieDePagina {
       font-weight: 400;
       font-size: 12px;
       line-height: 40px;
-      text-decoration: none; }
+      text-decoration: none;
+      text-align: center; }
   body footer.pieDePagina .cont-footer .boost-link {
     text-align: center;
     color: #FAFAFA;
@@ -131,7 +133,8 @@ body footer.pieDePagina {
     font-weight: 400;
     font-size: 12px;
     line-height: 40px;
-    text-decoration: none; }
+    text-decoration: none;
+    text-align: center; }
     body footer.pieDePagina .cont-footer .boost-link a {
       color: #FAFAFA; }
 
@@ -216,8 +219,10 @@ body header {
               line-height: 24px;
               text-decoration: none;
               color: #FAFAFA; }
-          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton img.logo-redesSociales {
-            margin: 0 0.5rem 0 0.5rem; }
+          body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton a.link-redes-sociales {
+            text-decoration: none; }
+            body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body .cont-ulbotonYlngSelector ul.ul-boton a.link-redes-sociales img.logo-redesSociales {
+              margin: 0 0.5rem 0 0.5rem; }
 
 @keyframes link_contacto {
   0% {
@@ -316,22 +321,21 @@ body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1, 
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: #141956;
     margin: 1.5rem;
-    height: 27rem; }
+    height: 23rem; }
   body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .margen1 .p-slide-test-name, body main#main_index div.mySwiper div.swiper-wrapper div.swiper-slide .estilo2 .p-slide-test-name {
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 24px;
     color: #141956;
-    margin: 1.5rem;
-    display: flex;
-    align-self: end;
-    height: 3rem; }
+    margin: 3.5rem 0 1rem;
+    height: 3rem;
+    text-align: center; }
 
 body main#main-nuestrosSeguros h1.titulo-nuestrosSeguros {
   margin: 1.5rem 0;
@@ -514,52 +518,55 @@ body main#main-SobreNosotros h2.h2-SN {
   font-size: 22px;
   line-height: 32px; }
 
-body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 {
-  width: 200px;
-  height: 17rem;
-  background: #A6E3FF;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 24px; }
-  body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 {
-    padding-top: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; }
-    body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .logo-slide {
-      width: auto;
-      height: 107px; }
-    body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores {
-      margin-top: 1rem;
-      font-style: normal;
-      font-family: 'Lexend';
-      font-weight: 700;
-      font-size: 32px;
-      line-height: 40px;
-      text-align: center;
-      color: #141956; }
-    body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .texto-valores {
-      padding: 0 1.5rem;
-      font-style: normal;
-      font-family: 'Lexend';
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 28px;
-      text-align: center;
-      color: #141956; }
-
-body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 {
-  height: 200px; }
-  body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 div.div-slide-SN1 {
-    width: auto;
-    height: 144px;
-    background-color: white;
-    display: flex;
-    align-items: center;
+body main#main-SobreNosotros #sw2, body main#main-SobreNosotros #sw1 {
+  margin: 0 1.5rem 0;
+  width: calc(100vw - 3rem);
+  overflow: hidden; }
+  body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 {
+    width: 200px;
+    height: 17rem;
+    background: #A6E3FF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 24px; }
-    body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 div.div-slide-SN1 img.img-slide2 {
-      width: 12.5rem; }
+    body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 {
+      padding-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center; }
+      body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .logo-slide, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .logo-slide {
+        width: auto;
+        height: 107px; }
+      body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .subtitulo-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .subtitulo-valores {
+        margin-top: 1rem;
+        font-style: normal;
+        font-family: 'Lexend';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #141956; }
+      body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper div.swiper-slide div.estilo3 div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.margenSN div.div-slide1 .texto-valores, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.swiper-slide div.estilo3 div.div-slide1 .texto-valores {
+        padding: 0 1.5rem;
+        font-style: normal;
+        font-family: 'Lexend';
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #141956; }
+  body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 {
+    height: 200px; }
+    body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2 div.div-slide-SN1, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 div.div-slide-SN1 {
+      width: auto;
+      height: 144px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 24px; }
+      body main#main-SobreNosotros #sw2 #swiperWrapper div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw2 #swiperWrapper1 div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw1 #swiperWrapper div.sw2 div.div-slide-SN1 img.img-slide2, body main#main-SobreNosotros #sw1 #swiperWrapper1 div.sw2 div.div-slide-SN1 img.img-slide2 {
+        width: 12.5rem; }
 
 body main#main-SobreNosotros p.p2-SN {
   margin: 1.5rem 1.5rem 0.5rem 1.5rem;
@@ -841,12 +848,6 @@ div.estilo3 {
   display: inline-block;
   object-fit: cover; }
 
-div.margenSN {
-  width: 12.5rem;
-  display: inline-block;
-  margin-left: 1rem;
-  object-fit: cover; }
-
 img.margen {
   margin-left: 1rem;
   min-width: 250px;
@@ -855,21 +856,24 @@ img.margen {
   object-fit: cover;
   display: block; }
 
-body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select {
-  width: 5.5rem;
-  height: 3rem;
-  padding: 0.4rem;
-  border: 1px solid #6FD1FF;
-  background: transparent;
-  border-radius: 8px;
-  font-family: 'Lexend';
-  color: #2D9ACD;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 30px; }
-  body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body select.estilo_select option.option_select {
-    background: #141956; }
+body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector {
+  display: flex;
+  justify-content: center; }
+  body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector select.estilo_select {
+    width: 5.5rem;
+    height: 3rem;
+    padding: 0.4rem;
+    border: 1px solid #6FD1FF;
+    background: transparent;
+    border-radius: 8px;
+    font-family: 'Lexend';
+    color: #2D9ACD;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px; }
+    body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector select.estilo_select option.option_select {
+      background: #141956; }
 
 body {
   background-color: #FAFAFA; }
@@ -1207,35 +1211,22 @@ body {
     font-size: 36px;
     line-height: 44px;
     text-align: center; }
-  body main#main-SobreNosotros div.cont-sobre-nosotros-iframe {
-    display: flex;
-    justify-content: center; }
-    body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      width: 90%; }
-      body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText iframe {
-        width: 40rem;
-        height: 25rem; }
-      body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe {
-        width: 40%; }
-        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN {
-          margin: 1.5rem 1.5rem 0.5rem 1.5rem;
-          color: #000112;
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 40px; }
-        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN2 {
-          margin: 0 1.5rem 1.5rem 1.5rem;
-          color: #000112;
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 24px;
-          line-height: 40px; }
+  body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN {
+    margin: 1.5rem 6rem 0.5rem 6rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
+  body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN2 {
+    margin: 1.5rem 6rem 0.5rem 6rem;
+    color: #000112;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px; }
   body main#main-SobreNosotros p.p2-SN {
     margin: 1.5rem 6rem 0.5rem 6rem;
     color: #000112;
@@ -1356,8 +1347,57 @@ body {
   body main#main-pol-de-priv {
     margin: 2rem 4rem; } }
 
+@media (min-width: 1120px) {
+  body main#main_index .mySwiper {
+    display: none; }
+  body main#main_index #testimony-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem; }
+    body main#main_index #testimony-content .content-card-testimony {
+      margin: 0 3.5rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem; }
+      body main#main_index #testimony-content .content-card-testimony .card-testimony {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20rem;
+        height: auto;
+        background: #A6E3FF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 44px; }
+        body main#main_index #testimony-content .content-card-testimony .card-testimony .estilo2, body main#main_index #testimony-content .content-card-testimony .card-testimony .margen1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          body main#main_index #testimony-content .content-card-testimony .card-testimony .estilo2 .p-slide-testimony, body main#main_index #testimony-content .content-card-testimony .card-testimony .margen1 .p-slide-testimony {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #141956;
+            margin: 1.5rem;
+            height: 23rem; }
+          body main#main_index #testimony-content .content-card-testimony .card-testimony .estilo2 .p-slide-test-name, body main#main_index #testimony-content .content-card-testimony .card-testimony .margen1 .p-slide-test-name {
+            font-family: 'Lexend';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 24px;
+            color: #141956;
+            margin: 3.5rem 1rem 1rem;
+            height: 3rem;
+            text-align: end; } }
+
 @media (min-width: 1318px) {
   body header nav.contenedor {
+    margin: 0 9.7rem; }
+  body main#main_index #testimony-content .content-card-testimony {
     margin: 0 9.7rem; }
   body main#main_index p.parrafo-index {
     display: none; }
@@ -1434,9 +1474,25 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      width: 100%;
-      margin-left: 9.7rem;
-      margin-right: 9.7rem; }
+      width: 100%; }
+      body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe {
+        width: 100%; }
+        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN {
+          margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+          color: #000112;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 40px; }
+        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN2 {
+          margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+          color: #000112;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 40px; }
   body main#main-SobreNosotros p.p2-SN {
     margin: 1.5rem 9.7rem 0.5rem 9.7rem;
     color: #000112;
@@ -1483,8 +1539,6 @@ body {
     margin: 0 9.7rem; } }
 
 @media (min-width: 1600px) {
-  body main#main_index .mySwiper {
-    display: none; }
   body main#main_index #testimony-content {
     display: flex;
     justify-content: center;
@@ -1500,33 +1554,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 22.5rem;
+        width: 24rem;
         height: auto;
         background: #A6E3FF;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
         border-radius: 44px; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony img.img-testimony {
-          margin: 1.5rem;
-          width: 13.5rem; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-testimony {
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 16px;
-          line-height: 30px;
-          color: #141956;
-          margin: 1.5rem;
-          height: 23rem; }
-        body main#main_index #testimony-content .content-card-testimony .card-testimony .p-slide-test-name {
-          font-family: 'Lexend';
-          font-style: normal;
-          font-weight: 600;
-          font-size: 24px;
-          line-height: 24px;
-          color: #141956;
-          margin: 1.5rem;
-          display: flex;
-          justify-content: end; }
   body main#main-SobreNosotros div.cont-sobre-nosotros-iframe {
     display: flex;
     justify-content: center; }
@@ -1534,9 +1566,25 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      width: 100%;
-      margin-left: 9.7rem;
-      margin-right: 9.7rem; }
+      width: 100%; }
+      body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe {
+        width: 100%; }
+        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN {
+          margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+          color: #000112;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 40px; }
+        body main#main-SobreNosotros div.cont-sobre-nosotros-iframe div#cont-iframeYText div.text-iframe p.p1-SN2 {
+          margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+          color: #000112;
+          font-family: 'Lexend';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 40px; }
   body main#main-SobreNosotros p.p2-SN {
     margin: 1.5rem 9.7rem 0.5rem 9.7rem;
     color: #000112;
@@ -1577,13 +1625,23 @@ body {
 body main a.a-img-chat-wsp {
   position: fixed;
   z-index: 2;
-  right: 2rem;
-  bottom: 2rem; }
+  right: 1rem;
+  bottom: 1rem; }
   body main a.a-img-chat-wsp .img-chat-wsp {
-    width: 4rem;
+    width: 3.5rem;
     transition: 0.2s; }
   body main a.a-img-chat-wsp .img-chat-wsp:hover {
     transform: scale(1.1); }
+
+@media (min-width: 768px) {
+  body main a.a-img-chat-wsp {
+    right: 2rem;
+    bottom: 2rem; }
+    body main a.a-img-chat-wsp .img-chat-wsp {
+      width: 4rem;
+      transition: 0.2s; }
+    body main a.a-img-chat-wsp .img-chat-wsp:hover {
+      transform: scale(1.1); } }
 
 * {
   margin: 0;

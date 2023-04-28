@@ -406,25 +406,27 @@ $nav-bar-break: 992px;
                 @include titulos(36px, 44px);
             }
             div.cont-sobre-nosotros-iframe {
-                display: flex;
-                justify-content: center;
+                // display: flex;
+                // justify-content: center;
                 div#cont-iframeYText {
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    width: 90%;
-                    iframe {
-                        width: 40rem;
-                        height: 25rem;
-                    }
+                    // display: flex;
+                    // flex-direction: row;
+                    // justify-content: center;
+                    // width: 90%;
+                    // iframe {
+                    //     width: 40rem;
+                    //     height: 25rem;
+                    // }
                     div.text-iframe {
-                        width: 40%;
+                        // width: 40%;
                         p.p1-SN {
-                            margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                            // margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+                            margin: 1.5rem 6rem 0.5rem 6rem;
                             @include parrafos (24px, 40px);
                         }
                         p.p1-SN2 {
-                            margin: 0 1.5rem 1.5rem 1.5rem;
+                            // margin: 0 1.5rem 1.5rem 1.5rem;
+                            margin: 1.5rem 6rem 0.5rem 6rem;
                             @include parrafos (24px, 40px);
                         }
                     }
@@ -586,11 +588,72 @@ $nav-bar-break: 992px;
         }
     }
 }
+@media (min-width: 1120px) {
+body {
+    //index
+        main#main_index {
+            .mySwiper {
+                display: none;
+            }
+            #testimony-content {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                .content-card-testimony {
+                    margin: 0 3.5rem;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 1.5rem;
+                    .card-testimony {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 20rem;
+                        height: auto;
+                        background: $color-slide;
+                        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+                        border-radius: 44px;
+                        .estilo2, .margen1 {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            // img.img-testimony {
+                            //     margin: 1.5rem;
+                            //     width: 13.5rem;
+                            // }
+                            .p-slide-testimony {
+                                @include p-slide-testimonio;
+                                margin: 1.5rem;
+                                height: 23rem;
+                            }
+                            .p-slide-test-name {
+                                @include p-slide-test-name;
+                                margin: 3.5rem 1rem 1rem;
+                                height: 3rem;
+                                text-align: end;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}
+}
 @media (min-width: 1318px) {
     body {
         header {
             nav.contenedor {
                 margin: 0 9.7rem;
+            }
+        }
+        //index
+        main#main_index {
+            #testimony-content {
+                .content-card-testimony {
+                    margin: 0 9.7rem;
+                }
             }
         }
         //index
@@ -665,8 +728,19 @@ $nav-bar-break: 992px;
                     flex-direction: row;
                     justify-content: center;
                     width: 100%;
-                    margin-left: 9.7rem;
-                    margin-right: 9.7rem;
+                    // margin-left: 9.7rem;
+                    // margin-right: 9.7rem;
+                    div.text-iframe {
+                        width: 100%;
+                        p.p1-SN {
+                            margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                            @include parrafos (24px, 40px);
+                        }
+                        p.p1-SN2 {
+                            margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                            @include parrafos (24px, 40px);
+                        }
+                    }
                 }
             }
             p.p2-SN {
@@ -722,9 +796,6 @@ $nav-bar-break: 992px;
     body {
         //index
         main#main_index {
-            .mySwiper {
-                display: none;
-            }
             #testimony-content {
                 display: flex;
                 justify-content: center;
@@ -740,26 +811,11 @@ $nav-bar-break: 992px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
-                        width: 22.5rem;
+                        width: 24rem;
                         height: auto;
                         background: $color-slide;
                         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
                         border-radius: 44px;
-                        img.img-testimony {
-                            margin: 1.5rem;
-                            width: 13.5rem;
-                        }
-                        .p-slide-testimony {
-                            @include p-slide-testimonio;
-                            margin: 1.5rem;
-                            height: 23rem;
-                        }
-                        .p-slide-test-name {
-                            @include p-slide-test-name;
-                            margin: 1.5rem;
-                            display: flex;
-                            justify-content: end;
-                        }
                     }
                 }
             }
@@ -774,8 +830,19 @@ $nav-bar-break: 992px;
                     flex-direction: row;
                     justify-content: center;
                     width: 100%;
-                    margin-left: 9.7rem;
-                    margin-right: 9.7rem;
+                    // margin-left: 9.7rem;
+                    // margin-right: 9.7rem;
+                    div.text-iframe {
+                        width: 100%;
+                        p.p1-SN {
+                            margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                            @include parrafos (24px, 40px);
+                        }
+                        p.p1-SN2 {
+                            margin: 1.5rem 9.7rem 0.5rem 9.7rem;
+                            @include parrafos (24px, 40px);
+                        }
+                    }
                 }
             }
             p.p2-SN {

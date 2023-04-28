@@ -26,7 +26,13 @@ body main#main-SobreNosotros {
         margin: 1.5rem;
         @include subtitulos (700, 22px, 32px);
     }
+    #sw2 {
+        
+    }
     #sw2, #sw1{
+        margin: 0 1.5rem 0;
+        width: calc(100vw - 3rem);
+        overflow: hidden;
         #swiperWrapper, #swiperWrapper1{
             div.swiper-slide {
                 div.margenSN, div.estilo3 {

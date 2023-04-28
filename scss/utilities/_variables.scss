@@ -107,6 +107,7 @@ $color-negro: #000112;
     font-size: 12px;
     line-height: 40px;
     text-decoration: none;
+    text-align: center;
 }
 @mixin link-contact {
     font-family: 'Lexend';
@@ -190,7 +191,7 @@ $color-negro: #000112;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     color: $color-azul;
 }
@@ -198,7 +199,7 @@ $color-negro: #000112;
     font-family: 'Lexend';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 24px;
     color: $color-azul;
 }

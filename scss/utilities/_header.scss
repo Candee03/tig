@@ -70,8 +70,11 @@ body header {
                                 @include link-contact;
                             }
                         }
-                        img.logo-redesSociales {
-                            margin: 0 0.5rem 0 0.5rem;
+                        a.link-redes-sociales {
+                            text-decoration: none;
+                            img.logo-redesSociales {
+                                margin: 0 0.5rem 0 0.5rem;
+                            }
                         }
                     }
                 }
