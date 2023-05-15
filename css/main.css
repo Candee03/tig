@@ -183,7 +183,8 @@ body header {
         body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav {
           align-items: center; }
           body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item {
-            margin-bottom: 3rem; }
+            margin-bottom: 3rem;
+            text-align: center; }
             body header nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body ul.navbar-nav li.nav-item a.link_nav {
               font-family: 'Lexend';
               font-style: normal;
@@ -243,10 +244,6 @@ body main#main_index h1.titulo-index {
 body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3 {
   width: 100%;
   display: block; }
-
-body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-t {
-  width: 100%;
-  display: none; }
 
 body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-d {
   width: 100%;
@@ -912,7 +909,7 @@ body {
 @media (min-width: 500px) {
   body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3 {
     display: none; }
-  body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-t {
+  body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-d {
     display: block; } }
 
 @media (min-width: 768px) {
@@ -1178,10 +1175,6 @@ body {
       display: none; } }
 
 @media (min-width: 1024px) {
-  body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-t, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-t {
-    display: none; }
-  body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-1-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-2-d, body main#main_index div#carouselExampleRide div.carousel-inner div.carousel-item img.img-3-d {
-    display: block; }
   body main#main_index .subtitulos-index {
     color: #000112;
     font-family: 'Lexend';

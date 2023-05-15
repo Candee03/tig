@@ -63,7 +63,7 @@ $nav-bar-break: 992px;
                 img.img-1, img.img-2, img.img-3 {
                     display: none;
                 }
-                img.img-1-t, img.img-2-t, img.img-3-t {
+                img.img-1-d, img.img-2-d, img.img-3-d {
                     display: block;
                 }
             }
@@ -374,16 +374,16 @@ $nav-bar-break: 992px;
     body {
         //index
         main#main_index {
-            div#carouselExampleRide {
-                div.carousel-inner div.carousel-item {
-                    img.img-1-t, img.img-2-t, img.img-3-t {
-                        display: none;
-                    }
-                    img.img-1-d, img.img-2-d, img.img-3-d {
-                        display: block;
-                    }
-                }
-            }
+            // div#carouselExampleRide {
+                // div.carousel-inner div.carousel-item {
+                    // img.img-1-t, img.img-2-t, img.img-3-t {
+                    //     display: none;
+                    // }
+                    // img.img-1-d, img.img-2-d, img.img-3-d {
+                    //     display: block;
+                    // }
+                // }
+            // }
             .subtitulos-index {
                 @include subtitulos (700, 32px, 40px);
             }

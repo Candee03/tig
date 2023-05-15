@@ -49,6 +49,7 @@ body header {
                     align-items: center;
                     li.nav-item {
                         margin-bottom: 3rem;
+                        text-align: center;
                         a.link_nav {
                             @include link-nav ;
                         }
