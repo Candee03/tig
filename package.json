@@ -198,8 +198,6 @@
     "unique-slug": "^3.0.0",
     "util-deprecate": "^1.0.2",
     "validate-npm-package-license": "^3.0.4",
-    "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4",
     "which": "^2.0.2",
     "wide-align": "^1.1.5",
     "wrap-ansi": "^7.0.0",
