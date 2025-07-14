@@ -57,8 +57,8 @@
     "sub-valor3-SN": "6",
     "txt-valor3-SN": "team members",
 
-    "sub-valor4-SN": "+13",
-    "txt-valor4-SN": "state of service",
+    "sub-valor4-SN": "+30",
+    "txt-valor4-SN": "State of service",
 
     "sub-valor5-SN": "10",
     "txt-valor5-SN": "certificates",
@@ -126,6 +126,7 @@
 
     "banner-2": "<img class='img-2' src='img/banners-Denise-Cel-y-Tablet-en_02.png' alt=''><img class='img-2-d' src='img/banner-02-en.png' alt=''>",
 
-    "banner-3": "<img class='img-3' src='img/banners-Denise-Cel-y-Tablet-en_03.png' alt=''><img class='img-3-d' src='img/banner-03-en.png' alt=''>"
+    "banner-3": "<img class='img-3' src='img/banners-Denise-Cel-y-Tablet-en_03.png' alt=''><img class='img-3-d' src='img/banner-03-en.png' alt=''>",
 
+    "select-lng-flag": "<img class='' src='./img/logos/logo-select-eng.png' alt=''>"
 }

@@ -855,7 +855,9 @@ img.margen {
 
 body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector {
   display: flex;
-  justify-content: center; }
+  gap: 1rem;
+  justify-content: center;
+  align-items: center; }
   body header.navbar-expand-lg nav.contenedor div.estilo_recuadro_offcanvas div.offcanvas-body div.cont-lng-selector select.estilo_select {
     width: 5.5rem;
     height: 3rem;

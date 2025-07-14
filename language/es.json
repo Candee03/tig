@@ -12,7 +12,7 @@
     "testimony2": "“Excelente servicio, las ocaciones en la que he necesitado información me atienden súper rápido y el día de ayer me ayudaron a sacar una cita en urgencias, lo cual me ayudó bastante a que me atendieran rápido, los costos fueron los acordados. Recomiendo estos seguros ampliamente!”",
     "name-testimony2": "Tatiana Sosa",
 
-    "testimony3": "“Los recomiendo ampliamente di con ellos por medio de Tik tok ya que estaba desesperada porque no tenia aseguranza y estaba en la recta final de mi embarazo. Ellos me atendieron amablemente explicando a detalle cada una de mis dudas, buscando una aseguranza acorde a mis necesidades. Muy bien servicio!”",
+    "testimony3": "“Los recomiendo ampliamente di con ellos por medio de TikTok ya que estaba desesperada porque no tenía aseguranza y estaba en la recta final de mi embarazo. Ellos me atendieron amablemente explicando a detalle cada una de mis dudas, buscando una aseguranza acorde a mis necesidades. Muy buen servicio!”",
     "name-testimony3": "Andrea Ordonez",
 
     "testimony4": "“Me lo recomendó una amiga y gracias a este seguro estoy haciendo realidad el mayor anhelo de mi vida que es ser mamá solo agradecimiento puedo darles. Excelente servicio y rápida atención. Los amo mejor dicho porque en este país es muy complicado tener una buena atención médica sin seguro y esté realmente es muy adsequible”",
@@ -43,8 +43,8 @@
     "boton-enviar-wsp": "Enviar Whatsapp",
 
 
-    "navbar-sobre-nosotros":"¿Quienes somos?",
-    "h1-SN":"¿Quienes somos?",
+    "navbar-sobre-nosotros":"¿Quiénes somos?",
+    "h1-SN":"¿Quiénes somos?",
     "p1-SN":"Somos especialistas en seguros de vida y salud en Estados Unidos. Nuestro objetivo es brindar un servicio profesional, amable y con interés sincero en quien acude a nosotros por asesoramiento.",
     "p1-2-SN":"Nos da mucha satisfacción tener un impacto positivo en las vidas de nuestros clientes y brindarles tranquilidad en momentos especiales.",
 
@@ -57,14 +57,14 @@
     "sub-valor3-SN": "6",
     "txt-valor3-SN": "miembros de equipo",
 
-    "sub-valor4-SN": "+13",
-    "txt-valor4-SN": "estados de USA",
+    "sub-valor4-SN": "+30",
+    "txt-valor4-SN": "Estados de USA",
 
     "sub-valor5-SN": "10",
     "txt-valor5-SN": "certificados",
 
     "h2-SN":"¿Por qué elegirnos?",
-    "p2-SN":"Trabajamos con empresas de seguros privados y con ObamaCare, por lo que siempre encontrarás una opción que se adapten a tus necesidades.",
+    "p2-SN":"Trabajamos con empresas de seguros privados y con ObamaCare, por lo que siempre encontrarás una opción que se adapte a tus necesidades.",
     "p2-2-SN":"Nuestros agentes hablan varios idiomas y brindamos soporte las 24 hs del día los 7 días de la semana.",
     "h2-SN-2":"Nuestros Socios",
     
@@ -128,6 +128,8 @@
 
     "banner-2": "<img class='img-2' src='img/banners-Denise-Cel-y-Tablet_02.png' alt=''><img class='img-2-d' src='img/banner-02.png' alt=''>",
 
-    "banner-3": "<img class='img-3' src='img/banners-Denise-Cel-y-Tablet_03.png' alt=''><img class='img-3-d' src='img/banner-03.png' alt=''>"
+    "banner-3": "<img class='img-3' src='img/banners-Denise-Cel-y-Tablet_03.png' alt=''><img class='img-3-d' src='img/banner-03.png' alt=''>",
+
+    "select-lng-flag": "<img class='' src='./img/logos/logo-select-esp.png' alt=''>"
 
 }
